@@ -91,3 +91,8 @@ p.botao a:hover{
 hr{
 	width: 100%;
 }
+
+#painel {
+   background-color: #606060;
+   color: #fff;
+}
