@@ -59,7 +59,7 @@ p.botao a:hover{
 	background-color: #606060;
 	color: #fff;
 	text-align: center;
-	margin-top: 2%;
+	margin-top: 1%;
 	padding: 7%;
 	width: 30%;
 	margin-left: 27%;
@@ -101,6 +101,7 @@ hr{
    width: 500px;
    padding-botoom: 6%;
    margin-top: 15%;
+   border-radius: 25px;
 }
 
 #painel img{
