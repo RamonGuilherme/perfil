@@ -99,6 +99,8 @@ hr{
    font-size: 14pt;
    text-align: center;
    width: 500px;
+   padding-botoom: 20px;
+   margin-top: 40px;
 }
 
 #painel img{
