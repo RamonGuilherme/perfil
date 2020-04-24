@@ -92,4 +92,15 @@ hr{
 	width: 100%;
 }
 
+p.on {
+
+    color: Green;
+
+}
+
+p.off {
+
+     color: Orange;
+
+}
 
