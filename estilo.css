@@ -106,5 +106,6 @@ p.sistemacurtir img:hover{
     color: #fff;
     width: 100px;
     height: 100px;
+    transition: 2s;
 }
 
