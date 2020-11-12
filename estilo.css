@@ -83,7 +83,7 @@
 footer{
 	
 	background: #242424;
-	color: red;
+	color: #fff;
 	margin-top: 30%;
 	text-align: center;
 	padding: 45px 0 45px 0;
@@ -92,7 +92,7 @@ footer{
 
 footer:hover{
 	
-	color: blue;
+	color: #505050;
 	
 }
 
