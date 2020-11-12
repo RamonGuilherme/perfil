@@ -264,6 +264,15 @@ p.imgcomp{
    font-size: 10px;
 }
 
+p.Titulo {
+ 
+  text-align: center;
+  font-size: 18px;
+
+}
+
+
+
 
 
 @media screen and (min-width:425px){
