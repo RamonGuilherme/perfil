@@ -1,0 +1,377 @@
+*{
+	
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #505763;
+	outline: 0;
+	font-family: 'Arial';
+	list-style: none;
+	width: 100%;
+	float: left;
+	
+	
+	
+}
+
+.conteudo{
+	
+	
+	float: none;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.menuMobile {
+	
+	background-color: #242424;
+	padding: 5px 0;
+	
+	
+}
+
+.menuMobile label{
+	
+	width: auto;
+}
+
+.menuMobile span{
+	
+	color: #fff;
+    border: 2px solid #fff;
+    width: auto;
+    padding: 5px;
+}
+
+.menuPrincipal{
+	background-color: #242424;
+	transition: all 1.3s linear;
+	position: absolute;
+	top: -250px;
+	
+}
+
+.menuPrincipal li{
+	
+	
+	color: #fff;
+	padding: 15px 15px 15px 60px;
+	
+	
+}
+
+.menuPrincipal li:hover{
+	
+	background: #ccc;
+	color: #242424;
+	
+}
+
+#abrirMenu{
+	
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+#abrirMenu:checked ~ ul{
+	
+	top: 42px;
+	
+}
+
+footer{
+	
+	background: #242424;
+	color: red;
+	margin-top: 30%;
+	text-align: center;
+	padding: 45px 0 45px 0;
+	
+}
+
+footer:hover{
+	
+	color: blue;
+	
+}
+
+
+
+#Automacao{
+		
+		background: #242424;
+		width: 250px;
+		height: 350px;
+		color: #fff;
+		margin-left: 55px;
+		margin-top: 70px;
+		border-radius: 5%;
+		text-align: center;
+		
+	}
+	
+	#Automacao:hover{
+		
+		background: #606060;
+		
+	}
+	
+	#rede:hover{
+		
+		background: #606060;
+		
+	}
+	
+	#rede{
+		
+		background: #242424;
+		width: 250px;
+		height: 350px;
+		color: #fff;
+		margin-left: 55px;
+		margin-top: 100px;
+		border-radius: 5%;
+		text-align: center;
+	}
+	
+	#cloud-server:hover{
+		
+		background: #606060;
+		
+	}
+	
+	#cloud-server{
+		
+		background: #242424;
+		width: 250px;
+		height: 350px;
+		color: #fff;
+		margin-left: 55px;
+		margin-top: 100px;
+		border-radius: 5%;
+		text-align: center;
+		border-top: 1px, solid, #606060;
+	}
+	
+p.Btnentrar {
+	background: #000;
+	color: #fff;
+	width: 70px;
+	height: 35px;
+	text-align: center;
+	margin-top: 30%;
+	margin-left: 43%;
+	padding-top: 3%;
+	border-radius: 15%;
+}
+
+p.Btnentrar:hover {
+	
+	background: #505050;
+	color: yellow;
+	
+}
+
+p.loginimg img{
+	
+	width: 80px;
+	height: 80px;
+	padding-top: 30%;
+	padding-left: 43%;
+	border-radius: 100%;
+}
+
+p.loginimg img:hover{
+	
+	width: 83px;
+	height: 83px;
+	
+}
+
+p.Tperfil {
+	
+	text-align: center;
+	margin-top: 5%;
+	
+}
+
+
+p.Tperfil2 {
+	
+	text-align: center;
+	margin-top: 3%;
+	font-size: 12px;
+	
+}
+
+@media screen and (min-width:425px){
+	
+.conteudo{
+		max-width: 425px;
+	}
+		
+}
+
+@media screen and (min-width:640px){
+	
+.conteudo{
+		max-width: 640px;
+	}
+.menuMobile label{
+
+	display:none;
+
+}
+.menuMobile{
+
+	background: #fff;
+	
+
+}
+
+.menuPrincipal{
+	
+	position: inherit;
+	margin-top: -10px;
+	
+}
+
+.menuPrincipal li{
+	
+	border-top: 0;
+}
+
+.menuPrincipal a{
+	width: auto;
+}
+}
+
+@media screen and (min-width:960px){
+	
+	.conteudo{
+		max-width: 960px;
+	}
+	
+	.menuPrincipal{
+	
+	position: inherit;
+	margin-top: -10px;
+	
+}
+	
+	footer{
+		color: yellow;
+		background: #242424;
+		width: 100%;
+		margin-top: 100%;
+		padding-top: 80px;
+		text-align: center;
+		font-family: arial;
+	}
+	
+
+	
+}
+
+@media screen and (min-width:1280px){
+	
+	#Automacao{
+		
+		background: #242424;
+		width: 250px;
+		height: 350px;
+		color: #fff;
+		margin-left: 75px;
+		margin-top: 100px;
+		border-radius: 5%;
+		text-align: center;
+		
+	}
+	
+	#Automacao:hover{
+		
+		background: #606060;
+		
+	}
+	
+	#rede:hover{
+		
+		background: #606060;
+		
+	}
+	
+	#rede{
+		
+		background: #242424;
+		width: 250px;
+		height: 350px;
+		color: #fff;
+		margin-left: 130px;
+		margin-top: 100px;
+		border-radius: 5%;
+		text-align: center;
+	}
+	
+	#cloud-server:hover{
+		
+		background: #606060;
+		
+	}
+	
+	#cloud-server{
+		
+		background: #242424;
+		width: 250px;
+		height: 350px;
+		color: #fff;
+		margin-left: 185px;
+		margin-top: 100px;
+		border-radius: 5%;
+		text-align: center;
+		border-top: 1px, solid, #606060;
+	}
+	
+	footer{
+		color: red;
+		background: #242424;
+		width: 100%;
+		margin-top: 120px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		text-align: center;
+		font-family: arial;
+	}
+	
+	.menuPrincipal{
+	
+	position: center;
+	padding-top: 0px;
+	margin-top: -10px;
+	
+}
+
+.menuPrincipal li{
+	
+	
+	color: #fff;
+	padding: 15px 15px 15px 100px;
+	margin-top: 0px;
+	
+}
+
+.menuPrincipal li:hover{
+	
+	background: #ccc;
+	color: #242424;
+	padding: 0px, 40px, 0px, 40px;
+	
+	
+}
+	
+	footer:hover{
+		
+		color: #fff;
+	}
+}
+
