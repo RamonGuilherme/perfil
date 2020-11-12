@@ -271,6 +271,11 @@ p.Titulo {
   margin-top: 15%;
 }
 
+p.visu img{
+   width: 30px;
+   height: 30px;
+   margin-left: 45%;
+}
 
 
 
