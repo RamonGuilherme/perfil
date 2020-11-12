@@ -212,7 +212,7 @@ p.Tredes{
   border-bottom: 1px, solid, #242424;
 }
 
-p.RedeSocial img{
+p.rs1 img{
   
    width: 40px;
    height: 40px;
@@ -223,6 +223,30 @@ p.RedeSocial img{
 
 }
 
+
+p.rs2 img{
+  
+   width: 40px;
+   height: 40px;
+  display: block;
+  text-align: center;
+   margin-left: 40%;
+   margin-top: 5%;
+
+}
+
+
+
+p.rs3 img{
+  
+   width: 40px;
+   height: 40px;
+  display: block;
+  text-align: center;
+   margin-left: 40%;
+   margin-top: 5%;
+
+}
 
 
 
