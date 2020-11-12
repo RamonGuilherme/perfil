@@ -255,7 +255,13 @@ p.imgcomp img{
      width: 40px;
      height: 40px;
      float: right;
+     
 
+}
+
+p.imgcomp{
+   float: right;
+   font-size: 10px;
 }
 
 
