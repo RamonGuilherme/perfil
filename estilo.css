@@ -206,9 +206,14 @@ p.Tperfil2 {
 }
 
 p.Tredes{
+  margin-top: 20%;
   text-align: center;
+  font-size: 12px;
   border-bottom: 1px, solid, #242424;
 }
+
+
+
 
 @media screen and (min-width:425px){
 	
