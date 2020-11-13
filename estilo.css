@@ -285,7 +285,11 @@ p.visu img{
 p.local img{
     width: 27px;
     height: 27px;
-    margin-left: 45%;
+    margin-left: 18%;
+}
+
+p.Tlocal{
+     font-size: 10px;
 }
 
 
