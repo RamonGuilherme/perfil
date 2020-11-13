@@ -87,7 +87,7 @@ footer{
 	margin-top: 22%;
 	text-align: center;
 	padding: 45px 0 45px 0;
-        margin-bottom: nome;
+        margin-bottom: -100%;
 	
 }
 
@@ -281,6 +281,7 @@ p.visu img{
  p.visu2 {
   
    margin-left: 53%;
+   margin-top: - 5%;
    font-size: 10px;
 
 }
