@@ -520,3 +520,28 @@ p.rs3 img{
 
 }
 
+p.loginimg img{
+	
+	width: 140px;
+	height: 140px;
+	padding-top: 10%;
+	padding-left: 43%;
+	
+}
+
+p.Tperfil {
+	
+	text-align: center;
+	margin-top: 5%;
+	
+}
+
+
+p.Tperfil2 {
+	
+	text-align: center;
+	margin-top: 3%;
+	font-size: 18px;
+	
+}
+
