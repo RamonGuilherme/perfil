@@ -529,6 +529,13 @@ p.loginimg img{
 	
 }
 
+p.loginimg img:hover{
+	
+	width: 142px;
+	height: 142px;
+	
+}
+
 p.Tperfil {
 	
 	text-align: center;
