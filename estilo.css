@@ -368,6 +368,21 @@ p.Tlocal{
 
 @media screen and (min-width:1280px){
 	
+	
+		
+	
+p.Btnentrar {
+	background: #000;
+	color: #fff;
+	width: 100px;
+	height: 55px;
+	text-align: center;
+	margin-top: 15%;
+	margin-left: 43%;
+	padding-top: 3%;
+	border-radius: 15%;
+}
+	
 	#Automacao{
 		
 		background: #242424;
@@ -465,5 +480,43 @@ p.Tlocal{
 		
 		color: #fff;
 	}
+}
+
+p.rs1 img{
+  
+   width: 45px;
+   height: 45px;
+  display: block;
+  text-align: center;
+   margin-left: 30%;
+   margin-top: -10%;
+
+}
+
+
+p.rs2 img{
+  
+   width: 38px;
+   height: 38px;
+  display: block;
+  text-align: center;
+   margin-left: 45%;
+   margin-top: -10%;
+   
+
+}
+
+
+
+p.rs3 img{
+  
+   width: 40px;
+   height: 40px;
+  display: block;
+  text-align: center;
+   margin-left: 55%;
+   margin-top: -10%;
+   margin-left: 60%;
+
 }
 
