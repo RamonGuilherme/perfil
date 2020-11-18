@@ -12,19 +12,6 @@
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="estilo.css"
 
-<script>
-function share(){
-	if (navigator.share !== undefined) {
-		navigator.share({
-			title: 'O título da sua página',
-			text: 'Um texto de resumo',
-			url: 'https://seusite.com/sua_url',
-		})
-		.then(() => console.log('Successful share'))
-		.catch((error) => console.log('Error sharing', error));
-	}
-}
-</script>
 
 </head>
 
@@ -69,6 +56,8 @@ function share(){
            <p class="local"><img src="local.png"></p>
            <p class="Tlocal">Rio de janeiro</p>
 
+
+
 <a href="javascript:void(0)" onclick="share()">
 	<img width="25" height="25" src="https://ayltoninacio.com.br/img/s/21w50.jpg" alt="">
 </a>
@@ -81,6 +70,21 @@ function share(){
 	<br>
 	Site em desenvolvimento 
 	</footer>
+
+
+<script>
+function share(){
+	if (navigator.share !== undefined) {
+		navigator.share({
+			title: 'O título da sua página',
+			text: 'Um texto de resumo',
+			url: 'https://seusite.com/sua_url',
+		})
+		.then(() => console.log('Successful share'))
+		.catch((error) => console.log('Error sharing', error));
+	}
+}
+</script>
 	
 </body>
 
