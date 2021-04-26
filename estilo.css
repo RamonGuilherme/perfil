@@ -209,10 +209,10 @@ footer:hover{
 		
 	position: -ms-page;
 	background-color:lightgray;
-	width: 250px;
+	width: 325px;
 	height: 350px;
 	color: #fff;
-	margin-left: 90px;
+	margin-left: 12%;
 	margin-top: 40%;
 	border-radius: 5%;
 	text-align: center;
@@ -235,10 +235,10 @@ footer:hover{
 
 		position: absolute;
 		background-color:lightgray;
-		width: 250px;
+		width: 325px;
 		height: 350px;
 		color: #fff;
-		margin-left: 90px;
+		margin-left: 12%;
 		margin-top: 150%;
 		border-radius: 5%;
 		text-align: center;
@@ -254,11 +254,11 @@ footer:hover{
 
 		position: absolute;
 		background-color:lightgray;
-		width: 250px;
+		width: 325px;
 		height: 350px;
 		color: #fff;
-		margin-left: 90px;
-		margin-top: 240%;
+		margin-left: 12%;
+		margin-top: 250%;
 		border-radius: 5%;
 		text-align: center;
 		border-top: 1px, solid, #606060;
@@ -1216,15 +1216,16 @@ p.CardWMobile{
 	position: absolute;
 	margin-top: 10%;
 	color: #000;
-	margin-left: -18%;
+	margin-left: -8%;
+	
 
 }
 
 p.win1{
 
 	position: absolute;
-	margin-left: -18%;
-	margin-top: 27%;
+	margin-left: -8%;
+	margin-top: 28%;
 	color: #000;
 
 
@@ -1233,8 +1234,8 @@ p.win1{
 p.win2{
 
 	position: absolute;
-	margin-left: -12%;
-	margin-top: 37%;
+	margin-left: -10%;
+	margin-top: 38%;
 	color: #000;
 	
 
@@ -1243,8 +1244,8 @@ p.win2{
 p.win3{
 
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 47%;
+	margin-left: -14%;
+	margin-top: 48%;
 	color: #000;
 
 }
@@ -1252,8 +1253,8 @@ p.win3{
 p.win4{
 
 	position: absolute;
-	margin-left: -20%;
-	margin-top: 57%;
+	margin-left: -19%;
+	margin-top: 58%;
 	color: #000;
 
 }
@@ -1263,15 +1264,15 @@ p.CardLMobile{
 	position: absolute;
 	margin-top: 10%;
 	color: #000;
-	margin-left: -18%;
+	margin-left: 0%;
 
 }
 
 p.linux1{
 
 	position: absolute;
-	margin-left: -18%;
-	margin-top: 30%;
+	margin-left: -8%;
+	margin-top: 35%;
 	color: #000;
 
 
@@ -1280,8 +1281,8 @@ p.linux1{
 p.linux2{
 
 	position: absolute;
-	margin-left: -11%;
-	margin-top: 39%;
+	margin-left: 1%;
+	margin-top: 50%;
 	color: #000;
 	
 
@@ -1290,8 +1291,8 @@ p.linux2{
 p.linux3{
 
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 50%;
+	margin-left: -5%;
+	margin-top: 65%;
 	color: #000;
 
 }
@@ -1299,8 +1300,8 @@ p.linux3{
 p.linux4{
 
 	position: absolute;
-	margin-left: -20%;
-	margin-top: 60%;
+	margin-left: -12%;
+	margin-top: 80%;
 	color: #000;
 
 }
@@ -1348,8 +1349,8 @@ p.Iconw4{
 p.IconL1{
 
 	position: absolute;
-	margin-top: 25%;
-	margin-left: -25%;
+	margin-top: 30%;
+	margin-left: -20%;
 	color: #000;
 
 
@@ -1358,8 +1359,8 @@ p.IconL1{
 p.IconL2{
 
 	position: absolute;
-	margin-left: -25%;
-	margin-top: 35%;
+	margin-left: -20%;
+	margin-top: 45%;
 	color: #000;
 	
 
@@ -1368,8 +1369,8 @@ p.IconL2{
 p.IconL3{
 
 	position: absolute;
-	margin-left: -25%;
-	margin-top: 45%;
+	margin-left: -20%;
+	margin-top: 60%;
 	color: #000;
 
 }
@@ -1377,8 +1378,8 @@ p.IconL3{
 p.IconL4{
 
 	position: absolute;
-	margin-left: -25%;
-	margin-top: 55%;
+	margin-left: -20%;
+	margin-top: 75%;
 	color: #000;
 
 }
@@ -1404,7 +1405,7 @@ p.CardIcon2{
 	width: 30px;
 	height: 30px;
 	margin-top: 8%;
-	margin-left: 17%;
+	margin-left: 30%;
 
 }
 
@@ -1418,7 +1419,7 @@ p.CardIcon1{
 	width: 25px;
 	height: 25px;
 	
-	margin-left: 8%;
+	margin-left: 18%;
 }
 
 
@@ -1427,8 +1428,8 @@ p.Pretrogame{
 	position: absolute;
 	width: 25px;
 	height: 25px;
-	margin-top: 55%;
-	margin-left: 8%;
+	margin-top: 80%;
+	margin-left: 12%;
 }
 
 p.Pmidiacenter{
@@ -1436,8 +1437,8 @@ p.Pmidiacenter{
 	position: absolute;
 	width: 25px;
 	height: 25px;
-	margin-top: 45%;
-	margin-left: 8%;
+	margin-top: 65%;
+	margin-left: 12%;
 }
 
 p.Pserver{
@@ -1445,8 +1446,8 @@ p.Pserver{
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	margin-top: 25%;
-	margin-left: 8%;
+	margin-top: 40%;
+	margin-left: 12%;
 }
 
 p.Wserver{
@@ -1454,16 +1455,16 @@ p.Wserver{
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	margin-top: 35%;
-	margin-left: 8%;
+	margin-top: 53%;
+	margin-left: 12%;
 }
 
 
 p.rasp1{
 
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 27%;
+	margin-left: -2%;
+	margin-top: 40%;
 	color: #000;
 
 
@@ -1472,8 +1473,8 @@ p.rasp1{
 p.rasp2{
 
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 37%;
+	margin-left: -2%;
+	margin-top: 53%;
 	color: #000;
 	
 
@@ -1482,8 +1483,8 @@ p.rasp2{
 p.rasp3{
 
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 47%;
+	margin-left: -2%;
+	margin-top: 65%;
 	color: #000;
 
 }
@@ -1491,8 +1492,8 @@ p.rasp3{
 p.rasp4{
 
 	position: absolute;
-	margin-left: -15%;
-	margin-top: 57%;
+	margin-left: -2%;
+	margin-top: 80%;
 	color: #000;
 
 }
@@ -1559,7 +1560,7 @@ p.CardResp{
 
 	position: absolute;
 	margin-top: 10%;
-	margin-left: -16%;
+	margin-left: 5%;
 	color: #000;
 
 }
@@ -1571,7 +1572,7 @@ p.CardIcon3{
 	width: 30px;
 	height: 30px;
 	margin-top: 8%;
-	margin-left: 17%;
+	margin-left: 30%;
 
 }
 
@@ -1653,7 +1654,7 @@ p.serv4{
 p.seg1{
 
 	position: absolute;
-	margin-left: -17%;
+	margin-left: -7%;
 	margin-top: 40%;
 	color: #000;
 
@@ -1664,7 +1665,7 @@ p.seg1{
 p.seg2{
 
 	position: absolute;
-	margin-left: -18%;
+	margin-left: -8%;
 	margin-top: 50%;
 	color: #000;
 
@@ -1673,7 +1674,7 @@ p.seg2{
 p.seg3{
 
 	position: absolute;
-	margin-left: -17%;
+	margin-left: -7%;
 	margin-top: 61%;
 	color: #000;
 
@@ -1694,7 +1695,7 @@ p.seg5{
 p.Iconseg1{
 
 	position: absolute;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 40%;
 	color: #000;
 	width: 25px;
@@ -1707,7 +1708,7 @@ p.Iconseg1{
 p.Iconseg2{
 
 	position: absolute;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 50%;
 	color: #000;
 	width: 25px;
@@ -1718,7 +1719,7 @@ p.Iconseg2{
 p.Iconseg3{
 
 	position: absolute;
-	margin-left: 10%;
+	margin-left: 15%;
 	margin-top: 60%;
 	color: #000;
 	width: 20px;
@@ -1729,7 +1730,7 @@ p.Iconseg3{
 p.Iconseg4{
 
 	position: absolute;
-	margin-left: 10%;
+	margin-left: 20%;
 	margin-top: 100%;
 	color: #000;
 	width: 25px;
@@ -1745,7 +1746,7 @@ p.CardIconRede1{
 	
 	margin-top: 28%;
 	color: #000;
-	margin-left: -25%;
+	margin-left: -17%;
 
 
 }
@@ -1756,7 +1757,7 @@ p.CardIconRede2{
 	
 	margin-top: 37%;
 	color: #000;
-	margin-left: -25%;
+	margin-left: -17%;
 
 }
 
@@ -1766,7 +1767,7 @@ p.CardIconRede3{
 	
 	margin-top: 47%;
 	color: #000;
-	margin-left: -25%;
+	margin-left: -17%;
 
 }
 
@@ -1776,7 +1777,7 @@ p.CardIconRede4{
 	
 	margin-top: 57%;
 	color: #000;
-	margin-left: -25%;
+	margin-left: -17%;
 
 }
 
@@ -1785,7 +1786,7 @@ p.rede1{
 	position: absolute;
 	margin-top: 33%;
 	color: #000;
-	margin-left: -13%;
+	margin-left: 1%;
 
 }
 
@@ -1794,7 +1795,7 @@ p.rede2{
 	position: absolute;
 	margin-top: 43%;
 	color: #000;
-	margin-left: -16%;
+	margin-left: 1%;
 
 }
 
@@ -1803,7 +1804,7 @@ p.rede3{
 	position: absolute;
 	margin-top: 53%;
 	color: #000;
-	margin-left: -15%;
+	margin-left: 1%;
 
 }
 
@@ -1812,7 +1813,7 @@ p.rede4{
 	position: absolute;
 	margin-top: 63%;
 	color: #000;
-	margin-left: -13%;
+	margin-left: 1%;
 
 }
 
@@ -1822,8 +1823,8 @@ p.IconHW img{
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	margin-top: 12%;
-	margin-left: -28%;
+	margin-top: 10%;
+	margin-left: -16%;
 }
 
 
@@ -1843,7 +1844,7 @@ p.hard2{
 
 	position: absolute;
 	margin-left: 10%;
-	margin-top: 60%;
+	margin-top: 80%;
 	color: #000;
 
 }
@@ -1861,7 +1862,7 @@ p.hard4{
 
 	position: absolute;
 	margin-left: 10%;
-	margin-top: 100%;
+	margin-top: 80%;
 	color: #000;
 
 }
@@ -1871,7 +1872,7 @@ p.hard4{
 p.Iconhard1{
 
 	position: absolute;
-	margin-left: 7%;
+	margin-left: 15%;
 	margin-top: 25%;
 	color: #000;
 	width: 25px;
@@ -1920,11 +1921,11 @@ p.Iconhard4{
 
 		position: absolute;
 		background: lightgray;
-		width: 250px;
+		width: 325px;
 		height: 350px;
 		color: #fff;
-		margin-left: 22%;
-		margin-top: 338%;
+		margin-left: 12%;
+		margin-top: 350%;
 		border-radius: 5%;
 		text-align: center;
 		border-top: 1px, solid, #606060;
@@ -2008,7 +2009,7 @@ p.CardServRede{
 
 	position: absolute;
 	margin-top: 10%;
-	margin-left: -17%;
+	margin-left: 5%;
 	color: #000;
 }
 
@@ -2017,7 +2018,7 @@ p.CardServIMG{
 
 	position: absolute;
 	margin-top: 5%;
-	margin-left: -15%;
+	margin-left: 1%;
 	color: #000;
 }
 
@@ -2031,7 +2032,7 @@ p.CardSeg{
 	position: absolute;
 	color: #000;
 	margin-top: 10%;
-	margin-left: -15%;
+	margin-left: 5%;
 
 }
 
@@ -2041,13 +2042,13 @@ p.IconSecurity img{
 	width: 25px;
 	height: 25px;
 	margin-top: 9%;
-	margin-left: -13%;
+	margin-left: -17%;
 }
 
 p.seg4{
 
 	position: absolute;
-	margin-left: -13%;
+	margin-left: -1%;
 	margin-top: 30%;
 	color: #000;
 
@@ -2093,7 +2094,7 @@ p.hard2{
 
 	position: absolute;
 	margin-left: 10%;
-	margin-top: 60%;
+	margin-top: 55%;
 	color: #000;
 
 }
@@ -2102,7 +2103,7 @@ p.hard3{
 
 	position: absolute;
 	margin-left: 10%;
-	margin-top: 80%;
+	margin-top: 70%;
 	color: #000;
 
 }
@@ -2111,7 +2112,7 @@ p.hard4{
 
 	position: absolute;
 	margin-left: 3%;
-	margin-top: 100%;
+	margin-top: 85%;
 	color: #000;
 
 }
@@ -2121,7 +2122,7 @@ p.hard4{
 p.Iconhard1{
 
 	position: absolute;
-	margin-left: 11%;
+	margin-left: 18%;
 	margin-top: 40%;
 	color: #000;
 	width: 25px;
@@ -2134,8 +2135,8 @@ p.Iconhard1{
 p.Iconhard2{
 
 	position: absolute;
-	margin-left: 12%;
-	margin-top: 60%;
+	margin-left: 18%;
+	margin-top: 55%;
 	color: #000;
 	width: 25px;
 	height: 25px;
@@ -2145,8 +2146,8 @@ p.Iconhard2{
 p.Iconhard3{
 
 	position: absolute;
-	margin-left: 12%;
-	margin-top: 80%;
+	margin-left: 18%;
+	margin-top: 70%;
 	color: #000;
 	width: 25px;
 	height: 25px;
@@ -2156,8 +2157,8 @@ p.Iconhard3{
 p.Iconhard4{
 
 	position: absolute;
-	margin-left: 12%;
-	margin-top: 100%;
+	margin-left: 18%;
+	margin-top: 85%;
 	color: #000;
 	width: 25px;
 	height: 25px;
