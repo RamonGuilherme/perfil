@@ -64,6 +64,22 @@
           <a href="https://www.linkedin.com/in/ramonguilherme"> <img src="download.jpeg" alt="LinkedIn">
         </p></a>
 
+		<p class="visuali">
+			<img src="olho.png">
+		</p>
+		
+		<p class="TxtVisuali">
+			0 Visualizações
+		</p>
+
+		<p class="Vmobile">
+			<img src="mobile.png">
+		</p>
+		
+		<p class="TxtVmobile">
+			Você está no modo Mobile
+		</p>
+
           <p class="IconProjetos"> <img src="projeto.png"></p>
           <p class="TxtProjetos">Projetos: 1</p>
 
@@ -90,8 +106,8 @@ function share(){
 	if (navigator.share !== undefined) {
 		navigator.share({
 			title: 'O título da sua página',
-			text: 'Ramon Guilherme',
-			url: 'https://ramonguilherme.github.io/perfil/login.html',
+			text: 'Um texto de resumo',
+			url: 'https://seusite.com/sua_url',
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));
