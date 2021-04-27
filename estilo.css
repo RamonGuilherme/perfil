@@ -263,14 +263,18 @@ footer:hover{
 		text-align: center;
 		border-top: 1px, solid, #606060;
 	}
+
+
 	
 p.Btnentrar {
+
+	position: absolute;
 	background: #000;
 	color: #fff;
 	width: 70px;
 	height: 35px;
 	text-align: center;
-	margin-top: 15%;
+	margin-top: 75%;
 	margin-left: 43%;
 	padding-top: 3%;
 	border-radius: 15%;
@@ -279,16 +283,17 @@ p.Btnentrar {
 p.Btnentrar:hover {
 	
 	background: #505050;
-	color: yellow;
+	color:blueviolet;
 	
 }
 
 p.loginimg img{
-	
+
+	position: absolute;
 	width: 80px;
 	height: 80px;
 	padding-top: 30%;
-	padding-left: 43%;
+	padding-left: 41%;
 	
 }
 
@@ -301,47 +306,53 @@ p.loginimg img:hover{
 
 p.Tperfil {
 	
+	position: absolute;
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 65%;
 	
 }
 
 
 p.Tperfil2 {
 	
+	position: absolute;
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 72%;
 	font-size: 12px;
 	
 }
 
 p.Tredes{
-  margin-top: 10%;
+
+position: absolute;	
+  margin-top: 105%;
   text-align: center;
   font-size: 12px;
   border-bottom: 2px, solid, #242424;
 }
 
 p.rs1 img{
-  
+
+  position: absolute;
    width: 45px;
    height: 45px;
   display: block;
   text-align: center;
    margin-left: 30%;
-   margin-top: 5%;
+   margin-top: 105%;
 
 }
 
 
 p.rs2 img{
   
+	position: absolute;
    width: 38px;
    height: 38px;
   display: block;
   text-align: center;
    margin-left: 45%;
-   margin-top: -10%;
+   margin-top: 105%;
    
 
 }
@@ -350,12 +361,13 @@ p.rs2 img{
 
 p.rs3 img{
   
+	position: absolute;
    width: 40px;
    height: 40px;
   display: block;
   text-align: center;
    margin-left: 55%;
-   margin-top: -10%;
+   margin-top: 105%;
    margin-left: 60%;
 
 }
@@ -371,10 +383,55 @@ p.imgcomp img{
 
 
 p.Titulo {
- 
+
+	position: absolute;
   text-align: center;
   font-size: 18px;
   margin-top: 20%;
+}
+
+/*    VISUALIZAÇÃO VISÃO MOBILE      */
+
+p.visuali{
+
+
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 162%;
+	margin-left: 12%;
+
+}
+
+p.TxtVisuali{
+
+	position: absolute;
+	margin-top: 164%;
+	margin-left: 20%;
+	color: #000;
+	font-size: 9pt;
+
+}
+
+p.Vmobile{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 163%;
+	margin-left: 45%;
+
+}
+
+p.TxtVmobile{
+
+	position: absolute;
+	margin-top: 164%;
+	margin-left: 50%;
+	color: #000;
+	font-size: 9pt;
+
 }
 
 /*  LOCAL E PROJETOS   */
@@ -385,14 +442,14 @@ p.IconProjetos img{
    width: 30px;
    height: 30px;
    margin-left: 58%;
-   margin-top: 20%;
+   margin-top: 125%;
 
 }
  p.TxtProjetos {
   
 	position: absolute;
    margin-left: 66%;
-   margin-top: 152%;
+   margin-top: 138%;
    font-size: 10px;
 
 }
@@ -403,7 +460,7 @@ p.Iconlocal img{
     width: 27px;
     height: 27px;
     margin-left: 18%;
-    margin-top: 20%;
+    margin-top: 125%;
 }
 
 p.Txtlocal{
@@ -411,7 +468,7 @@ p.Txtlocal{
 	position: absolute;
      font-size: 10px;
       margin-left: 26%;
-      margin-top: 152%;
+      margin-top: 138%;
 }
 
 p.download a img{
@@ -903,7 +960,7 @@ p.skillplataform{
 
 	position: absolute;
 	margin-top: 123%;
-	margin-left: 28%;
+	text-align: center;
 	color: #000;
 
 }
@@ -2278,7 +2335,30 @@ p.Txtlocal{
      font-size: 14px;
       margin-left: 40%;
       margin-top: 43%;
-}	
+}
+
+p.Vmobile{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 47%;
+	margin-left: 45%;
+	visibility: hidden;
+
+}
+
+p.TxtVmobile{
+
+	position: absolute;
+	margin-top: 47%;
+	margin-left: 50%;
+	color: #000;
+	font-size: 9pt;
+	visibility: hidden;
+
+}
 
 
 /*  FIM LOCAL E PROJETOS   */
@@ -2706,6 +2786,29 @@ p.visu img{
 	
 }
 
+/*   VIZUALIZAÇÕES VISÃO DESKTOP    */
+
+p.visuali{
+
+
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 47%;
+	margin-left: 47%;
+
+}
+
+p.TxtVisuali{
+
+	position: absolute;
+	margin-top: 48%;
+	margin-left: 50%;
+	color: #000;
+	font-size: 11pt;
+
+}
+
 p.fotominha img{
 
 	width: 100px;
@@ -3059,8 +3162,9 @@ p.skillplataform{
 
 	position: absolute;
 	margin-top: 135%;
-	margin-left: 25%;
+	text-align: center;
 	color: #000;
+	font-size: 11pt;
 
 }
 
