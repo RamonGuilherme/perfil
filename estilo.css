@@ -47,7 +47,7 @@
 	background-color: #242424;
 	transition: all 1.3s linear;
 	position: absolute;
-	top: -250px;
+	top: -290px;
 	
 }
 
@@ -2226,7 +2226,44 @@ p.Iconhard4{
 /*  FIM  CARD SERVIÇO HARDWARE MOBILE           */
 
 
+/*  PÁGINA DOWNLOAD MOBILE         */
 
+p.BtnDown{
+
+	position: absolute;
+	text-align: center;
+	background-color: #000;
+	color: #ccc;
+	width: 100px;
+	height: 30px;
+	margin-top: 90%;
+	margin-left: 40%;
+	padding-top: 2%;
+	border-radius: 10%;
+}
+
+p.BtnDown:hover{
+
+
+	background-color: #7a7878;
+	color:#000;
+	transition: 1s;
+
+}
+
+p.CardDown1{
+
+	position: -ms-page;
+	width: 150px;
+	height: 210px;
+	background-color: burlywood;
+	margin-top: 25%;
+	margin-left: 33%;
+	text-align: center;
+	color: #000;
+	font-size: 10pt;
+
+}
 
 @media screen and (min-width:425px){
 	
