@@ -2265,6 +2265,76 @@ p.CardDown1{
 
 }
 
+/*     ICONES DO MENU MOBILE                */
+
+p.IconExit{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 61%;
+	margin-left: 3%;
+	
+
+}
+
+p.IconMlampada{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 15%;
+	margin-left: 3%;
+
+}
+
+p.IconMlupa{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 50%;
+	margin-left: 3%;
+
+}
+
+p.IconMengrenagem{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 26%;
+	margin-left: 3%;
+
+}
+
+
+p.IconMcasa{
+
+
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	margin-top: 4%;
+	margin-left: 3%;
+
+}
+
+p.IconMdown{
+
+
+	position: absolute;
+	width: 22px;
+	height: 22px;
+	margin-top: 38%;
+	margin-left: 3%;
+
+}
+
 @media screen and (min-width:425px){
 	
 .conteudo{
