@@ -221,11 +221,23 @@
 		}
 		
 		/*     FIM DA CONFIGURAÇÃO FOOTER      */
+
+
+		/*      GIF           */
+
+		p.GIF{
+
+			width: 30px;
+			height: 30px;
+			position: absolute;
+			margin-top: 12%;
+			margin-left: 15%;
+		}
 		
 		#Automacao{
 				
 			position: -ms-page;
-			background-color:lightgray;
+			background-color: #fff;
 			width: 325px;
 			height: 350px;
 			color: #fff;
@@ -239,7 +251,7 @@
 			
 			#Automacao:hover{
 				
-				background: #606060;
+				background: #ccc;
 				
 			}
 			
@@ -252,7 +264,7 @@
 			#rede{
 		
 				position: absolute;
-				background-color:lightgray;
+				background-color: #fff;
 				width: 325px;
 				height: 350px;
 				color: #fff;
@@ -265,14 +277,14 @@
 			
 			#cloud-server:hover{
 				
-				background: #606060;
+				background: #ccc;
 				
 			}
 			
 			#cloud-server{
 		
 				position: absolute;
-				background-color:lightgray;
+				background-color: #fff;
 				width: 325px;
 				height: 350px;
 				color: #fff;
@@ -679,7 +691,7 @@
 			position: -ms-page;
 			width: 325px;
 			height: 600px;
-			background-color:lightgray;
+			background-color:#fff;
 			border: solid black 1px;
 			margin-top: 20%;
 			margin-left: 5%;
@@ -689,7 +701,7 @@
 		
 		#fundoperfil:hover{
 		
-			background-color:#7a7878;
+			background-color:#ccc;
 			transition: 2s;
 			
 		}
@@ -933,7 +945,7 @@
 		#painelskills{
 		
 			position: absolute;
-			background-color:lightgray;
+			background-color: #fff;
 			width: 325px;
 			height: 430px;
 			margin-top: 215%;
@@ -944,7 +956,7 @@
 		}
 		
 		#painelskills:hover{
-			background-color:#7a7878;
+			background-color:#ccc;
 			transition: 2s;
 		}
 		
@@ -1069,7 +1081,7 @@
 		
 			width: 325px;
 			height: 380px;
-			background-color:lightgray;
+			background-color: #fff;
 			margin-top: 350%;
 			position: absolute;
 			margin-left: 5%;
@@ -1085,7 +1097,7 @@
 		
 		#painelmidia:hover{
 		
-			background-color: #7a7878;
+			background-color: #ccc;
 			transition: 1.5s;
 		}
 		
@@ -1177,7 +1189,7 @@
 			position: -ms-page;
 			width: 300px;
 			height: 500px;
-			background-color:lightgray;
+			background-color: #fff;
 			border: solid black 1px;
 			margin-top: 20%;
 			margin-left: 9%;
@@ -1189,7 +1201,7 @@
 		
 		#Painelsobre:hover{
 		
-			background-color:#7a7878;
+			background-color:#ccc;
 			transition: 2s;
 			
 		
@@ -2024,7 +2036,7 @@
 		#hardware{
 		
 				position: absolute;
-				background: lightgray;
+				background: #fff;
 				width: 325px;
 				height: 350px;
 				color: #fff;
@@ -2296,6 +2308,7 @@
 			background-color: #7a7878;
 			color:#000;
 			transition: 1s;
+			border: solid black 1px;
 		
 		}
 		
@@ -2311,6 +2324,7 @@
 			color: #ccc;
 			font-size: 10pt;
 			border-radius: 5%;
+			border: solid black 1px;
 		
 		}
 		
