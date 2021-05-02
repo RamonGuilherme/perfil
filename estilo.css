@@ -2626,6 +2626,17 @@ footer:hover{
 
 /*     FIM DA CONFIGURAÇÃO FOOTER      */
 
+
+
+p.GIF{
+
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin-top: 12%;
+	margin-left: 15%;
+}
+
 #Automacao{
 		
 	position: -ms-page;
@@ -4977,6 +4988,15 @@ footer:hover{
 }
 
 /*     FIM DA CONFIGURAÇÃO FOOTER      */
+
+p.GIF{
+
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	margin-top: 12%;
+	margin-left: 15%;
+}
 
 #Automacao{
 		
