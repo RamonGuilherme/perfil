@@ -59,6 +59,7 @@
 			top: -290px;
 			border-bottom-left-radius: 3%;
 			border-bottom-right-radius: 3%;
+			visibility: visible;
 			
 		}
 		
@@ -219,6 +220,29 @@
 			color: #505050;
 			
 		}
+
+			/*     FOOTER DA PAGINA DOWNLOAD    */
+		
+			footer.FDown{
+		
+				position: absolute;
+				background: #242424;
+				color: #fff;
+				margin-top: 400%;
+				text-align: center;
+				padding: 45px 0 118px 0;
+				margin-bottom: auto;
+				
+				
+				
+			}
+			
+			footer:hover{
+				
+				color: #505050;
+				
+			}
+
 		
 		/*     FIM DA CONFIGURAÇÃO FOOTER      */
 
@@ -550,6 +574,17 @@
 			position: absolute;
 			margin-top: 10%;
 			margin-left: 12%;
+			color: black;
+			visibility: visible;
+			font-size: 7pt;
+		
+		}
+
+		p.fraseVER2{
+		
+			position: absolute;
+			margin-top: 25%;
+			margin-left: 44%;
 			color: black;
 			visibility: visible;
 			font-size: 7pt;
@@ -2332,13 +2367,61 @@
 			position: -ms-page;
 			width: 150px;
 			height: 210px;
-			background-color: #242424;
+			
 			margin-top: 25%;
 			margin-left: 33%;
 			text-align: center;
-			color: #ccc;
+			color: #000;
 			font-size: 10pt;
 			border-radius: 5%;
+			border: solid black 1px;
+		
+		}
+
+		p.BtnDown2{
+		
+			position: absolute;
+			text-align: center;
+			background-color: #000;
+			color: #ccc;
+			width: 100px;
+			height: 30px;
+			margin-top: 185%;
+			margin-left: 40%;
+			padding-top: 3%;
+			border-radius: 10%;
+		}
+		
+		p.BtnDown2:hover{
+		
+		
+			background-color: #7a7878;
+			color:#000;
+			transition: 1s;
+			border: solid black 1px;
+		
+		}
+
+		p.BtnDown3{
+		
+			position: absolute;
+			text-align: center;
+			background-color: #000;
+			color: #ccc;
+			width: 100px;
+			height: 30px;
+			margin-top: 270%;
+			margin-left: 40%;
+			padding-top: 3%;
+			border-radius: 10%;
+		}
+		
+		p.BtnDown3:hover{
+		
+		
+			background-color: #7a7878;
+			color:#000;
+			transition: 1s;
 			border: solid black 1px;
 		
 		}
@@ -2484,6 +2567,7 @@
 	transition: all 1.3s linear;
 	position: absolute;
 	top: -290px;
+	visibility: visible;
 	
 }
 
@@ -4847,7 +4931,7 @@ p.IconMdown{
 	transition: all 1.3s linear;
 	position: absolute;
 	top: -290px;
-	
+	visibility: visible;
 }
 
 .menuPrincipal li{
@@ -7217,6 +7301,7 @@ p.IconMdown{
 	transition: all 1.3s linear;
 	position: absolute;
 	top: -290px;
+	visibility: visible;
 	
 }
 
@@ -9522,6 +9607,7 @@ p.IconMdown{
 	
 	margin-top: -10px;
 	
+	
 }
 	
 	footer{
@@ -9861,6 +9947,7 @@ p.Btnentrar {
 	padding: 15px 15px 15px 100px;
 	margin-top: 0px;
 	
+	
 }
 
 .menuPrincipal li:hover{
@@ -9868,6 +9955,7 @@ p.Btnentrar {
 	background: #ccc;
 	color: #242424;
 	padding: 0px, 40px, 0px, 40px;
+	
 	
 	
 }
@@ -9952,7 +10040,7 @@ p.loginimg img{
 	width: 140px;
 	height: 140px;
 	padding-top: 5%;
-	margin-left: 4%;
+	margin-left: 45%;
 	position: absolute;
 	
 }
@@ -9965,6 +10053,20 @@ p.loginimg img:hover{
 	
 	
 }
+
+p.caixa{
+
+	position: absolute;
+	border: solid #000 1px;
+	width: 20%;
+	height: 18%;
+	border-radius: 5%;
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+
+
 
 p.Tperfil {
 	
@@ -11083,9 +11185,9 @@ p.Iconhard4{
 p.frase{
 
 	position: absolute;
-	margin-top: 1%;
-	margin-left: 1%;
-	color: red;
+	margin-top: 2%;
+	margin-left: 5%;
+	color: black;
 
 }
 
@@ -11095,6 +11197,41 @@ p.frase:hover{
 	transition: 3s;
 
 }
+
+p.fraseVER{
+		
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 7%;
+	color: black;
+	visibility: visible;
+	font-size: 7pt;
+
+}
+
+p.fraseVER2{
+
+	position: absolute;
+	margin-top: 8%;
+	margin-left: 18%;
+	color: black;
+	visibility: visible;
+	font-size: 7pt;
+
+}
+
+p.GIF{
+
+	width: 35px;
+	height: 35px;
+	position: absolute;
+	margin-top: 6%;
+	margin-left: 10%;
+}
+
+
+
+
 
 p.sobreimg img{
 
