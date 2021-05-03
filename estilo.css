@@ -873,14 +873,34 @@
 			margin-top: 40%;
 		
 		}
+
+		p.pensamento{
+
+			position: absolute;
+			margin-left: 3%;
+			font-size: 10px;
+			margin-top: 35%;
+			color: #242424;
+
+		}
+
+		p.pensador{
+
+			position: absolute;
+			margin-top: 40%;
+			color: #242424;
+			margin-left: 55%;
+			font-size: 12px;
+
+		}
 		
 		
 		
 		p.inform{
 		
 			position: absolute;
-			margin-top: 45%;
-			margin-left: 34%;
+			margin-top: 55%;
+			margin-left: 36%;
 			color: #000;
 		}
 		
@@ -889,8 +909,8 @@
 				width: 18px;
 				height: 18px;
 				position: absolute;
-				margin-top: 16%;
-				margin-left: 27%;
+				margin-top: 26%;
+				margin-left: 29%;
 				
 		
 		}
@@ -10673,6 +10693,7 @@ p.qr_imagem img{
 	border-radius: 10%;
 	color: #000;
 	visibility: visible;
+	border: solid #000 1px;
 
 }
 
@@ -10698,6 +10719,7 @@ p.qr_imagem img{
 	border-radius: 10%;
 	color: #000;
 	visibility: visible;
+	border: solid #000 1px;
 
 }
 
@@ -10723,6 +10745,7 @@ p.qr_imagem img{
 	border-radius: 10%;
 	color: #000;
 	visibility: visible;
+	border: solid #000 1px;
 
 }
 
@@ -10748,6 +10771,7 @@ p.qr_imagem img{
 	border-radius: 10%;
 	color: #000;
 	visibility: visible;
+	border: solid #000 1px;
 
 }
 
@@ -10773,6 +10797,7 @@ p.qr_imagem img{
 	border-radius: 10%;
 	color: #000;
 	visibility: visible;
+	border: solid #000 1px;
 
 }
 
