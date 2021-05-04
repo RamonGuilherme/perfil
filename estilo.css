@@ -34,6 +34,7 @@
 			
 			background-color: #242424;
 			padding: 5px 0;
+			box-shadow: 5px 5px 5px #7a7878;
 			
 			
 		}
@@ -60,6 +61,7 @@
 			border-bottom-left-radius: 3%;
 			border-bottom-right-radius: 3%;
 			visibility: visible;
+			
 			
 		}
 		
@@ -569,6 +571,12 @@
 
 		}
 
+		p.caixa:hover{
+
+			box-shadow: 1px 1px 0px #242424;
+
+		}
+
 		p.fraseVER{
 		
 			position: absolute;
@@ -1023,6 +1031,7 @@
 			margin-left: 5%;
 			border-radius: 5%;
 			border: solid black 1px;
+			box-shadow: 5px 5px 5px rgb(20, 19, 19);
 		
 		}
 		
@@ -1161,6 +1170,7 @@
 			border-top-right-radius: 6%;
 			border-top-left-radius: 6%;
 			border: solid black 1px;
+			box-shadow: 5px 5px 5px rgb(20, 19, 19);
 		
 		}
 		
