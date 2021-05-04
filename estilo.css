@@ -383,7 +383,7 @@
 		p.Tperfil2::after{
 
 			content: '|';
-			margin-left: 5px;
+			margin-left: 1px;
 			opacity: 1;
 			animation: pisca .7s infinite;
 
