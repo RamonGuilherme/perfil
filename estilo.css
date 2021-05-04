@@ -1016,6 +1016,25 @@
 			visibility: hidden;	
 		
 		}
+
+		p.ProjectP{
+
+			margin-left: 12%;
+			position: absolute;
+			margin-top: 142%;
+			color:#000;
+
+		}
+
+		p.ProjectIMG{
+
+			width: 25px;
+			height: 25px;
+			position: absolute;
+			margin-top: 140%;
+			margin-left: 3%;
+
+		}
 		
 		
 		
