@@ -29,6 +29,10 @@
 		Versão ALPHA TESTE
 </p>
 
+<p class="fraseVER2">
+	ver 1.3
+</p>
+
 <p class="caixa">
 	
 </p>	
@@ -136,7 +140,29 @@ function share(){
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));
 	}
+
 }
+</script>
+
+<script>
+
+
+	function typeWriter(elemento)
+	
+	{
+		const textoArray = elemento.innerHTML.split('');
+		elemento.innerHTML = '';
+		textoArray.forEach((letra, i) => {
+		setTimeout(function(){
+			elemento.innerHTML += letra;
+		}, 85 * i)
+		});
+
+	}
+
+	const titulo = document.querySelector('.Tperfil2');
+	typeWriter(titulo);
+
 </script>
 	
 </body>
