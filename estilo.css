@@ -383,7 +383,7 @@
 		p.Tperfil2::after{
 
 			content: '|';
-			margin-left: 1px;
+			margin-left: 0px;
 			opacity: 1;
 			animation: pisca .7s infinite;
 
@@ -884,13 +884,15 @@
 			margin-left: 40%;
 			margin-top: 7%;
 			border-radius: 50%;
+			box-shadow: 0px 2px 4px #242424;
 		
 		}
 		
 		p.fotominha img:hover{
 		
-			margin-top: 1px;
+			
 			transition: 2s;
+			box-shadow: 0px 2px 4px #242424;
 		
 		
 		}
@@ -1058,43 +1060,58 @@
 		}
 
 		/*         PAINEL MAIS                   */
-		
-		p.PainelMais{
 
+		p.Botao{
 
 			position: absolute;
-			width: 250px;
-			height: 300px;
-			background-color: aqua;
-			margin-top: 60%;
+			width: 40px;
+			height: 18px;
+			padding: 6px;
+			background-color: #000;
+			color: #fff;
+			margin-top: 35%;
 			margin-left: 10%;
+			text-align: center;
 			border-radius: 5%;
-			border: solid 2px #000;
-			visibility: hidden;
+			cursor: pointer;
+			position: -ms-page;
 
 		}
 
+		#modal{
+
+			position: absolute;
+			width: 200px;
+			height: 350px;
+			background-color: aqua;
+			margin-top: -100%;
+			margin-left: 20%;
+			text-align: center;
+			border-radius: 5%;
+			display: none;
+
+		}
+
+		@keyframes modal {
+			
+			from{
+				opacity: 0;
+			}
+
+			to{
+				opacity: 1;
+			}
+
+		}
+		
 		
 
-		p.TxtMais{
-			position: absolute;
-			margin-top: 45%;
-			margin-left: 40%;
-			color: aqua;
+		.modal.mostrar{
+			display: flex;
+			
 		}
-
-		p.TxtMais:hover{
-			position: absolute;
-			margin-top: 50%;
-			margin-left: 40%;
-			background-color:rgb(219, 201, 201);
-			width: 200px;
-			height: 300px;
-			margin-left: 11%;
-			border-radius: 5%;
-			border: solid 1px #000;
-			transition: 1.5s;
-		}
+		
+		
 		
 		/*   PAINEL SKILL VISÃO MOBILE        */
 		
@@ -3405,12 +3422,13 @@ p.fotominha img{
 	margin-left: 40%;
 	margin-top: 7%;
 	border-radius: 50%;
+	box-shadow: 0px 2px 4px #242424;
 
 }
 
 p.fotominha img:hover{
 
-	margin-top: 1px;
+	box-shadow: 0px 2px 4px #242424;
 	transition: 2s;
 
 
@@ -5746,12 +5764,13 @@ p.fotominha img{
 	margin-left: 40%;
 	margin-top: 7%;
 	border-radius: 50%;
+	box-shadow: 0px 2px 4px #242424;
 
 }
 
 p.fotominha img:hover{
 
-	margin-top: 1px;
+	box-shadow: 0px 2px 4px #242424;
 	transition: 2s;
 
 
@@ -8108,13 +8127,15 @@ p.fotominha img{
 	margin-left: 40%;
 	margin-top: 7%;
 	border-radius: 50%;
+	box-shadow: 0px 2px 4px #242424;
 
 }
 
 p.fotominha img:hover{
 
-	margin-top: 1px;
+	
 	transition: 2s;
+	box-shadow: 0px 2px 4px #242424;
 
 
 }
@@ -9840,7 +9861,7 @@ p.Btnentrar {
 	#Automacao{
 		
 		position: absolute;
-		background: lightgray;
+		background: #fff;
 		width: 250px;
 		height: 350px;
 		color: #fff;
@@ -9853,18 +9874,20 @@ p.Btnentrar {
 	
 	#Automacao:hover{
 		
-		background: #7a7878;
+		background-color: #fff;
 		margin-top: 9%;
 		transition: 1.5s;
+		box-shadow: 0px 2px 4px #000;
 		
 		
 	}
 	
 	#rede:hover{
 		
-		background: #7a7878;
+		background: #fff;
 		margin-top: 9%;
 		transition: 1.5s;
+		box-shadow: 0px 2px 4px #000;
 	
 		
 	}
@@ -9872,7 +9895,7 @@ p.Btnentrar {
 	#rede{
 
 		position: absolute;
-		background: lightgray;
+		background: #fff;
 		width: 250px;
 		height: 350px;
 		color: #fff;
@@ -9884,9 +9907,10 @@ p.Btnentrar {
 	
 	#cloud-server:hover{
 		
-		background: #7a7878;
+		background: #fff;
 		margin-top: 9%;
 		transition: 1.5s;
+		box-shadow: 0px 2px 4px #000;
 	
 		
 	}
@@ -9894,7 +9918,7 @@ p.Btnentrar {
 	#cloud-server{
 
 		position: absolute;
-		background: lightgray;
+		background: #fff;
 		width: 250px;
 		height: 350px;
 		color: #fff;
@@ -9926,9 +9950,10 @@ p.Btnentrar {
 
 	#hardware:hover{
 		
-		background-color:#7a7878;
+		background-color: #fff;
 		margin-top: 9%;
 		transition: 1.5s;
+		box-shadow: 0px 2px 4px #000;
 	
 		
 	}
@@ -9936,7 +9961,7 @@ p.Btnentrar {
 	#hardware{
 
 		position: absolute;
-		background: lightgray;
+		background: #fff;
 		width: 250px;
 		height: 350px;
 		color: #fff;
@@ -9944,7 +9969,7 @@ p.Btnentrar {
 		margin-top: 10%;
 		border-radius: 5%;
 		text-align: center;
-		border-top: 1px, solid, #606060;
+		
 
 	}
 
@@ -10044,7 +10069,8 @@ p.Btnentrar {
 	position: center;
 	padding-top: 0px;
 	margin-top: -10px;
-	visibility: hidden;
+	
+	display: none;
 	
 }
 
@@ -10054,6 +10080,7 @@ p.Btnentrar {
 	color: #fff;
 	padding: 15px 15px 15px 100px;
 	margin-top: 0px;
+	display: none;
 	
 	
 }
@@ -10063,6 +10090,7 @@ p.Btnentrar {
 	background: #ccc;
 	color: #242424;
 	padding: 0px, 40px, 0px, 40px;
+	display: none;
 	
 	
 	
@@ -10091,6 +10119,7 @@ p.rs1 img:hover{
 	width: 37px;
 	height: 37px;
 	transition: 1s;
+	
 
  
  }
@@ -10129,7 +10158,6 @@ p.rs3 img{
   text-align: center;
    margin-left: 55%;
    margin-top: 33%;
-   
    position:absolute;
 
 }
@@ -10180,7 +10208,7 @@ p.Tperfil {
 	
 	text-align: center;
 	margin-top: 17%;
-	position:absolute;
+	position: absolute;
 	
 }
 
@@ -10190,7 +10218,7 @@ p.Tperfil2 {
 	text-align: center;
 	margin-top: 20%;
 	font-size: 18px;
-	position:absolute;
+	position: absolute;
 	
 }
 
@@ -10199,7 +10227,7 @@ p.imgcomp img{
      width: 50px;
      height: 50px;
      margin-left: 95%;
-	 position:absolute;
+	 position: absolute;
 	
      
 
@@ -10294,12 +10322,13 @@ p.fotominha img{
 	margin-left: 44%;
 	margin-top: 5%;
 	border-radius: 50%;
+	box-shadow: 0px 2px 4px #242424;
 
 }
 
 p.fotominha img:hover{
 
-	margin-top: 1px;
+	box-shadow: 0px 2px 4px #242424;
 	transition: 2s;
 
 
@@ -10357,7 +10386,7 @@ p.rosto5{
 
 	width: 600px;
 	height: 400px;
-	background-color:lightgray;
+	background-color: #fff;
 	position: absolute;
 	margin-top: 10%;
 	margin-left: 32%;
@@ -10367,7 +10396,7 @@ p.rosto5{
 
 #fundoperfil:hover{
 
-	background-color:#7a7878;
+	background-color: #fff;
 	transition: 2s;
 	
 	
@@ -10378,9 +10407,10 @@ p.imgcompperfil{
 	width: 60px;
 	height: 60px;
 	position: absolute;
-	background-color:lightgray;
-	margin-left: 90%;
+	background-color: #fff;
+	margin-left: 88%;
 	border-bottom-left-radius: 15%;
+	margin-top: 1%;
 
 }
 
@@ -10566,7 +10596,7 @@ p.iconeinform2 img{
 #painelskills{
 
 	position: absolute;
-	background-color:lightgray;
+	background-color: #fff;
 	width: 265px;
 	height: 395px;
 	margin-top: 10%;
@@ -10576,7 +10606,7 @@ p.iconeinform2 img{
 }
 
 #painelskills:hover{
-	background-color:#7a7878;
+	background-color: #fff;
 	transition: 2s;
 }
 
@@ -10695,13 +10725,13 @@ p.iconeskill5{
 	margin-left: 5%;
 }
 
-/*  PAINEL MIDIA VISÃO DESKTOP    */
+/*  PAINEL MIDIA VISÃO DESKTOP  */
 
 #painelmidia{
 
 	width: 180px;
 	height: 392px;
-	background-color:lightgray;
+	background-color: #fff;
 	margin-top: 10%;
 	position: absolute;
 	margin-left: 78%;
@@ -10714,7 +10744,7 @@ p.iconeskill5{
 
 #painelmidia:hover{
 
-	background-color: #7a7878;
+	background-color: #fff;
 	transition: 1.5s;
 }
 
@@ -10771,7 +10801,7 @@ p.qr_imagem img{
 #Mperfil{
 
 	position: absolute;
-	background-color: lightgray;
+	background-color: #fff;
 	width: 42px;
 	height: 18px;
 	margin-top: 1%;
@@ -10787,17 +10817,18 @@ p.qr_imagem img{
 
 #Mperfil:hover{
 
-	background-color: #7a7878;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	margin-top: 1px;
 	transition: 1.5s;
+	box-shadow: 0px 1px 10px #000;
 
 }
 
 #Mprojetos{
 
 	position: absolute;
-	background-color: lightgray;
+	background-color: #fff;
 	width: 50px;
 	height: 18px;
 	margin-top: 1%;
@@ -10813,17 +10844,18 @@ p.qr_imagem img{
 
 #Mprojetos:hover{
 
-	background-color: #7a7878;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	margin-top: 3px;
 	transition: 1s;
+	box-shadow: 0px 1px 10px #000;
 
 }
 
 #Mserviços{
 
 	position: absolute;
-	background-color: lightgray;
+	background-color: #fff;
 	width: 52px;
 	height: 18px;
 	margin-top: 1%;
@@ -10839,17 +10871,18 @@ p.qr_imagem img{
 
 #Mserviços:hover{
 
-	background-color: #7a7878;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	margin-top: 3px;
 	transition: 1s;
+	box-shadow: 0px 1px 10px #000;
 
 }
 
 #Mlogin{
 
 	position: absolute;
-	background-color: lightgray;
+	background-color: #fff;
 	width: 50px;
 	height: 18px;
 	margin-top: 1%;
@@ -10865,17 +10898,18 @@ p.qr_imagem img{
 
 #Mlogin:hover{
 
-	background-color: #7a7878;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	margin-top: 3px;
 	transition: 1s;
+	box-shadow: 0px 1px 10px #000;
 
 }
 
 #Msobre{
 
 	position: absolute;
-	background-color: lightgray;
+	background-color: #fff;
 	width: 50px;
 	height: 18px;
 	margin-top: 1%;
@@ -10891,10 +10925,11 @@ p.qr_imagem img{
 
 #Msobre:hover{
 
-	background-color: #7a7878;
-	color: #fff;
+	background-color: #fff;
+	color: #000;
 	margin-top: 3px;
 	transition: 1s;
+	box-shadow: 0px 1px 10px #000;
 
 }
 
