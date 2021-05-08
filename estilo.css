@@ -97,6 +97,26 @@
 			top: 42px;
 			
 		}
+
+		/*         E-mail                 */
+
+		p.TxtEmail{
+
+			position: absolute;
+			margin-top: 162%;
+			margin-left: 22%;
+			color:#000;
+			font-size: 10pt;
+		}
+
+		p.IconEmail{
+
+			position: absolute;
+			width: 15px;
+			height: 15px;
+			margin-top: 162%;
+			margin-left: 16%;
+		}
 		
 		/*     CONFIGURAÇÃO DE FOOTERS        */
 		
@@ -1064,7 +1084,7 @@
 			height: 300px;
 			background-color:rgba(0, 0, 0, .8);
 			margin-left: 10%;
-			margin-top: 27%;
+			margin-top: 40%;
 			border-radius: 5%;
 			display: none;
 
@@ -13790,6 +13810,94 @@ p.LOGO{
 	margin-top: -5%;
 	margin-left: -14%;
 
+}
+
+/*         PAINEL MAIS  DESKTOP                */
+
+#bg{
+
+	position: fixed;
+	width: 400px;
+	height: 400px;
+	background-color:rgba(0, 0, 0, .8);
+	margin-left: 40%;
+	margin-top: 15%;
+	border-radius: 5%;
+	box-shadow: 0px 0px 6px #8ada0b;
+	display: none;
+
+}
+
+.open{
+
+	position: absolute;
+	background-color: #fff;
+	width: 35px;
+	height: 30px;
+	border: solid 1px #000;
+	border-radius: 50%;
+	color: #242424;
+	margin-top: 17%;
+	margin-left: -50%;
+	
+	padding-top: 5px;
+	box-shadow: 0px 4px 6px #242424;
+	font-size: 35px;
+
+}
+
+.open:hover{
+
+	background-color: #8ada0b;
+	transition: 2s;
+	color:#fff;
+
+}
+
+#bg:target{
+
+	display: block;
+	
+}
+
+
+
+
+
+#close{
+	color: #000;
+	position: absolute;
+	margin-left: 88%;
+	margin-top: 4%;
+	width: 35px;
+	height: 35px;
+	background-color: #8ada0b;
+	border-radius: 50%;
+	font-size: xx-large;
+	border: solid  2px #8ada0b;
+	text-align: center;
+}
+
+#close:hover{
+
+	color: red;
+	font-size: xx-large;
+
+}
+
+p.Tmais{
+	color: #fff;
+	position: absolute;
+	margin-top: 35%;
+	text-align: center;
+}
+
+.Gdormindo{
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	margin-top: 60%;
+	margin-left: 40%;
 }
 
 
