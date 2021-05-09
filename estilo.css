@@ -98,6 +98,109 @@
 			
 		}
 
+/*        PAINEL NOITE MOBILE                         */
+
+		p.noite{
+
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			margin-left: 65%;
+			margin-top: 1%;
+	
+		}
+	
+		#PainelNoite{
+	
+			width: 120px;
+			height: 100px;
+			background-color: #fff;
+			margin-left: 30%;
+			
+			border-radius: 5%;
+			border: solid 2px #7a7878;
+			margin-top: 5%;
+			box-shadow: 0px 0px 4px #505050;
+			
+			display: none;
+			
+	
+		}
+
+		.Xis p a{
+			color: #000;
+			position: relative;
+			margin-top: 5%;
+			margin-left: 90%;
+		}
+	
+		#PainelNoite:target{
+	
+			display: block;
+			margin-top: 10%;
+			margin-left: 35%;
+			position: fixed;
+			
+	
+		}
+	
+		.destroi{
+	
+			position: absolute;
+			color: #7a7878;
+			margin-top: -4%;
+			margin-left: 90%;
+			width: 25px;
+			height: 25px;
+			background-color: #fff;
+			border-radius: 50%;
+			border: solid 2px #7a7878 ;
+			cursor: pointer;
+			font-size: 21px;
+			
+	
+		}
+	
+		p.destroi:target{
+	
+			display: none;
+	
+		}
+	
+		p.Tmodo{
+	
+			color: #000;
+			text-align: center;
+			margin-top: 10%;
+			font-size: 10pt;
+	
+		}
+	
+		p.BtnNoite{
+	
+			position: absolute;
+			width: 55px;
+			height: 30px;
+			background-color: #fff;
+			margin-top: 38%;
+			margin-left: 30%;
+			text-align: center;
+			color: #000;
+			border-radius: 10%;
+			border: solid 1px #7a7878;
+			padding-top: 5px;
+			
+			font-size: 10pt;
+	
+		}
+	
+		p.BtnNoite:hover{
+	
+			background-color: #8ada0b;
+			cursor: pointer;
+	
+		}
+
 		/*         E-mail                 */
 
 		p.TxtEmail{
@@ -370,7 +473,7 @@
 			position: absolute;
 			width: 80px;
 			height: 80px;
-			padding-top: 26%;
+			margin-top: 26%;
 			margin-left: 39%;
 			
 		}
@@ -1094,16 +1197,18 @@
 
 			position: absolute;
 			background-color: #fff;
-			width: 50px;
+			width: 30px;
 			height: 25px;
 			border: solid 1px #000;
-			border-radius: 10%;
-			color:#000;
-			margin-top: 35%;
-			margin-left: -92%;
+			border-radius: 50%;
+			color: #606060;
+			margin-top: 40%;
+			margin-left: -60%;
 			text-align: center;
 			padding-top: 5px;
 			box-shadow: 0px 4px 6px #242424;
+			position:unset;
+			font-size: 25px;
 
 		}
 
@@ -11823,6 +11928,105 @@ margin-left: -14%;
 }
 
 @media screen and (min-width:1280px){
+
+
+	p.noite{
+
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		margin-left: 88%;
+		margin-top: 1%;
+
+	}
+
+	#PainelNoite{
+
+		width: 180px;
+		height: 100px;
+		background-color: #fff;
+		margin-left: 85%;
+		margin-top: 7%;
+		border-radius: 5%;
+		border: solid 2px #7a7878;
+		margin-top: 5%;
+		box-shadow: 0px 0px 4px #505050;
+		position: fixed;
+		display: none;
+		
+
+	}
+
+	#PainelNoite:target{
+
+		display: block;
+		
+
+	}
+
+	.destroi{
+
+		position: absolute;
+		color: #7a7878;
+		margin-top: -4%;
+		margin-left: 90%;
+		width: 25px;
+		height: 25px;
+		background-color: #fff;
+		border-radius: 50%;
+		border: solid 2px #7a7878 ;
+		cursor: pointer;
+		font-size: 21px;
+		
+
+	}
+
+	.destroi:hover{
+
+		background-color: red;
+		color: #fff;
+
+	}
+
+	p.destroi:target{
+
+		display: none;
+
+	}
+
+	p.Tmodo{
+
+		color: #000;
+		text-align: center;
+		margin-top: 10%;
+		font-size: 12pt;
+
+	}
+
+	p.BtnNoite{
+
+		position: absolute;
+		width: 55px;
+		height: 30px;
+		background-color: #fff;
+		margin-top: 34%;
+		margin-left: 38%;
+		text-align: center;
+		color: #000;
+		border-radius: 10%;
+		border: solid 1px #7a7878;
+		padding-top: 5px;
+		
+		font-size: 10pt;
+
+	}
+
+	p.BtnNoite:hover{
+
+		background-color: #8ada0b;
+		cursor: pointer;
+
+	}
 
 	
 
