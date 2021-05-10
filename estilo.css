@@ -98,6 +98,70 @@
 			
 		}
 
+		/*       PAINEL LOGIN MOBILE                 */
+
+
+		.Theme{
+			position: absolute;
+			width: 100px;
+			height: 150px;
+			background-color: #000;
+			margin-left: 65%;
+			margin-top: 7%;
+			border-top-right-radius: 5%;
+			border-bottom-right-radius: 5%;
+			display: none;
+			
+		}
+
+		.Troca_Tema{
+
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			margin-top: 5%;
+			margin-left: -4%;
+			cursor: pointer;
+
+		}
+
+		input:checked + .Theme{
+			
+			display: block;
+			background-color:rgba(0, 0, 0, 0 .3);
+			transition: .3s;
+
+		}
+
+		input{
+			visibility: hidden;
+		}
+
+
+		#Divi{
+
+			position: -ms-page;
+			width: 250px;
+			height: 350px;
+			border: solid 1px #7a7878;
+			margin-left: 15%;
+			margin-top: 23%;
+			border-radius: 5%;
+			box-shadow: 0px 0px 4px #7a7878;
+	
+	
+		}
+	
+		#Divi:hover{
+	
+			box-shadow: 0px 0px 8px #7a7878;
+	
+		}		
+
+
+
+
+
 /*        PAINEL NOITE MOBILE                         */
 
 		p.noite{
@@ -11930,6 +11994,27 @@ margin-left: -14%;
 @media screen and (min-width:1280px){
 
 
+	#Divi{
+
+		position: -ms-page;
+		width: 400px;
+		height: 500px;
+		border: solid 1px #7a7878;
+		margin-left: 35%;
+		margin-top: 3%;
+		border-radius: 5%;
+		box-shadow: 0px 0px 4px #7a7878;
+
+
+	}
+
+	#Divi:hover{
+
+		box-shadow: 0px 0px 8px #7a7878;
+
+	}
+
+
 	p.noite{
 
 		position: absolute;
@@ -12471,7 +12556,7 @@ p.loginimg img{
 	
 	width: 140px;
 	height: 140px;
-	padding-top: 5%;
+	margin-top: -25%;
 	margin-left: 45%;
 	position: absolute;
 	
