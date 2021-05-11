@@ -101,6 +101,84 @@
 		/*       PAINEL LOGIN MOBILE                 */
 
 
+
+		.Fundo{
+			background-color: #fff;
+			width: 150px;
+			height: 150px;
+			margin-left: 25%;
+			margin-top: 5%;
+			position: absolute;
+			border-radius: 5%;
+			border: solid 1px #7a7878;
+			display: none;
+			box-shadow: 0px 0px 4px #7a7878;
+		}
+		
+		input:checked + .Fundo{
+		
+			display: block;
+		}
+		
+		.MODONOITE{
+		
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			margin-left: -30%;
+			margin-top: 1%;
+			cursor: pointer;
+		
+		}
+		
+		input{
+			position: absolute;
+			visibility: hidden;
+			
+		}
+		
+		.TN{
+			position: absolute;
+			text-align: center;
+			margin-top: 3%;
+		}
+		
+		.Fundo img{
+		
+			position: absolute;
+			margin-top: 30%;
+			margin-left: 40%;
+			width: 80px;
+			height: 40px;
+		
+		}
+		
+		.btnNOITE{
+			position: absolute;
+			background-color: #fff;
+			padding-top: 2%;
+			padding-left: 2%;
+			width: 45px;
+			height: 25px;
+			margin-top: 60%;
+			border: solid 1px #7a7878;
+			margin-left: 45%;
+			border-radius: 10%;
+			box-shadow: 0px 0px 0px 1px #7a7878;
+			cursor: pointer;
+			
+		}
+		
+		
+		.btnNOITE:hover{
+			background-color: #7a7878;
+			color:#8ada0b;
+		}
+		
+			
+
+
+
 		.Theme{
 			position: absolute;
 			width: 100px;
@@ -111,6 +189,7 @@
 			border-top-right-radius: 5%;
 			border-bottom-right-radius: 5%;
 			display: none;
+			border: solid 1px #7a7878;
 			
 		}
 
@@ -119,16 +198,16 @@
 			position: absolute;
 			width: 30px;
 			height: 30px;
-			margin-top: 5%;
-			margin-left: -4%;
+			margin-top: 35%;
+			margin-left: -25%;
 			cursor: pointer;
 
 		}
 
 		input:checked + .Theme{
 			
-			display: block;
-			background-color:rgba(0, 0, 0, 0 .3);
+			display: flex;
+			background-color:rgba(0, 0, 0, .2);
 			transition: .3s;
 
 		}
@@ -164,106 +243,7 @@
 
 /*        PAINEL NOITE MOBILE                         */
 
-		p.noite{
-
-			position: absolute;
-			width: 40px;
-			height: 40px;
-			margin-left: 65%;
-			margin-top: 1%;
-	
-		}
-	
-		#PainelNoite{
-	
-			width: 120px;
-			height: 100px;
-			background-color: #fff;
-			margin-left: 30%;
-			
-			border-radius: 5%;
-			border: solid 2px #7a7878;
-			margin-top: 5%;
-			box-shadow: 0px 0px 4px #505050;
-			
-			display: none;
-			
-	
-		}
-
-		.Xis p a{
-			color: #000;
-			position: relative;
-			margin-top: 5%;
-			margin-left: 90%;
-		}
-	
-		#PainelNoite:target{
-	
-			display: block;
-			margin-top: 10%;
-			margin-left: 35%;
-			position: fixed;
-			
-	
-		}
-	
-		.destroi{
-	
-			position: absolute;
-			color: #7a7878;
-			margin-top: -4%;
-			margin-left: 90%;
-			width: 25px;
-			height: 25px;
-			background-color: #fff;
-			border-radius: 50%;
-			border: solid 2px #7a7878 ;
-			cursor: pointer;
-			font-size: 21px;
-			
-	
-		}
-	
-		p.destroi:target{
-	
-			display: none;
-	
-		}
-	
-		p.Tmodo{
-	
-			color: #000;
-			text-align: center;
-			margin-top: 10%;
-			font-size: 10pt;
-	
-		}
-	
-		p.BtnNoite{
-	
-			position: absolute;
-			width: 55px;
-			height: 30px;
-			background-color: #fff;
-			margin-top: 38%;
-			margin-left: 30%;
-			text-align: center;
-			color: #000;
-			border-radius: 10%;
-			border: solid 1px #7a7878;
-			padding-top: 5px;
-			
-			font-size: 10pt;
-	
-		}
-	
-		p.BtnNoite:hover{
-	
-			background-color: #8ada0b;
-			cursor: pointer;
-	
-		}
+		
 
 		/*         E-mail                 */
 
@@ -11991,12 +11971,14 @@ margin-left: -14%;
 	
 }
 
-@media screen and (min-width:1280px){
+@media screen and (min-width:1280px) {
+
+
 
 
 	#Divi{
 
-		position: -ms-page;
+		
 		width: 400px;
 		height: 500px;
 		border: solid 1px #7a7878;
@@ -12004,6 +11986,7 @@ margin-left: -14%;
 		margin-top: 3%;
 		border-radius: 5%;
 		box-shadow: 0px 0px 4px #7a7878;
+		
 
 
 	}
@@ -12015,104 +11998,81 @@ margin-left: -14%;
 	}
 
 
-	p.noite{
+	
+.Fundo{
+	background-color: #fff;
+	width: 250px;
+	height: 200px;
+	margin-left: 75%;
+	margin-top: 5%;
+	position: absolute;
+	border-radius: 5%;
+	border: solid 1px #7a7878;
+	display: none;
+	box-shadow: 0px 0px 4px #7a7878;
+}
 
-		position: absolute;
-		width: 40px;
-		height: 40px;
-		margin-left: 88%;
-		margin-top: 1%;
+input:checked + .Fundo{
 
-	}
+	display: block;
+}
 
-	#PainelNoite{
+.MODONOITE{
 
-		width: 180px;
-		height: 100px;
-		background-color: #fff;
-		margin-left: 85%;
-		margin-top: 7%;
-		border-radius: 5%;
-		border: solid 2px #7a7878;
-		margin-top: 5%;
-		box-shadow: 0px 0px 4px #505050;
-		position: fixed;
-		display: none;
-		
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-left: 86%;
+	margin-top: 1%;
+	cursor: pointer;
 
-	}
+}
 
-	#PainelNoite:target{
+input{
+	position: absolute;
+	visibility: hidden;
+	
+}
 
-		display: block;
-		
+.TN{
+	position: absolute;
+	text-align: center;
+	margin-top: 3%;
+}
 
-	}
+.Fundo img{
 
-	.destroi{
+	position: absolute;
+	margin-top: 30%;
+	margin-left: 40%;
+	width: 80px;
+	height: 40px;
 
-		position: absolute;
-		color: #7a7878;
-		margin-top: -4%;
-		margin-left: 90%;
-		width: 25px;
-		height: 25px;
-		background-color: #fff;
-		border-radius: 50%;
-		border: solid 2px #7a7878 ;
-		cursor: pointer;
-		font-size: 21px;
-		
+}
 
-	}
+.btnNOITE{
+	position: absolute;
+	background-color: #fff;
+	padding-top: 2%;
+	padding-left: 2%;
+	width: 45px;
+	height: 25px;
+	margin-top: 50%;
+	border: solid 1px #7a7878;
+	margin-left: 45%;
+	border-radius: 10%;
+	box-shadow: 0px 0px 0px 1px #7a7878;
+	cursor: pointer;
+	
+}
 
-	.destroi:hover{
 
-		background-color: red;
-		color: #fff;
+.btnNOITE:hover{
+	background-color: #7a7878;
+	color:#8ada0b;
+}
 
-	}
-
-	p.destroi:target{
-
-		display: none;
-
-	}
-
-	p.Tmodo{
-
-		color: #000;
-		text-align: center;
-		margin-top: 10%;
-		font-size: 12pt;
-
-	}
-
-	p.BtnNoite{
-
-		position: absolute;
-		width: 55px;
-		height: 30px;
-		background-color: #fff;
-		margin-top: 34%;
-		margin-left: 38%;
-		text-align: center;
-		color: #000;
-		border-radius: 10%;
-		border: solid 1px #7a7878;
-		padding-top: 5px;
-		
-		font-size: 10pt;
-
-	}
-
-	p.BtnNoite:hover{
-
-		background-color: #8ada0b;
-		cursor: pointer;
-
-	}
-
+	
 	
 
 	p.pensamento{
