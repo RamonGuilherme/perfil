@@ -72,7 +72,7 @@
 			top: auto;
 			border-bottom-left-radius: 3%;
 			border-bottom-right-radius: 3%;
-			visibility: visible;
+			visibility: hidden;
 			width: 100%;
 			
 			
@@ -131,7 +131,7 @@
 			margin-top: 15%;
 			position: absolute;
 			border-radius: 5%;
-			border: solid 1px #7a7878;
+			border: solid 1px #242424;
 			display: none;
 			box-shadow: 0px 0px 4px #7a7878;
 		}
@@ -163,14 +163,16 @@
 			text-align: center;
 			margin-top: 3%;
 			width: 100%;
+			font-size: .8em;
+			color: #242424;
 		}
 		
 		.Fundo img{
 		
 			position: absolute;
 			margin-top: 30%;
-			margin-left: 28%;
-			width: 80px;
+			margin-left: 38%;
+			width: 40px;
 			height: 40px;
 		
 		}
@@ -178,23 +180,25 @@
 		.btnNOITE{
 			position: absolute;
 			background-color: #fff;
-			padding-top: 2%;
-			padding-left: 2%;
+			padding-top: 5%;
+			padding-left: 8%;
 			width: 45px;
 			height: 25px;
 			margin-top: 70%;
 			border: solid 1px #7a7878;
-			margin-left: 37%;
+			margin-left: 31%;
 			border-radius: 10%;
 			box-shadow: 0px 0px 0px 1px #7a7878;
+			font-size: .8em;
 			cursor: pointer;
+			color: #242424;
 			
 		}
 		
 		
 		.btnNOITE:hover{
-			background-color: #7a7878;
-			color:#8ada0b;
+			background-color: #242424;
+			color:#fff;
 		}
 		
 			
@@ -342,19 +346,19 @@
 		p.TxtEmail{
 
 			position: absolute;
-			margin-top: 162%;
-			margin-left: 22%;
+			margin-top: 175%;
+			margin-left: 27%;
 			color:#000;
 			font-size: 10pt;
 		}
 
-		p.IconEmail{
+		p.IconEmail img{
 
 			position: absolute;
 			width: 15px;
 			height: 15px;
-			margin-top: 162%;
-			margin-left: 16%;
+			margin-top: 175%;
+			margin-left: -81%;
 		}
 		
 		/*     CONFIGURAÇÃO DE FOOTERS        */
@@ -446,7 +450,7 @@
 		
 			position: absolute;
 			background: #242424;
-			color: #8ada0b;
+			color: #fff;
 			margin-top: 485%;
 			text-align: center;
 			padding: 45px 0 45px 0;
@@ -731,7 +735,7 @@
 		
 		p.Titulo {
 		
-			position: absolute;
+		  position: absolute;
 		  text-align: center;
 		  font-size: 18px;
 		  margin-top: 20%;
@@ -1080,71 +1084,71 @@
 		
 		}
 		
-		p.iconenome{
+		p.iconenome img{
 		
 			width: 20px;
 			height: 20px;
 			position: absolute;
 			margin-top: 70%;
-			margin-left: 3%;
+			margin-left: -99%;
 		}
 		
-		p.iconenome2{
+		p.iconenome2 img{
 		
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 100%;
-			margin-left: 3%;
+			margin-left: -99%;
 		}
 		
-		p.iconenome3{
+		p.iconenome3 img{
 		
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 110%;
-			margin-left: 3%;
+			margin-left: -99%;
 		}
 		
-		p.iconenome4{
+		p.iconenome4 img{
 		
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 90%;
-			margin-left: 3%;
+			margin-left: -99%;
 			
 		}
 		
-		p.iconenome5{
+		p.iconenome5 img{
 		
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 130%;
-			margin-left: 3%;
+			margin-left: -99%;
 			
 		}
 		
-		p.iconenome6{
+		p.iconenome6 img{
 		
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 80%;
-			margin-left: 3%;
+			margin-left: -99%;
 			width: auto;
 			
 		}
 
-		p.SignoIMG{
+		p.SignoIMG img{
 		
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 120%;
-			margin-left: 3%;
+			margin-left: -99%;
 			
 		}
 
@@ -1162,15 +1166,15 @@
 		
 		p.fotominha img{
 		
+			position: absolute;
 			width: 80px;
 			height: 80px;
-			
-			margin-left: 80%;
-			margin-top: 7%;
+			margin-left: 40%;
+			margin-top: 5%;
 			border-radius: 50%;
 			box-shadow: 0px 2px 6px #242424;
 			border: solid 1px #000;
-			width: auto;
+			
 			
 			
 		
@@ -1190,7 +1194,7 @@
 		
 			position: relative;
 			width: 100%;
-			margin-top: 40%;
+			margin-top: 65%;
 		
 		}
 
@@ -1199,7 +1203,7 @@
 			position: absolute;
 			margin-left: 3%;
 			font-size: 10px;
-			margin-top: 35%;
+			margin-top: 40%;
 			color: #242424;
 			width: auto;
 
@@ -1208,7 +1212,7 @@
 		p.pensador{
 
 			position: absolute;
-			margin-top: 40%;
+			margin-top: 45%;
 			color: #242424;
 			margin-left: 55%;
 			font-size: 12px;
@@ -1222,7 +1226,7 @@
 		
 			position: absolute;
 			margin-top: 55%;
-			margin-left: 36%;
+			margin-left: 40%;
 			color: #000;
 		}
 		
@@ -1231,8 +1235,8 @@
 				width: 18px;
 				height: 18px;
 				position: absolute;
-				margin-top: 26%;
-				margin-left: 29%;
+				margin-top: 54%;
+				margin-left: 32%;
 				
 		
 		}
@@ -1340,13 +1344,13 @@
 
 		}
 
-		p.ProjectIMG{
+		p.ProjectIMG img{
 
 			width: 25px;
 			height: 25px;
 			position: absolute;
 			margin-top: 140%;
-			margin-left: 3%;
+			margin-left: -99%;
 
 		}
 
@@ -1362,6 +1366,7 @@
 			margin-top: 40%;
 			border-radius: 5%;
 			display: none;
+			
 
 		}
 
@@ -1375,11 +1380,11 @@
 			border-radius: 50%;
 			color: #606060;
 			margin-top: 40%;
-			margin-left: -60%;
+			margin-left: 40%;
 			text-align: center;
 			padding-top: 5px;
 			box-shadow: 0px 4px 6px #242424;
-			position:unset;
+			
 			font-size: 25px;
 
 		}
@@ -1418,7 +1423,8 @@
 			color: #fff;
 			position: absolute;
 			margin-top: 35%;
-			text-align: center;
+			margin-left: 15%;
+			width: auto;
 		}
 
 		.Gdormindo{
@@ -1589,44 +1595,44 @@
 		
 		}
 		
-		p.iconeskill1{
+		p.iconeskill1 img{
 			position: absolute;
-			width: 25px;
-			height: 25px;
-			margin-top: 36%;
-			margin-left: 5%;
+			width: 20px;
+			height: 20px;
+			margin-top: 38%;
+			margin-left: 7%;
 		}
 		
-		p.iconeskill2{
+		p.iconeskill2 img{
 			position: absolute;
-			width: 25px;
-			height: 25px;
-			margin-top: 47%;
-			margin-left: 5%;
+			width: 20px;
+			height: 20px;
+			margin-top: 50%;
+			margin-left: 7%;
 		}
 		
-		p.iconeskill3{
+		p.iconeskill3 img{
 			position: absolute;
-			width: 25px;
-			height: 25px;
-			margin-top: 57%;
-			margin-left: 5%;
+			width: 20px;
+			height: 20px;
+			margin-top: 60%;
+			margin-left: 7%;
 		}
 		
-		p.iconeskill4{
+		p.iconeskill4 img{
 			position: absolute;
-			width: 25px;
-			height: 25px;
-			margin-top: 67%;
-			margin-left: 5%;
+			width: 20px;
+			height: 20px;
+			margin-top: 70%;
+			margin-left: 7%;
 		}
 		
-		p.iconeskill5{
+		p.iconeskill5 img{
 			position: absolute;
-			width: 25px;
-			height: 25px;
-			margin-top: 80%;
-			margin-left: 5%;
+			width: 20px;
+			height: 20px;
+			margin-top: 83%;
+			margin-left: 7%;
 		}
 		
 		/*    PAINEL MIDIA     */
@@ -1737,7 +1743,7 @@
 		
 			position: absolute;
 			color: #000;
-			margin-left: 22%;
+			margin-left: 28%;
 			margin-top: 462%;
 			width: auto;
 		}
