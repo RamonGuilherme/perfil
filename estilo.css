@@ -838,11 +838,12 @@
 		
 		p.Acessib img{
 		
-			position: absolute;
+			position:absolute;
 			width: 34px;
 			height: 34px;
 			margin-left: 275%;
 			margin-top: -250%;
+			visibility: hidden;
 			
 			
 		}
@@ -1718,6 +1719,7 @@
 			height: 34px;
 			margin-left: 40%;
 			margin-top: 25%;
+			visibility: hidden;
 			
 		}
 		
@@ -4360,6 +4362,7 @@ p.Acessib{
 	height: 34px;
 	margin-left: 82%;
 	margin-top: 1%;
+	visibility: hidden;
 }
 
 p.Acessib2{
@@ -5780,7 +5783,7 @@ footer.Flogin{
 
 	position: absolute;
 	background: #242424;
-	color: #8ada0b;
+	color: #fff;
 	margin-top: 170%;
 	text-align: center;
 	padding: 45px 0 45px 0;
@@ -5883,7 +5886,7 @@ p.Btnentrar {
 p.Btnentrar:hover {
 	
 	background: #505050;
-	color:blueviolet;
+	color:#8ada0b;
 	
 }
 
@@ -5993,7 +5996,7 @@ p.visuali img{
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	margin-top: 140%;
+	margin-top: 162%;
 	margin-left: 12%;
 
 
@@ -6080,7 +6083,7 @@ p.Acessib img{
 	position: absolute;
 	width: 34px;
 	height: 34px;
-	margin-left: 80%;
+	margin-left: -140%;
 	margin-top: 2%;
 }
 
@@ -12530,6 +12533,117 @@ input{
 	color:#8ada0b;
 }
 
+
+
+.Theme{
+	position: absolute;
+	width: 250px;
+	height: 400px;
+	background-color: #fff;
+	margin-left: 0%;
+	margin-top: 8%;
+	display: none;
+	border: solid 1px #7a7878;
+	
+	
+}
+
+.Troca_Tema{
+
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: 1%;
+	margin-left: 1%;
+	cursor: pointer;
+	
+
+}
+
+input:checked + .Theme{
+	
+	display: flex;
+	transition: .3s;
+	
+
+}
+
+input{
+	visibility: hidden;
+}
+
+
+.TxtNew{
+
+
+	position: absolute;
+	width: 100%;
+	background-color: #242424;
+	height: 10%;
+	
+	
+	
+	
+
+}
+
+.TxtNewP{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 4%;
+	font-size: 0.8em;
+	color: #fff;
+	width: auto;
+}
+
+.TxtNewP2{
+	position: absolute;
+	margin-left: 18%;
+	margin-top: 150%;
+	font-size: 0.8em;
+	color: #fff;
+	width: auto;
+}
+
+.TxtNew2{
+
+
+	position: absolute;
+	margin-top: 50%;
+	width: auto;
+	text-align: center;
+	font-size: 0.9em;
+	color: #242424;
+
+}
+
+
+.TxtNew3{
+
+
+	position: absolute;
+	width: 100%;
+	margin-top: 144%;
+	background-color: #242424;
+	height: 10%;
+	text-align: center;
+	font-size: 0.8em;
+	color: #fff;
+	
+
+}
+
+.smiletriste{
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 75%;
+	margin-left: 35%;
+	
+}
+
+
+
 	
 	
 
@@ -12600,6 +12714,7 @@ p.Vmobile{
 	margin-top: 47%;
 	margin-left: 45%;
 	visibility: hidden;
+	
 
 }
 
@@ -12614,14 +12729,14 @@ p.TxtVmobile{
 
 }
 
-p.Vdesktop{
+p.Vdesktop img{
 		
 		
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	margin-top: 48%;
-	margin-left: 58%;
+	margin-top: 10%;
+	margin-left: 5%;
 	visibility: visible;
 
 }
@@ -12634,6 +12749,7 @@ p.TxtVdesktop{
 	color: #000;
 	font-size: 10pt;
 	visibility: visible;
+	width: auto;
 
 }
 
@@ -12797,7 +12913,7 @@ p.Btnentrar {
 		color: #242424;
 		background: lightgray;
 		width: 100%;
-		margin-top: 50%;
+		margin-top: 52%;
 		padding-top: 40px;
 		padding-bottom: 40px;
 		text-align: center;
@@ -13021,6 +13137,7 @@ p.imgcomp img{
      height: 50px;
      margin-left: 95%;
 	 position: absolute;
+	 margin-top: 0%;
 	
      
 
@@ -13086,7 +13203,7 @@ p.visu img{
 
 /*   VIZUALIZAÇÕES VISÃO DESKTOP    */
 
-p.visuali{
+p.visuali img{
 
 
 	position: absolute;
@@ -14277,7 +14394,7 @@ p.Acessib{
 	position: absolute;
 	width: 34px;
 	height: 34px;
-	margin-left: 92%;
+	margin-left: 86%;
 	margin-top: 1%;
 }
 
