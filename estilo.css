@@ -450,7 +450,7 @@
 		
 		footer.Fperfil{
 		
-			position: absolute;
+			position: fixed;
 			background: #242424;
 			color: #fff;
 			margin-top: 485%;
@@ -3406,7 +3406,7 @@ footer:hover{
 
 footer.Fperfil{
 
-	position: absolute;
+	position: fixed;
 	background: #242424;
 	color: #fff;
 	margin-top: 420%;
