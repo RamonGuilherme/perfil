@@ -367,7 +367,7 @@
 		
 		footer{
 		
-			position: absolute;
+			position: fixed;
 			background: #242424;
 			color: #fff;
 			margin-top: 500%;
@@ -453,10 +453,10 @@
 			position: fixed;
 			background: #242424;
 			color: #fff;
-			margin-top: 485%;
+			margin-top: 100vh;
 			text-align: center;
 			padding: 45px 0 45px 0;
-			margin-bottom: auto;
+			
 			width: 100%;
 			font-size: 0.8em;
 			
@@ -3409,10 +3409,10 @@ footer.Fperfil{
 	position: fixed;
 	background: #242424;
 	color: #fff;
-	margin-top: 420%;
+	margin-top: 100vh;
 	text-align: center;
 	padding: 45px 0 45px 0;
-    margin-bottom: auto;
+ 
 	
 }
 
