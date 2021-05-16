@@ -22,106 +22,58 @@
 	}	
 	
 
-.conteudo{
-	max-width: 360px;
-}
-	
-	
-		.conteudo{
-	
-	
-			float: none;
-			margin: 0 auto;
-			padding: 0 10px;
-			width: auto;
-			visibility: hidden;
-			
-			
-		}
 		
-		.menuMobile {
+
+		/*       PAINEL LOGIN MOBILE                 */
+
+
+
+		.FundoR{
 			
-			background-color: #242424;
-			padding: 5px 0;
-			box-shadow: 5px 5px 5px #7a7878;
-			width: auto;
-			visibility: hidden;
-			
-			
-			
-		}
-		
-		.menuMobile label{
-			
-			width: auto;
-		}
-		
-		.menuMobile span{
-			
-			color: #fff;
-			border: 2px solid #fff;
-			width: auto;
-			padding: 5px;
-			border-radius: 10%;
-			width: auto;
-			
-		}
-		
-		.menuPrincipal{
-			background-color: #242424;
-			transition: all 1.3s linear;
-			position: absolute;
-			top: auto;
-			border-bottom-left-radius: 3%;
-			border-bottom-right-radius: 3%;
-			visibility: hidden;
-			width: 100%;
-			
-			
-			
-			
-		}
-		
-		.menuPrincipal li{
-			
-			
-			color: #fff;
-			padding: 15px 15px 15px 60px;
-			border-bottom-left-radius: 2%;
-			border-top-left-radius: 2%;
+			background-color: #fff;
+			width: 250px;
+			height: 35px;
+			margin-left: 20%;
 			margin-top: 15%;
-			width: auto;
-			
-			
-			
+			position: absolute;
+			border: solid 1px #242424;
+			display: none;
+			box-shadow: 0px 0px 4px #7a7878;
 		}
 		
-		.menuPrincipal li:hover{
-			
-			background: #ccc;
-			color: #242424;
-			
-			
-			
-			
+		input:checked + .FundoR{
+		
+			display: block;
 		}
 		
-		#abrirMenu{
-			
-			visibility: hidden;
-			width: 0;
-			height: 0;
-			
+		.MODONOITER{
+		
+			position: absolute;
+			width: 30px;
+			height: 30px;
+			margin-left: 60%;
+			margin-top: 1%;
+			cursor: pointer;
+		
 		}
 		
-		#abrirMenu:checked ~ ul{
-			
-			top: 42px;
-			
+		input{
+			position: absolute;
+			visibility: visible;
 			
 		}
 
-		/*       PAINEL LOGIN MOBILE                 */
+		#RELOGIO2{
+
+			position: absolute;
+			color: #242424;
+			width: auto;
+			font-size: .7em;
+			text-align: center;
+		}
+
+
+	/*                          */
 
 
 
@@ -156,7 +108,7 @@
 		
 		input{
 			position: absolute;
-			visibility: hidden;
+			visibility: visible;
 			
 		}
 		
@@ -365,23 +317,7 @@
 		
 		/*     CONFIGURAÇÃO DE FOOTERS        */
 		
-		footer{
-		
-			position: fixed;
-			background: #242424;
-			color: #fff;
-			margin-top: 500%;
-			text-align: center;
-			padding: 45px 0 45px 0;
-			margin-bottom: auto;
-			
-		}
-		
-		footer:hover{
-			
-			color: #505050;
-			
-		}
+	
 		
 		/*     FOOTER DA PAGINA SOBRE        */
 		
@@ -450,13 +386,13 @@
 		
 		footer.Fperfil{
 		
-			position: fixed;
+			position: absolute;
 			background: #242424;
 			color: #fff;
-			margin-top: 100vh;
-			text-align: center;
-			padding: 45px 0 45px 0;
+			padding: 45px 0px 45px 0;
+			margin-top: 480%;
 			
+			text-align: center;
 			width: 100%;
 			font-size: 0.8em;
 			
@@ -464,7 +400,7 @@
 		
 		footer:hover{
 			
-			color: #505050;
+			color: #d17474;
 			
 		}
 		
@@ -480,13 +416,9 @@
 			font-size: 0.8em;
 			border-top: solid 1px #7a7878;
 			box-shadow: 0px 0px 8px 5px #7a7878;
-			
-			
-			
-			
-			
-			
-		}
+			padding: 45px 0 45px 0;
+			text-align: center;
+			}
 		
 		footer:hover{
 			
@@ -544,6 +476,7 @@
 			text-align: center;
 			border: solid black 1px;
 			display: flex;
+			flex-direction: row;
 				
 			}
 			
@@ -1072,7 +1005,7 @@
 		#fundoperfil:hover{
 		
 			background-color:#fff;
-			transition: 2s;
+			
 			
 		}
 		
@@ -1080,7 +1013,7 @@
 		
 			width: 35px;
 			height: 35px;
-			position: relative;
+			position: absolute;
 			margin-left: 87%;
 			border-bottom-left-radius: 15%;
 			margin-top: -72%;
@@ -3406,13 +3339,14 @@ footer:hover{
 
 footer.Fperfil{
 
-	position: fixed;
+	position: absolute;
 	background: #242424;
 	color: #fff;
-	margin-top: 100vh;
+	margin-top: 440%;
 	text-align: center;
 	padding: 45px 0 45px 0;
- 
+	margin-bottom: auto;
+    
 	
 }
 
@@ -12498,6 +12432,9 @@ margin-left: -14%;
 }
 
 @media screen and (min-width:1280px) {
+
+
+
 
 
 /*
