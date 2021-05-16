@@ -20,6 +20,9 @@
 <body>
 
 	<main>
+
+        <p class="BtnBack"><a href="login.html">Voltar Para o Inicio</a></p>
+
 		<div class="container">
 		  <div class="title"> Calculadora - IMC </div>
 		  <div class="input">
@@ -95,10 +98,30 @@ calcular.addEventListener('click', imc);
 		height: 100vh;
 		justify-content: center;
 		align-items: center;
-        margin: 0px;
-        padding: 0px;
+        
+        
 	  
 	  }
+
+      .BtnBack{
+
+        margin-top: -125%;
+        position: absolute;
+        background-color: #242424;
+        color: #fff;
+        text-align: center;
+        width: 150px;
+        height: 25px;
+        padding-top: 2%;
+        border-radius: 5%;
+        text-decoration: none;
+
+      }
+
+      .BtnBack a{
+          text-decoration: none;
+          color: #fff;
+      }
 	  
 	  .container{
 		display: flex;
@@ -110,6 +133,7 @@ calcular.addEventListener('click', imc);
 		justify-content: space-evenly;
 		border-radius: 20px;
 		box-shadow: 0 0 10px black;
+        margin-top: 35%;
 	  }
 	  
 	  .title{
@@ -180,7 +204,11 @@ calcular.addEventListener('click', imc);
           background-color: #242424;
           text-align: center;
           width: 100%;
-          margin-top: 5%;
+          padding: 45px 0 45px 0;
+          margin-top: 20%;
+          color: #fff;
+          font-family: Arial;
+          font-size: .8em;
 
       }
 
