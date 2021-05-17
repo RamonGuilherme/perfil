@@ -347,12 +347,21 @@
 
 		}
 
-		.smiletriste{
-			width: 30px;
-			height: 30px;
+		.calcapp{
+			width: 25px;
+			height: 25px;
 			position: absolute;
 			margin-top: 50%;
 			margin-left: 5%;
+			
+		}
+
+		.calcapp2 {
+			width: 60px;
+			height: 60px;
+			position: absolute;
+			margin-top: 80%;
+			margin-left: 35%;
 			
 		}
 
@@ -3281,7 +3290,27 @@ width: auto;
 	height: 30px;
 	margin-top: 85%;
 	margin-left: 5%;
-}	
+}
+
+.calcapp {
+
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 5%;
+	
+}
+
+.calcapp2{
+
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 35%;
+	
+}
 
 
 .Fundo{
@@ -3460,14 +3489,7 @@ input{
 
 }
 
-.smiletriste{
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	margin-top: 45%;
-	margin-left: 5%;
-	
-}
+
 
 
 
