@@ -4,235 +4,357 @@
 
 <head>
 
-<title>IMC</title>
+<title>Teste</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Portifólio E Projetos Pessoais">
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
+<style>
+
+       {
+
+         margin: 0px;
+         
 
 
+       }
+
+/*     Mobile      */
+
+
+#container{
+
+display: flex;
+flex-direction: column;
+background-color: #fff;
+width: 80%;
+height: 500px;
+margin-top: 5%;
+margin-left: 10%;
+border-radius: 2%;
+border: solid 1px #242424;
+
+}
+
+.name{
+  display: flex;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  margin-top: 21%;
+  margin-left: 5%;
+} 
+
+.alt{
+
+  display: flex;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  margin-top: 35%;
+  margin-left: 5%;
+
+} 
+
+.pes{
+
+  display: flex;
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .8em;
+  margin-top: 50%;
+  margin-left: 5%;
+
+} 
+
+input {
+
+display: flex;
+width: 60%;
+height: 30px;
+margin-left: 25%;
+margin-top: 5%;
+font-size: .9em;
+text-align: center;
+
+
+
+}
+
+.botao{
+
+display: flex;
+flex-direction:row;
+align-content: center;
+align-items: center;
+justify-content: center;
+width: 30%;
+height: 30px;
+background-color: #242424;
+border-radius: 5%;
+color: #fff;
+margin-left: 40%;
+font-size: 1.0em;
+cursor: pointer;
+}
+
+.botao:hover{
+
+  background-color:darkslateblue;
+
+}
+
+#visor{
+
+
+width: 80%;
+height: 150px;
+background-color: #fff;
+margin-bottom: 1%;
+margin-left: 9%;
+color:#242424;
+border-radius: 5%;
+border: solid 3px rgba(219, 223, 12, 0.836);
+margin-top: 10%;
+}
+
+.TxtTela{
+
+text-align: center;
+font-family: sans-serif;
+font-size: .9em;
+margin-top: 28%;
+}
+
+.TextIMC{
+
+text-align: center;
+font-family: sans-serif;
+font-size: 1.1em;
+}
+
+.VER{
+
+  position: absolute;
+  font-family: sans-serif;
+  font-size: .6em;
+  margin-top: 11%;
+  margin-left: 50%;
+  
+
+}
+
+.DEV{
+
+position: absolute;
+font-family: sans-serif;
+font-size: .6em;
+margin-top: 132%;
+margin-left: 18%;
+
+
+}
+
+
+
+ @media screen and (min-width: 1024px) {    
+    
+  #container{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 80%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 10%;
+    border-radius: 2%;
+    border: solid 1px #242424;
+    
+  }
+
+  .name{
+
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 1.1em;
+      margin-top: 5%;
+      margin-left: 22%;
+  } 
+
+  .alt{
+
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 1.1em;
+      margin-top: 10%;
+      margin-left: 22%;
+    
+  } 
+
+  .pes{
+
+      position: absolute;
+      font-family: sans-serif;
+      font-size: 1.1em;
+      margin-top: 15%;
+      margin-left: 22%;
+    
+  } 
+
+  input {
+
+    display: flex;
+    width: 30%;
+    height: 60px;
+    margin-left: 35%;
+    font-size: 12pt;
+    text-align: center;
+    
+    
+
+  }
+
+  .botao{
+
+    width: 10%;
+    height: 50px;
+    background-color: #242424;
+    border-radius: 5%;
+    text-align: center;
+    color: #fff;
+    margin-left: 45%;
+    font-size: 1.3em;
+    cursor: pointer;
+  }
+
+  .botao:hover{
+
+      background-color:darkslateblue;
+
+  }
+
+  #visor{
+
+    width: 300px;
+    height: 150px;
+    background-color: #242424;
+    margin-bottom: 1%;
+    margin-left: 36%;
+    color:#fff;
+    border-radius: 5%;
+    border: solid 5px rgba(219, 223, 12, 0.836);
+
+  }
+
+  .TxtTela{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    margin-top: 25%;
+  }
+
+  .TextIMC{
+
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.1em;
+  }
+
+} 
+
+</style>
 
 </head>
 
 
 <body>
 
-<p class="BtnBack"><a href="login.html">Volta Para o Inicio</a></p>
 
-     
+<div id="container">
 
-	<main>
-
-        
-
-		<div class="container">
-		  <div class="title"> Calculadora - IMC </div>
-		  <div class="input">
-			  <label>Nome:</label>
-			  <input type="text" id='nome'>
-		  </div>
-		  <div class="input">
-			  <label>Altura:</label>
-			  <input type="number" id='altura'>
-		  </div>
-		  <div class="input">
-			  <label>Peso:</label>
-			  <input type="number" id='peso'>
-		  </div>
-		  <button id='calcular'>Calcular</button>
-  
-		  <div class="result" id='resultado'></div>
-		</div>
-	  </main>
-	 
-	 
-	  <script>
+<p class="TextIMC">Sistema de Calculo de IMC</p>
 
 
-const calcular = document.getElementById('calcular');
 
-function imc () {
-    const nome = document.getElementById('nome').value;
-    const altura = document.getElementById('altura').value;
-    const peso = document.getElementById('peso').value;
-    const resultado = document.getElementById('resultado');
+<p class="VER">Versão de teste</p>
 
-    if (nome !== '' && altura !== '' && peso !== '') {
+<p class="DEV">Desenvolvedor : Ramon Guilherme</p>
 
-        const valorIMC = (peso / (altura * altura)).toFixed(1);
+<p class="name">Nome</p>
 
-        let classificacao = '';
+<p class="alt">Altura</p>
 
-        if (valorIMC < 18.5){
-            classificacao = 'abaixo do peso.';
-        }else if (valorIMC < 25) {
-            classificacao = 'com peso ideal. Parabéns!!!';
-        }else if (valorIMC < 30){
-            classificacao = 'levemente acima do peso.';
-        }else if (valorIMC < 35){
-            classificacao = 'com obesidade grau I.';
-        }else if (valorIMC < 40){
-            classificacao = 'com obesidade grau II';
-        }else {
-            classificacao = 'com obesidade grau III. Cuidado!!';
-        }
+<p class="pes">Peso</p>
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}`;
-        
-    }else {
-        resultado.textContent = 'È necessário preencher todos os campos!';
-    }
+<input type="text" id="nome">
 
-}
+<input type="number" id="altura">
 
-calcular.addEventListener('click', imc);
-
-	  </script>
+<input type="number" id="peso">
 
 
 
 
-<style>
+<p class="botao" id="calculo" onclick="calc()">Calcular</p>
 
-	  main{
-		display: flex;
-		width: 100vw;
-		height: 100vh;
-		justify-content: center;
-		align-items: center;
-        
-        
-	  
-	  }
+<div id="visor">
 
-      .BtnBack{
+<p class="TxtTela">Resultado aqui</p>
 
-        
-        position: absolute;
-        background-color: #242424;
-        color: #fff;
-        text-align: center;
-        width: 155px;
-        height: 25px;
-        padding-top: 2%;
-        border-radius: 5%;
-        text-decoration: none;
-        
+</div>
+</div>
 
-      }
-
-      .BtnBack a{
-            text-decoration: nome;
-            color: #fff;
-
-        }
+<script>
 
       
+        const calcular = document.getElementById('calcular');
+       
+
+        function calc(){
           
-	  
-	  .container{
-		display: flex;
-		flex-direction: column;
-		background: #fff;
-		width: 280px;
-		height: 500px;
-		align-items: center;
-		justify-content: space-evenly;
-		border-radius: 20px;
-		box-shadow: 0 0 10px black;
-        margin-top: 3%;
-	  }
-	  
-	  .title{
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
-		height: 50px;
-		font-family: bold 1rem Arial;
-		border-bottom: solid 2px #242424;
-		margin-bottom: 20px;
-	  }
-	  
-	  .input {
-		display: flex;
-		width: 100px;
-		height: 30px;
-		justify-content: space-between;
-		align-items: center;
-		margin-right: 50%;
-		
-	  }
-	  .input input {
-		width: 150px;
-		height: 30px;
-		border-radius: 5px;
-		border: solid 1px #242424;
-		outline: 0;
-		font-family: bold .8rem Arial;
-		text-align: center;
-		background-color: #fff;
-		margin-left: 10%;
-	  }
-	  
-	  .input label {
-		font: bold .8rem serif;
-	  }
-	  
-	  button{
-		width: 150px;
-		height: 40px;
-		font-family: bold .8rem Arial;
-		background: #000;
-		color: #fff;
-		outline: none;
-		border-radius: 5px;
-		cursor: pointer;
-	  }
-	  
-	  .result{
-		display: flex;
-		margin-top: 20px;
-		align-items: center;
-		width: 200px;
-		height: 120px;
-		border-radius: 5px;
-		font-family: italic .8rem Arial;
-		box-shadow: 0px 0px 10px black;
-		background: #242424;
-		color: #fff;
-		padding: 20px;
-		box-sizing: border-box;
-		user-select: none;
-	  }
+        var altura = document.getElementById('altura').value;
+        var peso = document.getElementById('peso').value;
+        var nome = document.getElementById('nome').value;
+        var visor = document.getElementById('visor')
+         
 
-      .Fimc{
+        var soma = (peso / (altura * altura)).toFixed(1);
+        let res = '';
 
-          background-color: #242424;
-          text-align: center;
-          width: 100%;
-          padding: 45px 0 45px 0;
-          margin-top: 20%;
-          color: #fff;
-          font-family: Arial;
-          font-size: .8em;
+        if (soma < 18.5){
 
-      }
+          res = 'Abaixo do peso'
+          visor.innerHTML = `Oi ${nome} seu IMC é <strong>${soma}</strong> e você está ${res}` 
+          
 
-	</style>
+        } else if (soma < 25)    {
+          res = 'no peso ideal'
+          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
 
+        } else if (soma < 30)    {
+          res = 'levemente acima do peso'
+          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
 
+        }else if (soma < 35)    {
+          res = 'com obesidade grau I'
+          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+
+        }else if (soma < 40)    {
+          res = 'com obesidade grau II'
+          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+
+        }else    {
+          res = 'com obesidade grau III Cuidado!'
+          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+        }
         
-	<footer class="Fimc">
-	
-	Desenvolvedor : Ramon Guilherme &trade; 2021
-	<br>
-	Versão Turtle 1.0
-	<br>
-	Site em desenvolvimento 
-	</footer>
+      }
+  
+        </script>
 
 
 
@@ -240,3 +362,4 @@ calcular.addEventListener('click', imc);
 </body>
 
 </html>
+
