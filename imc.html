@@ -52,6 +52,7 @@
 color:brown;
 position: relative;
 text-align: center;
+font-family: sans-serif;
 }
 
 #ideal{
@@ -59,6 +60,7 @@ text-align: center;
 color:darkgreen;
 position: relative;
 text-align: center;
+font-family: sans-serif;
 }
 
 #levemente{
@@ -66,6 +68,7 @@ text-align: center;
 color: darkgreen;
 position: relative;
 text-align: center;
+font-family: sans-serif;
 }
 
 #grau1{
@@ -73,6 +76,7 @@ text-align: center;
 color: rgb(88, 14, 14);
 position: relative;
 text-align: center;
+font-family: sans-serif;
 }
 
 #grau2{
@@ -80,6 +84,7 @@ text-align: center;
 color: rgb(88, 14, 14);
 position: relative;
 text-align: center;
+font-family: sans-serif;
 }
 
 #grau3{
@@ -87,6 +92,7 @@ text-align: center;
 color: rgb(88, 14, 14);
 position: relative;
 text-align: center;
+font-family: sans-serif;
 }
 
 
@@ -420,34 +426,34 @@ margin-left: 18%;
         if (soma < 18.5){
 
           res = 'Abaixo do peso'
-          visor.innerHTML = `<p id="baixo">Oi ${nome} seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
+          visor.innerHTML = `<p id="baixo">Oi <strong>${nome}</strong> seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
           img.setAttribute('src','deslike.png')
           
           
 
         } else if (soma < 25)    {
           res = 'no peso ideal'
-          visor.innerHTML = `<p id="ideal">Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          visor.innerHTML = `<p id="ideal">Oi <strong>${nome}</strong> seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
           img.setAttribute('src','like.png')
 
         } else if (soma < 30)    {
           res = 'levemente acima do peso'
-          visor.innerHTML = `<p id="levemente"> Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          visor.innerHTML = `<p id="levemente"> Oi <strong>${nome}</strong> seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
           img.setAttribute('src','like.png')
 
         }else if (soma < 35)    {
           res = 'com obesidade grau I'
-          visor.innerHTML = `<p id="grau1"> Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          visor.innerHTML = `<p id="grau1"> Oi <strong>${nome}</strong> seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
           img.setAttribute('src','deslike.png')
 
         }else if (soma < 40)    {
           res = 'com obesidade grau II'
-          visor.innerHTML = `<p id="grau2">Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          visor.innerHTML = `<p id="grau2">Oi <strong>${nome}</strong> seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
           img.setAttribute('src','deslike.png')
 
         }else    {
           res = 'com obesidade grau III Cuidado!'
-          visor.innerHTML = `<p id="grau3">Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          visor.innerHTML = `<p id="grau3">Oi <strong>${nome}</strong> seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
           img.setAttribute('src','deslike.png')
         }
 
