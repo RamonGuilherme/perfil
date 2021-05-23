@@ -23,6 +23,48 @@
 
 /*     Mobile      */
 
+#baixo{
+
+color:brown;
+position: relative;
+text-align: center;
+}
+
+#ideal{
+
+color:darkgreen;
+position: relative;
+text-align: center;
+}
+
+#levemente{
+
+color: darkgreen;
+position: relative;
+text-align: center;
+}
+
+#grau1{
+
+color: rgb(88, 14, 14);
+position: relative;
+text-align: center;
+}
+
+#grau2{
+
+color: rgb(88, 14, 14);
+position: relative;
+text-align: center;
+}
+
+#grau3{
+
+color: rgb(88, 14, 14);
+position: relative;
+text-align: center;
+}
+
 
 #container{
 
@@ -78,7 +120,7 @@ margin-left: 25%;
 margin-top: 5%;
 font-size: .9em;
 text-align: center;
-border-radius: 10px;
+border-radius: 7px;
 
 
 
@@ -94,7 +136,7 @@ justify-content: center;
 width: 30%;
 height: 30px;
 background-color: #242424;
-border-radius: 5px;
+border-radius: 15px;
 color: #fff;
 margin-left: 40%;
 font-size: 1.0em;
@@ -109,16 +151,27 @@ cursor: pointer;
 
 #visor{
 
+  width: 80%;
+  height: 150px;
+  background-color: #fff;
+  margin-bottom: 1%;
+  margin-left: 9%;
+  color:#242424;
+  border-radius: 10px;
+  border: solid 3px rgba(219, 223, 12, 0.836);
+  margin-top: 10%;
+  font-family: sans-serif;
+}
 
-width: 80%;
-height: 150px;
-background-color: #fff;
-margin-bottom: 1%;
-margin-left: 9%;
-color:#242424;
-border-radius: 10px;
-border: solid 3px rgba(219, 223, 12, 0.836);
-margin-top: 10%;
+#visor img{
+
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  
+  
 }
 
 .TxtTela{
@@ -306,7 +359,10 @@ margin-left: 18%;
 
 <p class="TxtTela">Resultado aqui</p>
 
+
+
 </div>
+
 </div>
 
 <script>
@@ -321,37 +377,53 @@ margin-left: 18%;
         var peso = document.getElementById('peso').value;
         var nome = document.getElementById('nome').value;
         var visor = document.getElementById('visor')
+        var img = document.createElement('img')
+
+
+
          
 
         var soma = (peso / (altura * altura)).toFixed(1);
         let res = '';
 
+
+        img.setAttribute('src', 'like.png')
+
         if (soma < 18.5){
 
           res = 'Abaixo do peso'
-          visor.innerHTML = `Oi ${nome} seu IMC é <strong>${soma}</strong> e você está ${res}` 
+          visor.innerHTML = `<p id="baixo">Oi ${nome} seu IMC é <strong>${soma}</strong> e você está ${res}</p>`
+          img.setAttribute('src','deslike.png')
+          
           
 
         } else if (soma < 25)    {
           res = 'no peso ideal'
-          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+          visor.innerHTML = `<p id="ideal">Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          img.setAttribute('src','like.png')
 
         } else if (soma < 30)    {
           res = 'levemente acima do peso'
-          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+          visor.innerHTML = `<p id="levemente"> Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          img.setAttribute('src','like.png')
 
         }else if (soma < 35)    {
           res = 'com obesidade grau I'
-          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+          visor.innerHTML = `<p id="grau1"> Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          img.setAttribute('src','deslike.png')
 
         }else if (soma < 40)    {
           res = 'com obesidade grau II'
-          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+          visor.innerHTML = `<p id="grau2">Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          img.setAttribute('src','deslike.png')
 
         }else    {
           res = 'com obesidade grau III Cuidado!'
-          visor.innerHTML = `Oi ${nome} seu IMC é ${soma} e você está ${res}`
+          visor.innerHTML = `<p id="grau3">Oi ${nome} seu IMC é ${soma} e você está ${res}</p>`
+          img.setAttribute('src','deslike.png')
         }
+
+        visor.appendChild(img) 
         
       }
   
