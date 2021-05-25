@@ -23,6 +23,26 @@
 
 /*     Mobile      */
 
+#noite{
+
+  display: flex;
+flex-direction:row;
+align-content: center;
+align-items: center;
+justify-content: center;
+  position: absolute;
+  background-color: #242424;
+  color:#fff;
+  width: 25%;
+  height: 25px;
+  border-radius: 15px;
+  margin-top: 126%;
+  font-size: .8em;
+  margin-left: 27%;
+  cursor: pointer;
+
+}
+
 #MED{
   position: absolute;
   width: 20px;
@@ -189,7 +209,7 @@ cursor: pointer;
   color:#242424;
   border-radius: 10px;
   border: solid 1px #6d6969;
-  margin-top: 10%;
+  margin-top: 7%;
   font-family: sans-serif;
 }
 
@@ -210,9 +230,11 @@ text-align: center;
 font-family: sans-serif;
 font-size: .9em;
 margin-top: 28%;
+
 }
 
 .TextIMC{
+
 
 text-align: center;
 font-family: sans-serif;
@@ -226,6 +248,7 @@ font-size: 1.1em;
   font-size: .6em;
   margin-top: 11%;
   margin-left: 50%;
+ 
   
 
 }
@@ -235,7 +258,7 @@ font-size: 1.1em;
 position: absolute;
 font-family: sans-serif;
 font-size: .6em;
-margin-top: 132%;
+margin-top: 135%;
 margin-left: 18%;
 
 
@@ -355,10 +378,12 @@ margin-left: 18%;
 </head>
 
 
-<body>
+<body id="fundao"> 
 
 
 <div id="container">
+
+  <p id="noite" onclick="modonoite()">Modo Noite</p>
 
 <p class="TextIMC">Sistema de Calculo de IMC</p>
 
@@ -391,7 +416,9 @@ margin-left: 18%;
 
 <div id="visor">
 
-<p class="TxtTela">Resultado aqui</p>
+<p class="TxtTela">Resultado Aqui</p>
+
+
 
 
 
@@ -414,14 +441,19 @@ margin-left: 18%;
         var img = document.createElement('img')
 
 
-
+       
          
 
         var soma = (peso / (altura * altura)).toFixed(1);
         let res = '';
 
+        
+
 
         img.setAttribute('src', 'like.png')
+        
+
+       
 
         if (soma < 18.5){
 
@@ -457,8 +489,29 @@ margin-left: 18%;
           img.setAttribute('src','deslike.png')
         }
 
+        
+
         visor.appendChild(img) 
         
+      }
+
+      function modonoite(){
+          document.getElementById('container')
+          document.getElementById('fundao')
+          document.getElementById('visor')
+          document.getElementById('altura')
+          document.getElementById('peso')
+          document.getElementById('nome')
+          
+          container.style.background = '#606060'
+          container.style.color = '#fff'
+          fundao.style.background = '#202020'
+          visor.style.background = '#ccc'
+          visor.style.color = '#000'
+          altura.style.background = "#ccc"
+          nome.style.background = "#ccc"
+          peso.style.background = "#ccc"
+
       }
   
         </script>
