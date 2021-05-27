@@ -4,7 +4,7 @@
 
 <head>
 
-<title>BANCO</title>
+<title>Simulador - Banco</title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,7 +83,7 @@
         margin-top: 65%;
         margin-left: 28%;
         width: 50%;
-        height: 5%;
+        height: 7%;
         text-align: center;
         font-size: 1.1em;
         border-radius: 5px;
@@ -219,9 +219,9 @@
 
 <p id="TxtTopo">Simulador Bancário (Em Teste)</p>
 
-<p id="SaldoT">Saldo Total Da Conta</p>
+<p id="SaldoT">Saldo Total</p>
 
-<img src="olho.png" id="visu">
+<img src="olho.png" id="visu" onclick="esconde()">
 
 <div id="saldo">
     
@@ -248,13 +248,7 @@
 
 <script>
 
-
-
-
-
-
-
-    var st = 50
+     var st = 50
 saldo.innerHTML = `<p id="TXT_S">R$ ${st.toFixed(2)}</p>`
 
 function retira(){
@@ -267,23 +261,31 @@ function retira(){
 
      saldo.innerHTML = `<p id="TXT_S">R$ ${st.toFixed(2)}</p>`
 
-     alert('Saque no valor de R$: ' +valor+ ' Realizado com sucesso' )
+     alert('Saque no valor de R$ ' +valor+ ' Realizado com sucesso' )
 
      }
 
      function deposita(){
 
-var saldo = document.getElementById('saldo')
-var btnMenos = document.getElementById('btnMenos').value
+      
 var valor = document.getElementById('valor').value
 
-st = st + valor
+       st = st  + parseInt(valor)
 
-saldo.innerHTML = `<p id="TXT_S">R$ ${st}</p>`
+saldo.innerHTML = `<p id="TXT_S">R$ ${st.toFixed(2)}</p>`
 
-alert('Depósito no valor de R$ : ' +valor+ ' Realizado com sucesso' )
+alert('Depósito no valor de R$ ' +valor+ ' Realizado com sucesso' )
 
 }
+
+function esconde(){
+
+    document.getElementById('saldo').value
+    saldo.style.display = "none"
+    
+}
+
+
 
     
      
