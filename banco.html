@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+<title>BANCO</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portifólio E Projetos Pessoais">
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #sai{
+        
+        position: absolute;
+        background-color: #7c0f0f;
+        color: #fff;
+        width: 60px;
+        height: 25px;
+        margin-left: 80vw;
+        margin-top: 92vh;
+        font-size: 1.1em;
+        text-align: center;
+        padding-top: 2px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
+
+   
+
+    
+
+    #saldo{
+        position: absolute;
+        background-color: #fff;
+        width: 120px;
+        height: 40px;
+        margin-top: 6%;
+        margin-left: 1%;
+        border-radius: 5px;
+        border: solid 1px #242424;
+        color:chocolate;
+        text-align: center;
+        font-size: 1.1em;
+        cursor: pointer;
+    }
+
+    #saldo:hover{
+
+        width: 124px;
+        height: 44px;
+        transition: 0.7s;
+        box-shadow: 1px 1px 7px #0faa43;
+
+    }
+
+    #SaldoT{
+
+        position: absolute;
+        margin-left: 1%;
+        margin-top: 1%;
+        color: #242424;
+        font-family: sans-serif;
+        font-size: .7em;
+
+    }
+
+    #TXT_S{
+        margin-top: 7%;
+    }
+
+    #input, #valor{
+
+        position: absolute;
+        margin-top: 65%;
+        margin-left: 28%;
+        width: 50%;
+        height: 5%;
+        text-align: center;
+        font-size: 1.1em;
+        border-radius: 5px;
+        text-decoration: none;
+        outline: none;
+
+    }
+
+    #input, #valor:hover{
+
+        box-shadow: 0px 4px 5px #408551;
+
+    }    
+
+    
+
+    #btnMenos{
+
+        display: flex;
+        flex-direction:row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        width: 100px;
+        height: 30px;
+        margin-top: 80%;
+        margin-left: 40%;
+        border-radius: 15px;
+        cursor: pointer;
+        background-color: #242424;
+        color:#fff;
+
+    }
+
+    #btnMenos:hover{
+        box-shadow: 0px 2px 5px #52d447;
+        background-color: #0faa43;
+        color:#fff;
+        transition: 1s;
+    }
+
+    #btndeposito{
+    
+    display: flex;
+    flex-direction:row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    margin-top: 95%;
+    margin-left: 40%;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: #242424;
+    color: #fff;
+}
+
+#btndeposito:hover{
+
+
+    box-shadow: 0px 2px 5px #52d447;
+    background-color: #0faa43;
+    color:#fff;
+    transition: 1s;
+
+}
+
+    #TxtTopo{
+
+        position: absolute;
+        margin-left: 55%;
+        margin-top: 4%;
+        font-family: sans-serif;
+        font-size: .8em;
+
+    }
+
+ #visu{
+
+     position: absolute;
+     width: 25px;
+     height: 25px;
+     margin-left: 37%;
+     margin-top: 8%;
+     cursor: pointer;
+ } 
+
+ #operacao{
+
+     position: absolute;
+     margin-top: 90%;
+     margin-left: 8%;
+     font-family: sans-serif;
+     font-size: .7em;
+ } 
+
+ #userD{
+
+     position: absolute;
+     margin-left: 60%;
+     margin-top: 18%;
+     font-family: sans-serif;
+     font-size: .7em;
+     
+    
+ } 
+
+ #NomeUser{
+     position: absolute;
+     margin-left: 69%;
+     font-family: sans-serif;
+     font-size: .7em;
+     margin-top: 10%;
+     display: none;
+ }
+
+</style>
+
+</head>
+
+
+<body>
+
+
+    
+
+
+
+
+
+<p id="TxtTopo">Simulador Bancário (Em Teste)</p>
+
+<p id="SaldoT">Saldo Total Da Conta</p>
+
+<img src="olho.png" id="visu">
+
+<div id="saldo">
+    
+</div>
+
+
+<input type="number" id="valor" placeholder="Digite O Valor">
+
+<p id="operacao">Escolha a operação</p>
+
+<p id="btnMenos" onclick="retira()">Sacar</p>
+
+<p id="btndeposito"  onclick="deposita()">Depositar </p>
+
+<p id="sai" onclick="fechar()">Sair</p>
+
+<div id="NomeUser">Bem vindo (a)</div>
+
+
+
+
+
+
+
+<script>
+
+
+
+
+
+
+
+    var st = 50
+saldo.innerHTML = `<p id="TXT_S">R$ ${st.toFixed(2)}</p>`
+
+function retira(){
+
+     var saldo = document.getElementById('saldo')
+     var btnMenos = document.getElementById('btnMenos').value
+     var valor = document.getElementById('valor').value
+
+     st = st - valor
+
+     saldo.innerHTML = `<p id="TXT_S">R$ ${st.toFixed(2)}</p>`
+
+     alert('Saque no valor de R$: ' +valor+ ' Realizado com sucesso' )
+
+     }
+
+     function deposita(){
+
+var saldo = document.getElementById('saldo')
+var btnMenos = document.getElementById('btnMenos').value
+var valor = document.getElementById('valor').value
+
+st = st + valor
+
+saldo.innerHTML = `<p id="TXT_S">R$ ${st}</p>`
+
+alert('Depósito no valor de R$ : ' +valor+ ' Realizado com sucesso' )
+
+}
+
+    
+     
+</script>
+
+</body>
+
+
+
+
+</html>
