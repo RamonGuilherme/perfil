@@ -33,7 +33,63 @@
 
 		/*       PAINEL LOGIN MOBILE                 */
 
+		
+		#TxtModalDev{
+			position: absolute;
+			margin-left: 30%;
+			margin-top: 112%;
+			color: #8ada0b;
+			width: auto;
+			font-size: .6em;
+			font-family: sans-serif;
+		}
+		
+		#TxtModal{
 
+			position: absolute;
+			margin: 5%;
+			margin-top: 30%;
+			color: #8ada0b;
+			width: auto;
+			font-size: .8em;
+			font-family: sans-serif;
+			text-align: center;
+		}
+
+
+		#alert_close{
+
+			display: flex;
+			flex-direction:row;
+			align-content: center;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			width: 25px;
+			height: 25px;
+			border-radius: 50%;
+			background-color: #8ada0b;
+			margin-left: 85%;
+			margin-top: 3%;
+
+
+		}
+
+		#alerta{
+
+			
+			position: absolute;
+			width: 250px;
+			height: 300px;
+			background-color:#242424;
+			margin-top: 40%;
+			margin-left: 15%;
+			border-radius: 10px;
+			box-shadow: 0px 0px 4px 1px #8ada0b;
+			display: none;
+			z-index: 8000;
+
+		}
 
 		#FundoR{
 			
@@ -660,7 +716,7 @@
 		
 		
 			
-		p.Btnentrar {
+		#Btnentrar {
 		
 			position: absolute;
 			background: #000;
@@ -674,7 +730,7 @@
 			border-radius: 15%;
 		}
 		
-		p.Btnentrar:hover {
+		#Btnentrar:hover {
 			
 			background: #505050;
 			color:darkorange;

@@ -101,9 +101,20 @@
 	<p id="Tperfil2">Desenvolvedor De Sistemas</p>
 	
 	
-	<a href="index.html"><p class="Btnentrar">Entrar</p>
+	<p id="Btnentrar" onclick="alertar()">Entrar</p>
 		
 	</p></a>
+
+	<div id="alerta">
+		
+		<div id="alert_close" onclick="closealerta()">X</div>
+		<p id="TxtModal">Projeto em desenvolvimento outras páginas e mais conteúdos estão sendo
+			implementados semanalmente.
+		</p>
+
+		<p id="TxtModalDev">Desenvolvedor: Ramon Guilherme
+		</p>
+	</div>
 
         
 	
@@ -225,6 +236,25 @@
 	<br>
 	Site em desenvolvimento 
 	</footer>
+
+<script>
+
+	function alertar(){
+
+		document.getElementById('alerta')
+
+		alerta.style.display = 'block'
+	}
+
+	function closealerta(){
+
+	document.getElementById('alerta')
+
+		alerta.style.display = 'none'
+}
+
+
+</script>	
 
 <script>
 
