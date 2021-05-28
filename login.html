@@ -34,9 +34,9 @@
 
 	<p class="Tapp">Mini Projetos</p>
 
-	<p class="AppIMC">Calculo Imc</p>
+	<p id="AppIMC">Calculo Imc</p>
 
-	<p class="AppIMC2">Em Construção</p>
+	<p id="AppIMC2">Em Construção</p>
 
 	<a href="imc.html"><img class="calcapp" src="calc.png"></a>
 
@@ -92,13 +92,13 @@
 
 <div id="Divi">
 
-<p class="loginimg">
+<p id="loginimg">
 	<img src="user.png">
 	</p>
 	
 	<p id="Tperfil">Ramon Guilherme</p>
 	
-	<p class="Tperfil2">Desenvolvedor De Sistemas</p>
+	<p id="Tperfil2">Desenvolvedor De Sistemas</p>
 	
 	
 	<a href="index.html"><p class="Btnentrar">Entrar</p>
@@ -107,7 +107,7 @@
 
         
 	
-        <p class="Tredes">Redes Sociais</p>
+        <p id="Tredes">Redes Sociais</p>
          
         <p class="rs1">
            <img src="600px-Facebook_font_awesome.svg.png" alt="Instagram">
@@ -127,7 +127,7 @@
 			<img src="olho.png">
 		</p>
 		
-		<p class="TxtVisuali">
+		<p id="TxtVisuali">
 			0 Visualizações
 		</p>
 
@@ -135,7 +135,7 @@
 			<img src="mobile.png">
 		</p>
 		
-		<p class="TxtVmobile">
+		<p id="TxtVmobile">
 			Você está no modo Mobile
 		</p>
 
@@ -151,10 +151,10 @@
 		</p>
 
           <p class="IconProjetos"> <img src="projeto.png"></p>
-          <p class="TxtProjetos">Projetos: 3</p>
+          <p id="TxtProjetos">Projetos: 3</p>
 
            <p class="Iconlocal"><img src="local.png"></p>
-           <p class="Txtlocal">São Gonçalo, Rio de janeiro</p>
+           <p id="Txtlocal">São Gonçalo, Rio de janeiro</p>
 
 
 		<input type="checkbox" id="AbreNoite">
@@ -180,7 +180,7 @@
 
 	<div id="Theme">
 	
-		<p class="TxtNew">
+		<p id="TxtNew">
 			
 		</p>
 
@@ -239,24 +239,41 @@
 		document.getElementById('TxtNew2')
 		document.getElementById('TextNewP2')
 		document.getElementById('Tperfil')
+		document.getElementById('Tperfil2')
+		document.getElementById('Tredes')
+		document.getElementById('TxtProjetos')
+		document.getElementById('Txtlocal')
+		document.getElementById('TxtVmobile')
+		document.getElementById('TxtVisuali')
+		document.getElementById('AppIMC')
+		document.getElementById('AppIMC2')
+		
 		
 
 	function darkon(){
 
-		
-
-		fundao.style.background = "#383321"
-		Flogin.style.background = "#383321"
+		fundao.style.background = "#242424"
+		Flogin.style.background = "#141414"
 		Flogin.style.color = "#fff"
-		Fundo.style.background = "#383321"
+		Fundo.style.background = "#141414"
 		Fundo.style.color = "#fff"
-		Theme.style.background = "#383321"
-		FundoR.style.background = "#383321"
+		Theme.style.background = "#141414"
+		FundoR.style.background = "#141414"
 		TN.style.color = "#fff"
-		TxtNew.style.color = "red"
-		TxtNew2.style.color = "red"
-		TextNewP2.style.color = "red"
-		Tperfil.style.color = "red"
+		TxtNew.style.color = "#fff"
+		TxtNew2.style.color = "#fff"
+		TxtNewP2.style.color = "#fff"
+		Tperfil.style.color = "#fff"
+		Tperfil2.style.color = "#fff"
+		Tredes.style.color = "#fff"
+		TxtProjetos.style.color = "#fff"
+		Txtlocal.style.color = "#fff"
+		TxtVmobile.style.color = "#fff"
+		TxtVisuali.style.color = "#fff"
+		AppIMC.style.color = "#fff"
+		AppIMC2.style.color = "#fff"
+		
+		
 
 		
 	}
@@ -269,6 +286,22 @@
 	Flogin.style.background = "#242424"
 	Theme.style.background = "#fff"
 	Fundo.style.background = "#fff"
+	Fundo.style.color = "#fff"
+	Theme.style.background = "#fff"
+	FundoR.style.background = "#fff"
+	TN.style.color = "#242424"
+	TxtNew.style.color = "#242424"
+	TxtNew2.style.color = "#242424"
+	TxtNewP2.style.color = "#242424"
+	Tperfil.style.color = "#242424"
+	Tperfil2.style.color = "#242424"
+	Tredes.style.color = "#242424"
+	TxtProjetos.style.color = "#242424"
+	Txtlocal.style.color = "#242424"
+	TxtVmobile.style.color = "#242424"
+	TxtVisuali.style.color = "#242424"
+	AppIMC.style.color = "#242424"
+	AppIMC2.style.color = "#242424"
 	
 
 
@@ -313,7 +346,7 @@ function share(){
 
 	}
 
-	const titulo = document.querySelector('.Tperfil2');
+	const titulo = document.querySelector('#Tperfil2');
 	typeWriter(titulo);
 
 </script>

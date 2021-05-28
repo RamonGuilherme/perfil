@@ -132,7 +132,7 @@
 
 	/*                          */
 
-	.AppIMC{
+	#AppIMC{
 
 
 		position: absolute;
@@ -144,7 +144,7 @@
 
 	}
 
-	.AppIMC2{
+	#AppIMC2{
 
 
 		position: absolute;
@@ -211,7 +211,7 @@
 			color: #242424;
 		}
 		
-		.Fundo img{
+		#Fundo img{
 		
 			position: absolute;
 			margin-top: 30%;
@@ -311,7 +311,7 @@
 			visibility: hidden;
 		}
 
-		.TxtNew{
+		#TxtNew{
 
 
 			position: absolute;
@@ -673,7 +673,7 @@
 			
 		}
 		
-		p.loginimg img{
+		#loginimg img{
 		
 			position: absolute;
 			width: 80px;
@@ -696,7 +696,7 @@
 		}
 		
 		
-		p.Tperfil2 {
+		#Tperfil2 {
 			
 			position: absolute;
 			text-align: center;
@@ -707,7 +707,7 @@
 			
 		}
 
-		p.Tperfil2::after{
+		#Tperfil2::after{
 
 			content: '|';
 			margin-left: 0px;
@@ -728,7 +728,7 @@
 			
 		}
 		
-		p.Tredes{
+		#Tredes{
 		
 		position: absolute;	
 		  margin-top: 95%;
@@ -813,7 +813,7 @@
 		
 		}
 		
-		p.TxtVisuali{
+		#TxtVisuali{
 		
 			position: absolute;
 			margin-top: 164%;
@@ -839,7 +839,7 @@
 		
 		}
 		
-		p.TxtVmobile{
+		#TxtVmobile{
 		
 			position: absolute;
 			margin-top: 164%;
@@ -862,7 +862,7 @@
 		   margin-top: 124%;
 		
 		}
-		 p.TxtProjetos {
+		 #TxtProjetos {
 		  
 			position: absolute;
 		   margin-left: 66%;
@@ -882,7 +882,7 @@
 			margin-top: 125%;
 		}
 		
-		p.Txtlocal{
+		#Txtlocal{
 		
 			position: absolute;
 			 font-size: 10px;
@@ -3283,7 +3283,7 @@ input{
 
 /*                          */
 
-.AppIMC{
+#AppIMC{
 
 
 position: absolute;
@@ -3295,7 +3295,7 @@ width: auto;
 
 }
 
-.AppIMC2{
+#AppIMC2{
 
 
 	position: absolute;
@@ -3476,7 +3476,7 @@ input{
 	width: auto;
 }
 
-.TxtNewP2{
+#TxtNewP2{
 	position: absolute;
 	margin-left: 18%;
 	margin-top: 150%;
@@ -3751,7 +3751,7 @@ p.loginimg img{
 
 
 
-p.Tperfil {
+p#perfil {
 	
 	position: absolute;
 	text-align: center;
@@ -3760,7 +3760,7 @@ p.Tperfil {
 }
 
 
-p.Tperfil2 {
+#Tperfil2 {
 	
 	position: absolute;
 	text-align: center;
@@ -3769,7 +3769,7 @@ p.Tperfil2 {
 	
 }
 
-p.Tredes{
+#Tredes{
 
  position: absolute;	
   margin-top: 95%;
@@ -3850,7 +3850,7 @@ p.visuali img{
 
 }
 
-p.TxtVisuali{
+#TxtVisuali{
 
 	position: absolute;
 	margin-top: 164%;
@@ -3871,7 +3871,7 @@ p.Vmobile img{
 
 }
 
-p.TxtVmobile{
+#TxtVmobile{
 
 	position: absolute;
 	margin-top: 164%;
@@ -3892,7 +3892,7 @@ p.IconProjetos img{
    margin-top: 125%;
 
 }
- p.TxtProjetos {
+ #TxtProjetos {
   
    position: absolute;
    margin-left: 66%;
@@ -3910,7 +3910,7 @@ p.Iconlocal img{
     margin-top: 125%;
 }
 
-p.Txtlocal{
+#Txtlocal{
 
 	position: absolute;
      font-size: 10px;
@@ -6111,7 +6111,7 @@ p.loginimg img{
 
 
 
-p.Tperfil {
+#Tperfil {
 	
 	position: absolute;
 	text-align: center;
@@ -6120,7 +6120,7 @@ p.Tperfil {
 }
 
 
-p.Tperfil2 {
+#Tperfil2 {
 	
 	position: absolute;
 	text-align: center;
@@ -6129,7 +6129,7 @@ p.Tperfil2 {
 	
 }
 
-p.Tredes{
+#Tredes{
 
 position: absolute;	
   margin-top: 95%;
@@ -6211,7 +6211,7 @@ p.visuali img{
 
 }
 
-p.TxtVisuali{
+#TxtVisuali{
 
 	position: absolute;
 	margin-top: 164%;
@@ -6233,7 +6233,7 @@ p.Vmobile img{
 
 }
 
-p.TxtVmobile{
+#TxtVmobile{
 
 	position: absolute;
 	margin-top: 164%;
@@ -6254,7 +6254,7 @@ p.IconProjetos img{
    margin-top: 125%;
 
 }
- p.TxtProjetos {
+ #TxtProjetos {
   
 	position: absolute;
    margin-left: 66%;
@@ -6272,7 +6272,7 @@ p.Iconlocal img{
     margin-top: 125%;
 }
 
-p.Txtlocal{
+#Txtlocal{
 
 	position: absolute;
      font-size: 10px;
@@ -8645,7 +8645,7 @@ p.loginimg img{
 
 
 
-p.Tperfil {
+#Tperfil {
 	
 	position: absolute;
 	text-align: center;
@@ -8654,7 +8654,7 @@ p.Tperfil {
 }
 
 
-p.Tperfil2 {
+#Tperfil2 {
 	
 	position: absolute;
 	text-align: center;
@@ -8663,7 +8663,7 @@ p.Tperfil2 {
 	
 }
 
-p.Tredes{
+#Tredes{
 
 position: absolute;	
   margin-top: 105%;
@@ -8744,7 +8744,7 @@ p.visuali{
 
 }
 
-p.TxtVisuali{
+#TxtVisuali{
 
 	position: absolute;
 	margin-top: 164%;
@@ -8765,7 +8765,7 @@ p.Vmobile{
 
 }
 
-p.TxtVmobile{
+#TxtVmobile{
 
 	position: absolute;
 	margin-top: 164%;
@@ -8786,7 +8786,7 @@ p.IconProjetos img{
    margin-top: 125%;
 
 }
- p.TxtProjetos {
+ #TxtProjetos {
   
 	position: absolute;
    margin-left: 66%;
@@ -8804,7 +8804,7 @@ p.Iconlocal img{
     margin-top: 125%;
 }
 
-p.Txtlocal{
+#Txtlocal{
 
 	position: absolute;
      font-size: 10px;
@@ -10732,7 +10732,7 @@ margin-left: 60%;
 margin-top: 42%;
 
 }
-p.TxtProjetos {
+#TxtProjetos {
 
 position: absolute;
 margin-left: 62%;
@@ -10750,7 +10750,7 @@ margin-left: 38%;
 margin-top: 42%;
 }
 
-p.Txtlocal{
+#Txtlocal{
 
 position: absolute;
  font-size: 14px;
@@ -10770,7 +10770,7 @@ visibility: hidden;
 
 }
 
-p.TxtVmobile{
+#TxtVmobile{
 
 position: absolute;
 margin-top: 47%;
@@ -11162,7 +11162,7 @@ margin-left: 1%;
 
 
 
-p.Tperfil {
+#Tperfil {
 
 text-align: center;
 margin-top: 17%;
@@ -11171,7 +11171,7 @@ position: absolute;
 }
 
 
-p.Tperfil2 {
+#Tperfil2 {
 
 text-align: center;
 margin-top: 20%;
@@ -11202,7 +11202,7 @@ transition: 0.5s;
 
 }
 
-p.Tredes{
+#Tredes{
 margin-top: 30%;
 text-align: center;
 font-size: 12px;
@@ -11262,7 +11262,7 @@ margin-left: 40%;
 
 }
 
-p.TxtVisuali{
+#TxtVisuali{
 
 position: absolute;
 margin-top: 48%;
@@ -12888,7 +12888,7 @@ input{
 	width: auto;
 }
 
-.TxtNewP2{
+#TxtNewP2{
 	position: absolute;
 	margin-left: 18%;
 	margin-top: 150%;
@@ -12971,7 +12971,7 @@ p.IconProjetos img{
    margin-top: 42%;
 
 }
- p.TxtProjetos {
+ #TxtProjetos {
   
 	position: absolute;
    margin-left: 62%;
@@ -12989,7 +12989,7 @@ p.Iconlocal img{
     margin-top: 42%;
 }
 
-p.Txtlocal{
+#Txtlocal{
 
 	position: absolute;
      font-size: 14px;
@@ -13010,7 +13010,7 @@ p.Vmobile{
 
 }
 
-p.TxtVmobile{
+#TxtVmobile{
 
 	position: absolute;
 	margin-top: 47%;
@@ -13405,7 +13405,7 @@ p.caixa{
 
 
 
-p.Tperfil {
+#Tperfil {
 	
 	text-align: center;
 	margin-top: 17%;
@@ -13414,7 +13414,7 @@ p.Tperfil {
 }
 
 
-p.Tperfil2 {
+#Tperfil2 {
 	
 	text-align: center;
 	margin-top: 20%;
@@ -13446,7 +13446,7 @@ p.imgcomp img:hover{
 
 }
 
-p.Tredes{
+#Tredes{
 	margin-top: 30%;
 	text-align: center;
 	font-size: 12px;
@@ -13506,7 +13506,7 @@ p.visuali img{
 
 }
 
-p.TxtVisuali{
+#TxtVisuali{
 
 	position: absolute;
 	margin-top: 48%;
