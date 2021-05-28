@@ -16,7 +16,7 @@
 </head>
 
 
-<body>
+<body id="fundao"> 
 
 	
 
@@ -24,7 +24,7 @@
 
 <input type="checkbox" id="AbreNoiteR">
 
-<div class="FundoR">
+<div id="FundoR">
 
     <p id="RELOGIO2"></p>
 
@@ -96,7 +96,7 @@
 	<img src="user.png">
 	</p>
 	
-	<p class="Tperfil">Ramon Guilherme</p>
+	<p id="Tperfil">Ramon Guilherme</p>
 	
 	<p class="Tperfil2">Desenvolvedor De Sistemas</p>
 	
@@ -159,10 +159,11 @@
 
 		<input type="checkbox" id="AbreNoite">
 
-		<div class="Fundo">
-			<p class="TN">Modo Noite</p>
+		<div id="Fundo">
+			<p id="TN">Modo Noite</p>
 			<img src="lua.png">
-			<p class="btnNOITE">Ativar</p>
+			<p class="btnNOITE" onclick="darkon()">Ativar</p>
+			<p class="btnNOITEoff" onclick="darkoff()">Desativar</p>
 		</div>
 
 		<label for="AbreNoite" class="MODONOITE">
@@ -177,22 +178,23 @@
 
 	<input type="checkbox" id="marcar">
 
-	<div class="Theme">
+	<div id="Theme">
 	
 		<p class="TxtNew">
 			
 		</p>
 
-		<p class="TxtNewP">
+		<p id="TxtNewP">
 			Em Desenvolvimento
 		</p>
 
 		
 
-		<p class="TxtNew2">
+		<p id="TxtNew2">
 			Mini Projeto - Calculadora IMC
 			Clique no icone 
 		</p>
+
 
 		
 			<a href="imc.html"><img class="calcapp2" src="calc.png"></a>
@@ -201,19 +203,21 @@
 			  
 		  </p>
 
-		  <p class="TxtNewP2">Clique Aqui e Saiba Mais</p>
+		  <p id="TxtNewP2">Clique Aqui e Saiba Mais</p>
 	</div>
 
 	<label for="marcar" class="Troca_Tema">
 	<img class="Troca_Tema" src="new.png">
 	</label>
 
+	
 
-		
+
+	
 			
 
         
-	<footer class="Flogin">
+	<footer id="Flogin">
 	
 	Desenvolvedor : Ramon Guilherme &trade; 2021
 	<br>
@@ -221,6 +225,61 @@
 	<br>
 	Site em desenvolvimento 
 	</footer>
+
+<script>
+
+
+		document.getElementById('fundao')
+		document.getElementById('Flogin')
+		document.getElementById('Fundo')
+		document.getElementById('Theme')
+		document.getElementById('FundoR')
+		document.getElementById('TN')
+		document.getElementById('TxtNew')
+		document.getElementById('TxtNew2')
+		document.getElementById('TextNewP2')
+		document.getElementById('Tperfil')
+		
+
+	function darkon(){
+
+		
+
+		fundao.style.background = "#383321"
+		Flogin.style.background = "#383321"
+		Flogin.style.color = "#fff"
+		Fundo.style.background = "#383321"
+		Fundo.style.color = "#fff"
+		Theme.style.background = "#383321"
+		FundoR.style.background = "#383321"
+		TN.style.color = "#fff"
+		TxtNew.style.color = "red"
+		TxtNew2.style.color = "red"
+		TextNewP2.style.color = "red"
+		Tperfil.style.color = "red"
+
+		
+	}
+
+	function darkoff(){
+
+		
+
+	fundao.style.background = "#fff"
+	Flogin.style.background = "#242424"
+	Theme.style.background = "#fff"
+	Fundo.style.background = "#fff"
+	
+
+
+}
+
+	
+
+</script>	
+
+
+	
 
 
 <script>
