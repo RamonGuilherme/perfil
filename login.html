@@ -18,7 +18,14 @@
 
 <body id="fundao"> 
 
+<div id="Topo">
+	<img src="windows.png" id="Mprincipal"  onclick="abremenu()">
 	
+</div>	
+
+<div id="Mprincipal2">
+	<p id="Encerra_Menu" onclick="gameover()">X</p>
+</div>
 
 
 
@@ -168,18 +175,21 @@
            <p id="Txtlocal">São Gonçalo, Rio de janeiro</p>
 
 
-		<input type="checkbox" id="AbreNoite">
-
+		   <img src="lua.png" id="AbreN" onclick="abrenoite()">
+		   
 		<div id="Fundo">
+
 			<p id="TN">Modo Noite</p>
-			<img src="lua.png">
+
+			
+			<div id="CloseNoite" onclick="fnoite()">X</div>
 			<p class="btnNOITE" onclick="darkon()">Ativar</p>
+
 			<p class="btnNOITEoff" onclick="darkoff()">Desativar</p>
+
 		</div>
 
-		<label for="AbreNoite" class="MODONOITE">
-			<img class="MODONOITE" src="lua.png">
-		</label>
+		
 
 
 		
@@ -237,6 +247,40 @@
 	Site em desenvolvimento 
 	</footer>
 
+	<script>
+
+
+		function abremenu(){
+			document.getElementById('Mprincipal2')
+			Mprincipal2.style.display = 'block'
+		}
+
+		function gameover(){
+			document.getElementById('Mprincipal2')
+			Mprincipal2.style.display = 'none'
+			
+		}
+
+	</script>
+
+
+	<script>
+
+	function abrenoite(){
+
+		document.getElementById('Fundo')
+		Fundo.style.display = 'block'
+		}		
+
+	function fnoite(){
+
+		document.getElementById('Fundo')
+		Fundo.style.display = 'none'
+	}	
+
+</script>
+
+
 <script>
 
 	function alertar(){
@@ -252,6 +296,8 @@
 
 		alerta.style.display = 'none'
 }
+
+	
 
 
 </script>	
