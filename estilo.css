@@ -21,6 +21,56 @@
 		width: 0px;
 	}
 
+	
+
+	#M_Menu{
+		margin-top: 5%;
+		display: flex;
+
+		
+		
+	}
+
+	#M_Menu ul{
+
+		margin-top: 4%;
+		
+		
+		
+		
+		
+		
+	}
+
+	#M_Menu ul li{
+		padding: .1rem;
+		
+		
+		
+		
+	}
+
+	#M_Menu ul li a{
+		
+       
+		margin-top: 4%;
+		width: 320px;
+		padding: 14px;
+		margin: 4px;
+		text-decoration: none;
+		background-color: #343434;
+		color: #fff;
+		font-size: .7em;
+		margin-top: 2%;
+		text-align: center;
+		border-radius: 5px;
+
+	}
+
+	
+
+
+
 	#Encerra_Menu{
 
 		display: flex;
@@ -42,27 +92,21 @@
 	#Mprincipal2{
 
 		position: fixed;
-		background-color: #8ada0b;
+		background-color: #fff;
 		width: 100%;
 		height: 300px;
-		margin-top: 40px;
+		margin-top: 47px;
 		display: none;
 		box-shadow: 0px 0px 2px 4px #7a7878;
-		animation: brota. 3s;
+		z-index: 5000;
 		
 
 	}
-
-         @keyframe brota{
-   		0{opacity: 0%;}
-
-		100{opacity: 100%;}
-
-              } 
 	
 	#Mprincipal{
 
 		margin-left: 45%;
+		margin-top: 1%;
 		position: absolute;
 		width: 35px;
 		height: 35px;
@@ -75,7 +119,7 @@
 		
 		position: fixed;
 		width: 100%;
-		height: 55px;
+		height: 45px;
 		background-color: #242424;
 		box-shadow: 0px 2px 4px #7a7878;
 		z-index: 5000;
@@ -243,9 +287,9 @@
 			width: 30px;
 			height: 30px;
 			margin-left: 60%;
-			margin-top: 1%;
+			margin-top: 4%;
 			cursor: pointer;
-			z-index: 5000;
+			z-index: 40000;
 		
 		}
 		
@@ -298,6 +342,7 @@
 		height: 30px;
 		margin-top: 85%;
 		margin-left: 5%;
+		z-index: 6000;
 	}
 
 
@@ -915,10 +960,11 @@
 		p.imgcomp img{
 		   
 			position: fixed;
-			 width: 40px;
-			 height: 40px;
+			 width: 30px;
+			 height: 30px;
 			 margin-left: 88%;
 			 z-index: 20000;
+			 margin-top: 2%;
 			 
 			 
 			 
