@@ -82,6 +82,7 @@
 		height: 100px;
 		border-radius: 5px;
 		font-size: .8em;
+		cursor: pointer;
 	}
 
 	#Txt_Project:hover {
@@ -131,6 +132,45 @@
 		font-family: sans-serif;
 		font-size: .8em;
 		box-shadow: 0px 4px 6px #7a7878;
+		animation: slide 5s infinite;
+		animation-direction: alternate;
+		background: center;
+
+	}
+
+	
+
+	@keyframes slide{
+
+		0%, 30%{
+			
+			background-image: url(dbz1.jpg);
+			background-size: 100%;
+			max-width: 100%;
+			max-height: 100%;
+			background-repeat: no-repeat;
+			
+		}
+
+		35%, 60%{
+			
+			background-image: url(dbz2.jpeg);
+			background-size: 100%;
+			max-width: 100%;
+			max-height: 100%;
+			background-repeat: no-repeat;
+		}
+
+		70%, 100%{
+			
+			background-image: url(dbz3.jpg);
+			background-size: 100%;
+			max-width: 100%;
+			max-height: 100%;
+			background-repeat: no-repeat;
+		}
+
+
 
 	}
 
