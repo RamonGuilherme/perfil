@@ -21,19 +21,13 @@
 		width: 0px;
 	}
 
-	#Titulo_Project{
-		display: flex;
-		flex-direction:row;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
-		position: absolute;
-		margin-top: -60%;
-		font-size: 1.2em;
-		font-family: sans-serif;
-		font-style: italic;
-		font-style: bold;
+	#titulo_project{
 		
+		position: absolute;
+		margin-top: 190%;
+		margin-left: 39%;
+		font-family: sans-serif;
+		font-size: 1.1em;
 	}
 
 	#matematica {
@@ -101,7 +95,7 @@
         align-items: center;
         justify-content: center;
 		position: absolute;
-		margin-top: 150%;
+		margin-top: 210%;
 		background-color: #fff;
 		width: 95%;
 		height: 300px;
@@ -122,7 +116,7 @@
         align-items: center;
         justify-content: center;
 		position:absolute;
-		margin-top: 250%;
+		margin-top: 320%;
 		background-color: #fff;
 		width: 95%;
 		height: 300px;
@@ -182,10 +176,10 @@
         align-items: center;
         justify-content: center;
 		position:absolute;
-		margin-top: 350%;
+		margin-top: 420%;
 		background-color: #fff;
 		width: 95%;
-		height: 300px;
+		height: 600px;
 		margin-left: 8px;
 		border-radius: 10px;
 		border: solid 1px #7a7878;
@@ -233,7 +227,7 @@
         align-items: center;
         justify-content: center;
 		position:absolute;
-		margin-top: 448%;
+		margin-top: 600%;
 		background-color: #fff;
 		width: 95%;
 		height: 300px;
@@ -936,7 +930,7 @@
 			background: #242424;
 			color: #fff;
 			width: 100%;
-			margin-top: 550%;
+			margin-top: 700%;
 			font-size: 0.8em;
 			border-top: solid 1px #7a7878;
 			box-shadow: 0px 0px 8px 5px #7a7878;
@@ -944,10 +938,10 @@
 			text-align: center;
 			}
 		
-		footer:hover{
+		footer#Flogin:hover{
 			
 			box-shadow: 0px 0px 8px 5px #8ada0b;
-			color: #505050;
+			
 			
 		}
 
