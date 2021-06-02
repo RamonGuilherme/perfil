@@ -30,6 +30,31 @@
 		font-size: 1.1em;
 	}
 
+	#titulo_galeria{
+		position: absolute;
+		margin-top: 310%;
+		margin-left: 39%;
+		font-family: sans-serif;
+		font-size: 1.1em;
+	}
+
+	#titulo_contatos{
+		position: absolute;
+		margin-top: 410%;
+		margin-left: 39%;
+		font-family: sans-serif;
+		font-size: 1.1em;
+	}
+
+
+	#titulo_sobre{
+		position: absolute;
+		margin-top: 590%;
+		margin-left: 39%;
+		font-family: sans-serif;
+		font-size: 1.1em;
+	}
+
 	#matematica {
 
 		display: flex;
@@ -241,17 +266,31 @@
 
 	}
 
-	#M_Menu{
-		margin-top: 5%;
-		display: flex;
+	#goku{
 
-		
-		
+		background-color: #ccc;
+		width: 100%;
+		padding: 5px;
+		height: auto;
+		margin: 10px;
+		border-radius: 5px;
+		border: solid 1px #7a7878;
+
 	}
+
+	#M_Menu{
+
+		margin-top: 1%;
+		width: 100%;
+		position: fixed;
+		}
 
 	#M_Menu ul{
 
-		margin-top: 4%;
+		
+		width: 100%;
+		margin: 2px;
+		
 		
 		
 		
@@ -262,6 +301,9 @@
 
 	#M_Menu ul li{
 		padding: .1rem;
+		width: 100%;
+		
+		
 		
 		
 		
@@ -270,11 +312,16 @@
 
 	#M_Menu ul li a{
 		
-       
-		margin-top: 4%;
-		width: 320px;
+		display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+		position: relative;
+		margin-top: 2%;
+		width: 100%;
 		padding: 14px;
-		margin: 4px;
+		
 		text-decoration: none;
 		background-color: #343434;
 		color: #fff;
@@ -309,6 +356,8 @@
 
 	#Mprincipal2{
 
+		
+		
 		position: fixed;
 		background-color: #fff;
 		width: 100%;
@@ -316,10 +365,30 @@
 		margin-top: 47px;
 		display: none;
 		box-shadow: 0px 0px 2px 4px #7a7878;
-		z-index: 5000;
+		z-index: 6000;
+		animation: slidemenu 2s;
+		animation-direction: normal;
 		
+		}
 
+	
+	@keyframes slidemenu{
+
+		0%{
+			
+			margin-top: -305px;
+			
+		}
+
+		100%{
+			margin-top: 47px;
+			
+			
+		}
+
+		
 	}
+	
 	
 	#Mprincipal{
 
@@ -576,7 +645,21 @@
 			border: solid 1px #242424;
 			display: none;
 			box-shadow: 0px 0px 4px #7a7878;
+			animation: painel_B 1s;
 			
+		}
+
+		@keyframes painel_B {
+			
+			0%{
+				opacity: 0%;
+			}
+
+			100%{
+				opacity: 100%;
+			}
+
+
 		}
 		
 		
@@ -679,9 +762,23 @@
 			border-radius: 10px;
 			display: none;
 			border: solid 1px #7a7878;
+			animation: painel_A 1s;
+			
 			
 			
 		}
+
+		@keyframes painel_A {
+			0%{
+				margin-left: -60%;
+			}
+
+			100%{
+				margin-left: 2%;
+			}
+		}
+
+			
 
 		.Troca_Tema{
 
