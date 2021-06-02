@@ -497,6 +497,29 @@
 			box-shadow: 0px 0px 4px 1px #8ada0b;
 			display: none;
 			z-index: 8000;
+			animation: painel_C 1s;
+			
+
+		}
+
+		@keyframes painel_C{
+
+			0%{
+				margin-top: 32%;
+				opacity: 0%;
+				
+				
+			}
+
+			50%{
+				margin-top: 48%;
+				
+			}
+
+			100%{
+				margin-top: 40%;
+				opacity: 100%;
+			}
 
 		}
 
