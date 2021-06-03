@@ -24,7 +24,7 @@
 	#titulo_project{
 		
 		position: absolute;
-		margin-top: 190%;
+		margin-top: 210%;
 		margin-left: 39%;
 		font-family: sans-serif;
 		font-size: 1.1em;
@@ -32,7 +32,7 @@
 
 	#titulo_galeria{
 		position: absolute;
-		margin-top: 310%;
+		margin-top: 335%;
 		margin-left: 39%;
 		font-family: sans-serif;
 		font-size: 1.1em;
@@ -40,7 +40,7 @@
 
 	#titulo_contatos{
 		position: absolute;
-		margin-top: 410%;
+		margin-top: 455%;
 		margin-left: 39%;
 		font-family: sans-serif;
 		font-size: 1.1em;
@@ -49,7 +49,7 @@
 
 	#titulo_sobre{
 		position: absolute;
-		margin-top: 590%;
+		margin-top: 655%;
 		margin-left: 39%;
 		font-family: sans-serif;
 		font-size: 1.1em;
@@ -120,8 +120,8 @@
         align-items: center;
         justify-content: center;
 		position: absolute;
-		margin-top: 210%;
-		background-color: #fff;
+		margin-top: 230%;
+		
 		width: 95%;
 		height: 300px;
 		margin-left: 8px;
@@ -141,7 +141,7 @@
         align-items: center;
         justify-content: center;
 		position:absolute;
-		margin-top: 320%;
+		margin-top: 355%;
 		background-color: #fff;
 		width: 95%;
 		height: 300px;
@@ -201,8 +201,8 @@
         align-items: center;
         justify-content: center;
 		position:absolute;
-		margin-top: 420%;
-		background-color: #fff;
+		margin-top: 472%;
+		
 		width: 95%;
 		height: 600px;
 		margin-left: 8px;
@@ -253,7 +253,7 @@
         align-items: center;
         justify-content: center;
 		position:absolute;
-		margin-top: 600%;
+		margin-top: 670%;
 		background-color: #fff;
 		width: 95%;
 		height: 300px;
@@ -1051,7 +1051,7 @@
 			background: #242424;
 			color: #fff;
 			width: 100%;
-			margin-top: 700%;
+			margin-top: 780%;
 			font-size: 0.8em;
 			border-top: solid 1px #7a7878;
 			box-shadow: 0px 0px 8px 5px #7a7878;
