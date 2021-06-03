@@ -212,7 +212,7 @@
 
 	
 
-	<input type="checkbox" id="marcar">
+	
 
 	<div id="Theme">
 	
@@ -222,6 +222,10 @@
 
 		<p id="TxtNewP">
 			Em Desenvolvimento
+		</p>
+
+		<p id="encerra_painel_A" onclick="fecha_painel_A()">
+			X
 		</p>
 
 		
@@ -242,8 +246,8 @@
 		  <p id="TxtNewP2">Clique Aqui e Saiba Mais</p>
 	</div>
 
-	<label for="marcar" class="Troca_Tema">
-	<img class="Troca_Tema" src="new.png">
+	
+	<img id="Troca_Tema" src="new.png" onclick="abre_painel_A()">
 	</label>
 
 	<p id="titulo_project">PROJETOS</p>
@@ -309,6 +313,23 @@
 	<br>
 	Site em desenvolvimento 
 	</footer>
+
+	<script>
+
+		function abre_painel_A(){
+
+		document.getElementById('Theme')
+		Theme.style.display = 'block'
+		}
+
+		function fecha_painel_A(){
+
+			document.getElementById('Theme')
+			Theme.style.display = 'none'
+		}
+
+
+	</script>
 
 	<script>
 
