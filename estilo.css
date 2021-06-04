@@ -609,7 +609,7 @@
 		
 		#TxtModalDev{
 			text-align: center;
-			margin-top: 120%;
+			margin-top: 85%;
 			color: #fff;
 			width: 100%;
 			font-size: .6em;
@@ -652,7 +652,7 @@
 			
 			position: absolute;
 			width: 280px;
-			height: 400px;
+			height: 300px;
 			background-color:#242424;
 			margin-top: 25%;
 			margin-left: 8%;
