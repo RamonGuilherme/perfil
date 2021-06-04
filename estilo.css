@@ -21,6 +21,154 @@
 		width: 0px;
 	}
 
+
+	#perfil0{
+
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-left: -95%;
+		margin-top: 25%;
+
+
+
+	}
+
+	#perfil1{
+
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-left: -95%;
+		margin-top: 35%;
+
+	}
+
+	#perfil2{
+
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-left: -95%;
+		margin-top: 45%;
+
+	}
+
+	#perfil3{
+
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-left: -95%;
+		margin-top: 55%;
+
+	}
+
+	#perfil4{
+
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-left: -95%;
+		margin-top: 65%;
+
+	}
+
+	#perfil5{
+
+		width: 25px;
+		height: 25px;
+		position: absolute;
+		margin-left: -95%;
+		margin-top: 75%;
+
+	}
+
+
+
+
+
+	#Tperfil0{
+
+		
+		position: absolute;
+		margin-left: 15%;
+		font-size: .7em;
+		font-family: sans-serif;
+		margin-top: 27%;
+		color:#fff;
+		width: 100%;
+
+
+
+	}
+
+	#Tperfil1{
+
+		
+		position: absolute;
+		margin-left: 15%;
+		font-size: .7em;
+		font-family: sans-serif;
+		margin-top: 37%;
+		color:#fff;
+		width: 100%;
+
+	}
+
+	#Tperfil_niver{
+
+	
+		position: absolute;
+		margin-left: 15%;
+		font-size: .7em;
+		font-family: sans-serif;
+		margin-top: 47%;
+		color:#fff;
+		width: 100%;
+
+	}
+
+	#Tperfil3{
+
+	
+		position: absolute;
+		margin-left: 15%;
+		font-size: .7em;
+		font-family: sans-serif;
+		margin-top: 57%;
+		color:#fff;
+		width: 100%;
+
+	}
+
+	#Tperfil4{
+
+	
+		position: absolute;
+		margin-left: 15%;
+		font-size: .7em;
+		font-family: sans-serif;
+		margin-top: 67%;
+		color:#fff;
+		width: 100%;
+
+	}
+
+	#Tperfil5{
+
+	
+		position: absolute;
+		margin-left: 15%;
+		font-size: .7em;
+		font-family: sans-serif;
+		margin-top: 77%;
+		color:#fff;
+		width: 100%;
+
+	}
+
+
 	#encerra_painel_A{
 		display: flex;
 		flex-direction:row;
@@ -460,25 +608,24 @@
 
 		
 		#TxtModalDev{
-			position: absolute;
-			margin-left: 30%;
-			margin-top: 112%;
-			color: #8ada0b;
-			width: auto;
+			text-align: center;
+			margin-top: 120%;
+			color: #fff;
+			width: 100%;
 			font-size: .6em;
 			font-family: sans-serif;
 		}
 		
 		#TxtModal{
 
-			position: absolute;
-			margin: 5%;
-			margin-top: 30%;
-			color: #8ada0b;
-			width: auto;
+			
+			text-align: center;
+			margin-top: 10%;
+			color: #fff;
+			width: 100%;
 			font-size: .8em;
 			font-family: sans-serif;
-			text-align: center;
+			
 		}
 
 
@@ -493,8 +640,8 @@
 			width: 25px;
 			height: 25px;
 			border-radius: 50%;
-			background-color: #8ada0b;
-			margin-left: 85%;
+			background-color: #fff;
+			margin-left: 87%;
 			margin-top: 3%;
 
 
@@ -504,11 +651,11 @@
 
 			
 			position: absolute;
-			width: 250px;
-			height: 300px;
+			width: 280px;
+			height: 400px;
 			background-color:#242424;
-			margin-top: 40%;
-			margin-left: 15%;
+			margin-top: 25%;
+			margin-left: 8%;
 			border-radius: 10px;
 			box-shadow: 0px 0px 4px 1px #8ada0b;
 			display: none;
@@ -521,19 +668,19 @@
 		@keyframes painel_C{
 
 			0%{
-				margin-top: 32%;
+				margin-top: 20%;
 				opacity: 0%;
 				
 				
 			}
 
 			50%{
-				margin-top: 48%;
+				margin-top: 30%;
 				
 			}
 
 			100%{
-				margin-top: 40%;
+				margin-top: 25%;
 				opacity: 100%;
 			}
 
@@ -1178,22 +1325,28 @@
 			
 		#Btnentrar {
 		
+			display: flex;
+			flex-direction:row;
+			align-content: center;
+			align-items: center;
+			justify-content: center;
 			position: absolute;
 			background: #000;
 			color: #fff;
 			width: 70px;
 			height: 35px;
-			text-align: center;
 			margin-top: 75%;
 			margin-left: 40%;
-			padding-top: 4%;
-			border-radius: 15%;
+			border-radius: 5px;
+			font-family: sans-serif;
+			font-size: .7em;
+			box-shadow: 2px 2px 1px #8ada0b;
 		}
 		
 		#Btnentrar:hover {
 			
 			background: #505050;
-			color:darkorange;
+			color: #8ada0b
 			
 		}
 		
@@ -4246,7 +4399,7 @@ p.GIF{
 
 
 	
-p.Btnentrar {
+#Btnentrar {
 
 	position: absolute;
 	background: #000;
@@ -4260,14 +4413,14 @@ p.Btnentrar {
 	border-radius: 15%;
 }
 
-p.Btnentrar:hover {
+#Btnentrar:hover {
 	
 	background: #505050;
 	color: #8ada0b;
 	
 }
 
-p.loginimg img{
+#loginimg img{
 
 	position: absolute;
 	width: 80px;
@@ -6606,7 +6759,7 @@ p.GIF{
 
 
 	
-p.Btnentrar {
+#Btnentrar {
 
 	position: absolute;
 	background: #000;
@@ -6620,14 +6773,14 @@ p.Btnentrar {
 	border-radius: 15%;
 }
 
-p.Btnentrar:hover {
+#Btnentrar:hover {
 	
 	background: #505050;
 	color:#8ada0b;
 	
 }
 
-p.loginimg img{
+#loginimg img{
 
 	position: absolute;
 	width: 80px;
@@ -9140,7 +9293,7 @@ footer:hover{
 
 
 	
-p.Btnentrar {
+#Btnentrar {
 
 	position: absolute;
 	background: #000;
@@ -9154,14 +9307,14 @@ p.Btnentrar {
 	border-radius: 15%;
 }
 
-p.Btnentrar:hover {
+#Btnentrar:hover {
 	
 	background: #505050;
 	color:blueviolet;
 	
 }
 
-p.loginimg img{
+#loginimg img{
 
 	position: absolute;
 	width: 80px;
@@ -11338,7 +11491,7 @@ visibility: visible;
 
 /*  FIM LOCAL E PROJETOS   */
 
-p.Btnentrar {
+#Btnentrar {
 background: black;
 color: #fff;
 width: 70px;
@@ -11664,7 +11817,7 @@ transition: 1s;
 
 }
 
-p.loginimg img{
+#loginimg img{
 
 width: 180px;
 height: 140px;
@@ -11770,7 +11923,7 @@ position: absolute;
 
 }
 
-p.Btnentrar:hover {
+#Btnentrar:hover {
 
 color: #fff;
 
@@ -13569,7 +13722,7 @@ p.TxtVdesktop{
 
 /*  FIM LOCAL E PROJETOS   */
 	
-p.Btnentrar {
+#Btnentrar {
 	background: black;
 	color: #fff;
 	width: 70px;
@@ -13896,7 +14049,7 @@ p.rs3 img:hover{
  
  }
 
-p.loginimg img{
+#loginimg img{
 	
 	width: 140px;
 	height: 140px;
@@ -14004,7 +14157,7 @@ p.visu img{
  
  }
 
- p.Btnentrar:hover {
+ #Btnentrar:hover {
 	
 	color: #fff;
 	
