@@ -304,7 +304,7 @@
         align-content: center;
         align-items: center;
         justify-content: center;
-		position:absolute;
+		position: absolute;
 		margin-top: 355%;
 		background-color: #fff;
 		width: 95%;
@@ -317,7 +317,8 @@
 		box-shadow: 0px 4px 6px #7a7878;
 		animation: slide 5s infinite;
 		animation-direction: alternate;
-		background: center;
+		background: 100%;
+		
 
 	}
 
@@ -330,8 +331,9 @@
 			background-image: url(dbz1.jpg);
 			background-size: 100%;
 			max-width: 100%;
-			max-height: 100%;
+			
 			background-repeat: no-repeat;
+			
 			
 		}
 
@@ -340,7 +342,7 @@
 			background-image: url(dbz2.jpeg);
 			background-size: 100%;
 			max-width: 100%;
-			max-height: 100%;
+			
 			background-repeat: no-repeat;
 		}
 
@@ -349,7 +351,7 @@
 			background-image: url(dbz3.jpg);
 			background-size: 100%;
 			max-width: 100%;
-			max-height: 100%;
+			
 			background-repeat: no-repeat;
 		}
 
@@ -442,30 +444,26 @@
 
 	}
 
+	/*        MENU MOBILE           */
+
 	#M_Menu{
 
 		margin-top: 1%;
 		width: 100%;
-		position: fixed;
+		position: absolute;
+		
 		}
 
 	#M_Menu ul{
 
 		
 		width: 100%;
-		margin: 2px;
-		
-		
-		
-		
-		
-		
-		
-	}
+		}
 
 	#M_Menu ul li{
-		padding: .1rem;
+		
 		width: 100%;
+		position: relative;
 		
 		
 		
@@ -485,15 +483,20 @@
 		margin-top: 2%;
 		width: 100%;
 		padding: 14px;
-		
 		text-decoration: none;
 		background-color: #343434;
 		color: #fff;
 		font-size: .7em;
 		margin-top: 2%;
-		text-align: center;
-		border-radius: 5px;
+		
 
+	}
+
+	#M_Menu ul li a:hover{
+
+		background-color: #ccc;
+		color: #000;
+		box-shadow: 0px 1px 4px #8ada0b;
 	}
 
 	
@@ -503,7 +506,7 @@
 	#Encerra_Menu{
 
 		display: flex;
-        flex-direction:row;
+        flex-direction:column;
         align-content: center;
         align-items: center;
         justify-content: center;
@@ -575,6 +578,8 @@
 		box-shadow: 0px 2px 4px #7a7878;
 		z-index: 5000;
 	}
+
+	/*        FIM MENU MOBILE           */
 
 	.calcimc{
 
