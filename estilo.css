@@ -12,6 +12,7 @@
 	
 	
 	
+	
 }
 
 @media screen and (min-width:360px){
@@ -301,9 +302,9 @@
 
 		display: flex;
         flex-direction:row;
-        align-content: center;
-        align-items: center;
-        justify-content: center;
+        align-content:center;
+        align-items:center;
+        justify-content:center;
 		position: absolute;
 		margin-top: 355%;
 		background-color: #fff;
@@ -318,9 +319,9 @@
 		animation: slide 5s infinite;
 		animation-direction: alternate;
 		background: 100%;
-		
+		}
 
-	}
+	
 
 	
 
@@ -329,9 +330,8 @@
 		0%, 30%{
 			
 			background-image: url(dbz1.jpg);
-			background-size: 100%;
-			max-width: 100%;
-			
+			background-size: cover;
+			background-position: center;
 			background-repeat: no-repeat;
 			
 			
@@ -340,8 +340,8 @@
 		35%, 60%{
 			
 			background-image: url(dbz2.jpeg);
-			background-size: 100%;
-			max-width: 100%;
+			background-size: cover;
+			background-position: center;
 			
 			background-repeat: no-repeat;
 		}
@@ -349,8 +349,8 @@
 		70%, 100%{
 			
 			background-image: url(dbz3.jpg);
-			background-size: 100%;
-			max-width: 100%;
+			background-size: cover;
+			background-position: center;
 			
 			background-repeat: no-repeat;
 		}
