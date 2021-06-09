@@ -286,7 +286,6 @@
         justify-content: center;
 		position: absolute;
 		margin-top: 230%;
-		
 		width: 95%;
 		height: 300px;
 		margin-left: 8px;
@@ -9099,7 +9098,7 @@ p.IconMdown{
 
 #Troca_Tema{
 
-	position: absolute;
+	position: fixed;
 	width: 30px;
 	height: 30px;
 	margin-top: 1%;
@@ -9116,11 +9115,12 @@ p.IconMdown{
 	width: 30px;
 	height: 30px;
 	z-index: 20000;
+	cursor: pointer;
 }
 
 	p.imgcomp img{
    
-		position: absolute;
+		position: fixed;
 		 width: 32px;
 		 height: 32px;
 		 margin-left: 92%;
@@ -9196,7 +9196,7 @@ p.IconMdown{
 		position: absolute;
 		width: 100px;
 		height: 100px;
-		margin-top: 25%;
+		margin-top: 20%;
 		text-align: center;
 		
 		
@@ -9205,7 +9205,7 @@ p.IconMdown{
 	#Tperfil {
 
 		text-align: center;
-		margin-top: 45%;
+		margin-top: 40%;
 		position: absolute;
 		
 		}
@@ -9214,7 +9214,7 @@ p.IconMdown{
 		#Tperfil2 {
 		
 		text-align: center;
-		margin-top: 49%;
+		margin-top: 44%;
 		font-size: 18px;
 		position: absolute;
 		
@@ -9228,7 +9228,7 @@ p.IconMdown{
 		width: 70px;
 		height: 35px;
 		text-align: center;
-		margin-top: 65%;
+		margin-top: 55%;
 		margin-left: 43%;
 		padding-top: 1%;
 		border-radius: 15%;
@@ -9241,6 +9241,219 @@ p.IconMdown{
 		color:blueviolet;
 		
 	}
+
+
+	#Tredes{
+
+		position: absolute;	
+		  margin-top: 70%;
+		  text-align: center;
+		  font-size: 12px;
+		  border-bottom: 2px, solid, #242424;
+		}
+		
+		p.rs1 img{
+		
+		  position: absolute;
+		   width: 45px;
+		   height: 45px;
+		  display: block;
+		  text-align: center;
+		   margin-left: 30%;
+		   margin-top: 78%;
+		
+		}
+		
+		
+		p.rs2 img{
+		  
+			position: absolute;
+		   width: 38px;
+		   height: 38px;
+		  display: block;
+		  text-align: center;
+		   margin-left: 45%;
+		   margin-top: 78%;
+		   
+		
+		}
+		
+		
+		
+		p.rs3 img{
+		  
+			position: absolute;
+		   width: 40px;
+		   height: 40px;
+		  display: block;
+		  text-align: center;
+		   margin-left: 55%;
+		   margin-top: 78%;
+		   margin-left: 60%;
+		
+		}
+
+
+
+/*            INICIO DE SECTION              */
+
+#project_0{
+
+	display: flex;
+	flex-direction:row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	margin-top: 160%;
+	width: 95%;
+	height: 300px;
+	margin-left: 15px;
+	border-radius: 10px;
+	border: solid 1px #7a7878;
+	font-family: sans-serif;
+	font-size: .8em;
+	box-shadow: 0px 4px 6px #7a7878;
+	
+}
+
+#galeria_0{
+
+	display: flex;
+	flex-direction:row;
+	align-content:center;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	margin-top: 225%;
+	background-color: #fff;
+	width: 95%;
+	height: 300px;
+	margin-left: 15px;
+	border-radius: 10px;
+	border: solid 1px #7a7878;
+	font-family: sans-serif;
+	font-size: .8em;
+	box-shadow: 0px 4px 6px #7a7878;
+	animation: slide 5s infinite;
+	animation-direction: alternate;
+	background: 100%;
+	}
+
+
+	#contato_0{
+
+		display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+		position:absolute;
+		margin-top: 290%;
+		width: 95%;
+		height: 600px;
+		margin-left: 15px;
+		border-radius: 10px;
+		border: solid 1px #7a7878;
+		font-family: sans-serif;
+		font-size: .8em;
+		box-shadow: 0px 4px 6px #7a7878;
+
+	}
+
+	#sobre_0{
+
+		display: flex;
+        flex-direction:row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+		position:absolute;
+		margin-top: 405%;
+		width: 95%;
+		height: 300px;
+		margin-left: 15px;
+		border-radius: 10px;
+		border: solid 1px #7a7878;
+		font-family: sans-serif;
+		font-size: .8em;
+		box-shadow: 0px 4px 6px #7a7878;
+
+	}
+
+
+/*           FIM SECTION                             */
+
+
+/*            INICIO SECTION TITULOS            */
+
+
+
+#titulo_project{
+		
+	position: absolute;
+	margin-top: 150%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+
+#titulo_galeria{
+	position: absolute;
+	margin-top: 215%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+
+#titulo_contatos{
+	position: absolute;
+	margin-top: 280%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+
+
+#titulo_sobre{
+	position: absolute;
+	margin-top: 395%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+
+
+
+/*           FIM SECTION TITULOS            */
+
+
+
+/*           FOOTER INICIO            */
+
+footer#Flogin{
+		
+	position: absolute;
+	background: #242424;
+	color: #fff;
+	width: 100%;
+	margin-top: 470%;
+	font-size: 0.8em;
+	border-top: solid 1px #7a7878;
+	box-shadow: 0px 0px 8px 5px #7a7878;
+	padding: 45px 0 45px 0;
+	text-align: center;
+	}
+
+footer#Flogin:hover{
+	
+	box-shadow: 0px 0px 8px 5px #8ada0b;
+	transition: 1s;
+	
+	
+}
+
+/*           FOOTER FIM            */
 
 
 .Fundo{
@@ -9454,139 +9667,9 @@ footer:hover{
 
 /*     FOOTER DA PAGINA LOGIN     */
 
-footer.Flogin{
 
-	position: absolute;
-	background: #242424;
-	color: #fff;
-	margin-top: 170%;
-	text-align: center;
-	padding: 45px 0 45px 0;
-    margin-bottom: auto;
-	
-}
-
-footer:hover{
-	
-	color: #505050;
-	
-}
 
 /*     FIM DA CONFIGURAÇÃO FOOTER      */
-
-#Automacao{
-		
-	position: -ms-page;
-	background-color:lightgray;
-	width: 325px;
-	height: 350px;
-	color: #fff;
-	margin-left: 12%;
-	margin-top: 40%;
-	border-radius: 5%;
-	text-align: center;
-		
-	}
-	
-	#Automacao:hover{
-		
-		background: #606060;
-		
-	}
-	
-	#rede:hover{
-		
-		background: #606060;
-		
-	}
-	
-	#rede{
-
-		position: absolute;
-		background-color:lightgray;
-		width: 325px;
-		height: 350px;
-		color: #fff;
-		margin-left: 12%;
-		margin-top: 150%;
-		border-radius: 5%;
-		text-align: center;
-	}
-	
-	#cloud-server:hover{
-		
-		background: #606060;
-		
-	}
-	
-	#cloud-server{
-
-		position: absolute;
-		background-color:lightgray;
-		width: 325px;
-		height: 350px;
-		color: #fff;
-		margin-left: 12%;
-		margin-top: 250%;
-		border-radius: 5%;
-		text-align: center;
-		border-top: 1px, solid, #606060;
-	}
-
-
-
-
-#Tredes{
-
-position: absolute;	
-  margin-top: 105%;
-  text-align: center;
-  font-size: 12px;
-  border-bottom: 2px, solid, #242424;
-}
-
-p.rs1 img{
-
-  position: absolute;
-   width: 45px;
-   height: 45px;
-  display: block;
-  text-align: center;
-   margin-left: 30%;
-   margin-top: 105%;
-
-}
-
-
-p.rs2 img{
-  
-	position: absolute;
-   width: 38px;
-   height: 38px;
-  display: block;
-  text-align: center;
-   margin-left: 45%;
-   margin-top: 105%;
-   
-
-}
-
-
-
-p.rs3 img{
-  
-	position: absolute;
-   width: 40px;
-   height: 40px;
-  display: block;
-  text-align: center;
-   margin-left: 55%;
-   margin-top: 105%;
-   margin-left: 60%;
-
-}
-
-
 
 
 p.Titulo {
@@ -9605,16 +9688,16 @@ p.visuali{
 	position: absolute;
 	width: 30px;
 	height: 30px;
-	margin-top: 162%;
-	margin-left: 12%;
+	margin-top: 106%;
+	margin-left: 18%;
 
 }
 
 #TxtVisuali{
 
 	position: absolute;
-	margin-top: 164%;
-	margin-left: 20%;
+	margin-top: 115%;
+	margin-left: 25%;
 	color: #000;
 	font-size: 9pt;
 
@@ -9624,18 +9707,18 @@ p.Vmobile{
 
 
 	position: absolute;
-	width: 20px;
-	height: 20px;
-	margin-top: 163%;
-	margin-left: 45%;
+	width: 25px;
+	height: 25px;
+	margin-top: 108%;
+	margin-left: 50%;
 
 }
 
 #TxtVmobile{
 
 	position: absolute;
-	margin-top: 164%;
-	margin-left: 50%;
+	margin-top: 115%;
+	margin-left: 55%;
 	color: #000;
 	font-size: 9pt;
 
@@ -9648,15 +9731,15 @@ p.IconProjetos img{
 	position: absolute;
    width: 30px;
    height: 30px;
-   margin-left: 58%;
-   margin-top: 125%;
+   margin-left: 60%;
+   margin-top: 98%;
 
 }
  #TxtProjetos {
   
 	position: absolute;
    margin-left: 66%;
-   margin-top: 138%;
+   margin-top: 100%;
    font-size: 10px;
 
 }
@@ -9666,8 +9749,8 @@ p.Iconlocal img{
 	position: absolute;
     width: 27px;
     height: 27px;
-    margin-left: 18%;
-    margin-top: 125%;
+    margin-left: 21%;
+    margin-top: 98%;
 }
 
 #Txtlocal{
@@ -9675,7 +9758,7 @@ p.Iconlocal img{
 	position: absolute;
      font-size: 10px;
       margin-left: 26%;
-      margin-top: 129%;
+      margin-top: 100%;
 }
 
 p.download a img{
