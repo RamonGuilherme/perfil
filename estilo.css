@@ -431,43 +431,69 @@
 
 	}
 
-	#s1{
+	#Text_SobreBox0 {
+
+		display: flex;
+		flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content:center;
+		letter-spacing: 2px;
+		line-height: 40px;
+		width: 100%;
+		position: absolute;
 		
-		display: contents;
 		
-		
-		
-		
-		
-        
-		
+
 	}
 
-	#s2{
+	#Text_SobreBox1 {
+
 		
-		display: contents;
+		display: flex;
+		flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content:center;
+		letter-spacing: 2px;
+		line-height: 40px;
+		width: 100%;
+		position: absolute;
 		
-		
-        
-		
+
+
 	}
 
-	#s3{
+	#Text_SobreBox2 {
+
 		
-		display: contents;
+		display: flex;
+		flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content:center;
+		letter-spacing: 2px;
+		line-height: 40px;
+		width: 100%;
+		position: absolute;
 		
 		
-        
-		
+
 	}
 
-	#s4{
+	#Text_SobreBox3{
+
 		
-		display: contents;
+		display: flex;
+		flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content:space-between;
+		letter-spacing: 2px;
+		width: 100%;
 		
 		
-        
-		
+
 	}
 
 	
@@ -1008,7 +1034,7 @@
 			position: fixed;
 			width: 30px;
 			height: 30px;
-			margin-top: 1%;
+			margin-top: 2%;
 			margin-left: 1%;
 			cursor: pointer;
 			z-index: 6000;
@@ -3830,80 +3856,189 @@
 
 	@media screen and (min-width:420px){
 
-		
-	
-		.conteudo{
-				max-width: 420px;
-			}
-				
 
-.conteudo{
-	
-	
-	float: none;
-	margin: 0 auto;
-	padding: 0 10px;
-}
+/*            INICIO DE SECTION              */
 
-.menuMobile {
-	
-	background-color: #242424;
-	padding: 5px 0;
-	
-	
-}
+#project_0{
 
-.menuMobile label{
-	
-	width: auto;
-}
-
-.menuMobile span{
-	
-	color: #fff;
-    border: 2px solid #fff;
-    width: auto;
-    padding: 5px;
-}
-
-.menuPrincipal{
-	background-color: #242424;
-	transition: all 1.3s linear;
+	display: flex;
+	flex-direction:row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
 	position: absolute;
-	top: -290px;
-	visibility: hidden;
+	margin-top: 220%;
+	width: 95%;
+	height: 300px;
+	margin-left: 10px;
+	border-radius: 10px;
+	border: solid 1px #7a7878;
+	font-family: sans-serif;
+	font-size: .8em;
+	box-shadow: 0px 4px 6px #7a7878;
 	
 }
 
-.menuPrincipal li{
-	
-	
-	color: #fff;
-	padding: 15px 15px 15px 60px;
-	
-	
+#galeria_0{
+
+	display: flex;
+	flex-direction:row;
+	align-content:center;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+	margin-top: 325%;
+	background-color: #fff;
+	width: 95%;
+	height: 300px;
+	margin-left: 10px;
+	border-radius: 10px;
+	border: solid 1px #7a7878;
+	font-family: sans-serif;
+	font-size: .8em;
+	box-shadow: 0px 4px 6px #7a7878;
+	animation: slide 5s infinite;
+	animation-direction: alternate;
+	background: 100%;
+	}
+
+
+	#contato_0{
+
+		display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+		position:absolute;
+		margin-top: 425%;
+		width: 95%;
+		height: 600px;
+		margin-left: 10px;
+		border-radius: 10px;
+		border: solid 1px #7a7878;
+		font-family: sans-serif;
+		font-size: .8em;
+		box-shadow: 0px 4px 6px #7a7878;
+
+	}
+
+	#sobre_0{
+
+		display: flex;
+        flex-direction:row;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+		position:absolute;
+		margin-top: 600%;
+		width: 95%;
+		height: 300px;
+		margin-left: 10px;
+		border-radius: 10px;
+		border: solid 1px #7a7878;
+		font-family: sans-serif;
+		font-size: .8em;
+		box-shadow: 0px 4px 6px #7a7878;
+
+	}
+
+
+/*           FIM SECTION                             */
+
+
+/*            INICIO SECTION TITULOS            */
+
+
+
+#titulo_project{
+		
+	position: absolute;
+	margin-top: 210%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
 }
 
-.menuPrincipal li:hover{
-	
-	background: #ccc;
-	color: #242424;
-	
+#titulo_galeria{
+	position: absolute;
+	margin-top: 310%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
 }
 
-#abrirMenu{
-	
-	visibility: hidden;
-	width: 0;
-	height: 0;
+#titulo_contatos{
+	position: absolute;
+	margin-top: 410%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
 }
 
-#abrirMenu:checked ~ ul{
-	
-	top: 42px;
-	
+
+#titulo_sobre{
+	position: absolute;
+	margin-top: 585%;
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 1.1em;
 }
 
+
+
+/*           FIM SECTION TITULOS            */
+
+
+
+
+		#AbreN{
+
+			margin-left: 80%;
+			margin-top: 2%;
+			position: fixed;
+			width: 30px;
+			height: 30px;
+			z-index: 20000;
+		}
+
+		#Fundo {
+			
+			background-color: #fff;
+			width: 150px;
+			height: 150px;
+			margin-left: 50%;
+			margin-top: 15%;
+			position: fixed;
+			border-radius: 5%;
+			border: solid 1px #242424;
+			display: none;
+			box-shadow: 0px 0px 4px #7a7878;
+			animation: painel_B 1s;
+			z-index: 5000;
+			
+		}
+		
+
+		
+		#Encerra_Menu{
+
+			display: flex;
+			flex-direction:column;
+			align-content: center;
+			align-items: center;
+			justify-content: center;
+			position: absolute;
+			margin-left: 92%;
+			margin-top: 62%;
+			background-color: #242424;
+			width: 30px;
+			height: 30px;
+			color: #fff;
+			border-radius: 50%;
+			
+		}	
+		
 .FundoR{
 			
 	background-color: #fff;
@@ -4055,25 +4190,14 @@ width: auto;
 }
 
 
-.Fundo{
-	background-color: #fff;
-	width: 150px;
-	height: 150px;
-	margin-left: 50%;
-	margin-top: 15%;
-	position: absolute;
-	border-radius: 5%;
-	border: solid 1px #7a7878;
-	display: none;
-	box-shadow: 0px 0px 4px #7a7878;
-}
 
-input:checked + .Fundo{
+
+input:checked + #Fundo{
 
 	display: block;
 }
 
-.MODONOITE{
+#MODONOITE{
 
 	position: absolute;
 	width: 30px;
@@ -4090,7 +4214,7 @@ input{
 	
 }
 
-.TN{
+#TN{
 	position: absolute;
 	text-align: center;
 	margin-top: 3%;
@@ -4116,47 +4240,142 @@ input{
 	height: 25px;
 	margin-top: 70%;
 	border: solid 1px #7a7878;
-	margin-left: 37%;
+	margin-left: 12%;
 	border-radius: 10%;
 	box-shadow: 0px 0px 0px 1px #7a7878;
 	cursor: pointer;
+	padding-bottom: 2px;
 	
 }
 
 
 .btnNOITE:hover{
-	background-color: #7a7878;
-	color:#8ada0b;
+	background-color: #181818;
+	color:#fff;
 }
 
 	
 
 
 
-.Theme{
-	position: absolute;
-	width: 250px;
-	height: 400px;
+#Theme{
+	position: fixed;
+	width: 200px;
+	height: 350px;
 	background-color: #fff;
-	margin-left: 1%;
+	margin-left: 2%;
 	margin-top: 15%;
+	border-radius: 10px;
 	display: none;
 	border: solid 1px #7a7878;
-	border-radius: 10px;
+	animation: painel_A 1s;
+	z-index: 5000;
+	
 	
 	
 }
+
+@keyframes painel_A {
+	0%{
+		margin-left: -60%;
+	}
+
+	100%{
+		margin-left: 2%;
+	}
+}
+
 
 #Troca_Tema{
 
-	position: absolute;
+	position: fixed;
 	width: 30px;
 	height: 30px;
 	margin-top: 2%;
-	margin-left: 2%;
+	margin-left: 1%;
 	cursor: pointer;
+	z-index: 6000;
+
+}
+
+
+
+#TxtNew{
+
+
+	position: absolute;
+	width: 100%;
+	background-color: #242424;
+	height: 10%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	
+	}
+
+#TxtNewP{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 4%;
+	font-size: 0.7em;
+	color: #fff;
+	width: auto;
+}
+
+#TxtNewP2{
+	position: absolute;
+	margin-left: 16%;
+	margin-top: 164%;
+	font-size: 0.7em;
+	color: #fff;
+	width: auto;
+}
+
+#TxtNew2{
+
+
+	position: absolute;
+	margin-top: 50%;
+	width: 100%;
+	text-align: center;
+	font-size: 0.7em;
+	color: #242424;
+
+}
+
+
+.TxtNew3{
+
+
+	position: absolute;
+	width: 100%;
+	margin-top: 160%;
+	background-color: #242424;
+	height: 10%;
+	text-align: center;
+	font-size: 0.7em;
+	color: #fff;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 	
 
+}
+
+.calcapp{
+	width: 25px;
+	height: 25px;
+	position: absolute;
+	margin-top: 50%;
+	margin-left: 5%;
+	
+}
+
+.calcapp2 {
+	width: 60px;
+	height: 60px;
+	position: absolute;
+	margin-top: 80%;
+	margin-left: 35%;
+	
 }
 
 input:checked + .Theme{
@@ -4171,66 +4390,6 @@ input{
 	visibility: hidden;
 }
 
-
-.TxtNew{
-
-
-	position: absolute;
-	width: 100%;
-	background-color: #242424;
-	height: 10%;
-	
-	
-	
-	
-
-}
-
-.TxtNewP{
-	position: absolute;
-	margin-left: 20%;
-	margin-top: 4%;
-	font-size: 0.8em;
-	color: #fff;
-	width: auto;
-}
-
-#TxtNewP2{
-	position: absolute;
-	margin-left: 18%;
-	margin-top: 150%;
-	font-size: 0.8em;
-	color: #fff;
-	width: auto;
-}
-
-.TxtNew2{
-
-
-	position: absolute;
-	margin-top: 50%;
-	width: auto;
-	text-align: center;
-	font-size: 0.9em;
-	color: #242424;
-
-}
-
-
-.TxtNew3{
-
-
-	position: absolute;
-	width: 100%;
-	margin-top: 144%;
-	background-color: #242424;
-	height: 10%;
-	text-align: center;
-	font-size: 0.8em;
-	color: #fff;
-	
-
-}
 
 
 
@@ -4344,22 +4503,25 @@ footer:hover{
 
 /*     FOOTER DA PAGINA LOGIN     */
 
-footer.Flogin{
-
+footer#Flogin{
+		
 	position: absolute;
 	background: #242424;
 	color: #fff;
-	margin-top: 170%;
-	text-align: center;
-	padding: 45px 0 45px 0;
-    margin-bottom: auto;
 	width: 100%;
-	
-}
+	margin-top: 700%;
+	font-size: 0.8em;
+	border-top: solid 1px #7a7878;
+	box-shadow: 0px 0px 8px 5px #7a7878;
+	padding: 45px 0 45px 0;
+	text-align: center;
+	}
 
-footer:hover{
+footer#Flogin:hover{
 	
-	color: #fff;
+	box-shadow: 0px 0px 8px 5px #8ada0b;
+	transition: 1s;
+	
 	
 }
 
@@ -4447,7 +4609,7 @@ p.GIF{
 	text-align: center;
 	margin-top: 75%;
 	margin-left: 43%;
-	padding-top: 3%;
+	padding-top: 2%;
 	border-radius: 15%;
 }
 
@@ -4540,8 +4702,8 @@ p.rs3 img{
 
 p.imgcomp img{
    
-     width: 40px;
-     height: 40px;
+     width: 32px;
+     height: 32px;
      margin-left: 90%;
      
 
@@ -8927,107 +9089,158 @@ p.IconMdown{
 
 
 		
-}
+
 
 @media screen and (min-width:640px){
-	
-.conteudo{
-		max-width: 640px;
-	}
-.menuMobile label{
 
-	display:none;
+	
+/*             INICIO HEADER                */
 
-}
-.menuMobile{
 
-	background: #fff;
-	
+#Troca_Tema{
 
-}
-
-.menuPrincipal{
-	
-	
-	margin-top: -10px;
-	
-}
-
-.menuPrincipal li{
-	
-	border-top: 0;
-}
-
-.menuPrincipal a{
-	width: auto;
-}
-
-.conteudo{
-	
-	
-	float: none;
-	margin: 0 auto;
-	padding: 0 10px;
-}
-
-.menuMobile {
-	
-	background-color: #242424;
-	padding: 5px 0;
-	
-	
-}
-
-.menuMobile label{
-	
-	width: auto;
-}
-
-.menuMobile span{
-	
-	color: #fff;
-    border: 2px solid #fff;
-    width: auto;
-    padding: 5px;
-}
-
-.menuPrincipal{
-	background-color: #242424;
-	transition: all 1.3s linear;
 	position: absolute;
-	top: -290px;
-	visibility: visible;
-	
+	width: 30px;
+	height: 30px;
+	margin-top: 1%;
+	margin-left: 1%;
+	cursor: pointer;
+
 }
 
-.menuPrincipal li{
-	
-	
-	color: #fff;
-	padding: 15px 15px 15px 60px;
-	
-	
+#AbreN{
+
+	margin-left: 85%;
+	margin-top: 1%;
+	position: fixed;
+	width: 30px;
+	height: 30px;
+	z-index: 20000;
 }
 
-.menuPrincipal li:hover{
+	p.imgcomp img{
+   
+		position: absolute;
+		 width: 32px;
+		 height: 32px;
+		 margin-left: 92%;
+		 margin-top: 1%;
+		 
 	
-	background: #ccc;
-	color: #242424;
-	
-}
+	}
 
-#abrirMenu{
-	
-	visibility: hidden;
-	width: 0;
-	height: 0;
-}
+	/*             FIM HEADER                */
 
-#abrirMenu:checked ~ ul{
+
+	/*          INICIO MENU          */
+
+
+	#Mprincipal2{
+
+		
+		
+		position: fixed;
+		background-color: #fff;
+		width: 100%;
+		height: 360px;
+		margin-top: 47px;
+		display: none;
+		box-shadow: 0px 0px 2px 4px #7a7878;
+		z-index: 6000;
+		animation: slidemenu 2s;
+		animation-direction: normal;
+		
+		}
+
 	
-	top: 42px;
+	@keyframes slidemenu{
+
+		0%{
+			
+			margin-top: -305px;
+			
+		}
+
+		100%{
+			margin-top: 47px;
+			
+			
+		}
+
+		
+	}
+
+
+	#Encerra_Menu{
+
+		display: flex;
+		flex-direction:column;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+		margin-left: 92%;
+		margin-top: 47%;
+		background-color: #242424;
+		width: 30px;
+		height: 30px;
+		color: #fff;
+		border-radius: 50%;
+		
+	}
+
+	/*         FIM MENU         */
 	
-}
+	#loginimg img{
+
+		position: absolute;
+		width: 100px;
+		height: 100px;
+		margin-top: 25%;
+		text-align: center;
+		
+		
+	}
+
+	#Tperfil {
+
+		text-align: center;
+		margin-top: 45%;
+		position: absolute;
+		
+		}
+		
+		
+		#Tperfil2 {
+		
+		text-align: center;
+		margin-top: 49%;
+		font-size: 18px;
+		position: absolute;
+		
+		}
+
+	#Btnentrar {
+
+		position: absolute;
+		background: #000;
+		color: #fff;
+		width: 70px;
+		height: 35px;
+		text-align: center;
+		margin-top: 65%;
+		margin-left: 43%;
+		padding-top: 1%;
+		border-radius: 15%;
+		cursor: pointer;
+	}
+	
+	#Btnentrar:hover {
+		
+		background: #8ada0b;
+		color:blueviolet;
+		
+	}
 
 
 .Fundo{
@@ -9122,16 +9335,7 @@ input{
 	
 }
 
-#Troca_Tema{
 
-	position: absolute;
-	width: 30px;
-	height: 30px;
-	margin-top: 35%;
-	margin-left: 25%;
-	cursor: pointer;
-
-}
 
 input:checked + .Theme{
 	
@@ -9330,57 +9534,7 @@ footer:hover{
 	}
 
 
-	
-#Btnentrar {
 
-	position: absolute;
-	background: #000;
-	color: #fff;
-	width: 70px;
-	height: 35px;
-	text-align: center;
-	margin-top: 75%;
-	margin-left: 43%;
-	padding-top: 3%;
-	border-radius: 15%;
-}
-
-#Btnentrar:hover {
-	
-	background: #505050;
-	color:blueviolet;
-	
-}
-
-#loginimg img{
-
-	position: absolute;
-	width: 80px;
-	height: 80px;
-	margin-top: 30%;
-	margin-left: 50%;
-	
-}
-
-
-
-#Tperfil {
-	
-	position: absolute;
-	text-align: center;
-	margin-top: 65%;
-	
-}
-
-
-#Tperfil2 {
-	
-	position: absolute;
-	text-align: center;
-	margin-top: 72%;
-	font-size: 12px;
-	
-}
 
 #Tredes{
 
@@ -9432,14 +9586,7 @@ p.rs3 img{
 
 }
 
-p.imgcomp img{
-   
-     width: 40px;
-     height: 40px;
-     margin-left: 90%;
-     
 
-}
 
 
 p.Titulo {
@@ -11396,10 +11543,7 @@ p.IconMdown{
 	margin-left: 3%;
 
 }
-	}
-
-
-
+	
 
 
 }
