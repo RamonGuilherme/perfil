@@ -20,6 +20,7 @@
 
 <div id="Topo">
 	<img src="Mhome.png" id="Mprincipal"  onclick="abremenu()">
+	<img src="user2.png" id="hypermenu" onclick="vem()">
 	
 </div>	
 
@@ -31,9 +32,9 @@
 
 			<li><a href="" id="1">INICIO</a></li>
 			<li><a href="#project_0" id="2">PROJETOS</a></li>
-			<li><a href="#galeria_0" id="2">GALERIA</a></li>
-			<li><a href="#contato_0" id="3">CONTATO</a></li>
-			<li><a href="#sobre_0" id="4">SOBRE</a></li>
+			<li><a href="#galeria_0" id="3">GALERIA</a></li>
+			<li><a href="#contato_0" id="4">CONTATO</a></li>
+			<li><a href="#sobre_0" id="5">SOBRE</a></li>
 
 		</ul>
 		
@@ -42,7 +43,25 @@
 	<p id="Encerra_Menu" onclick="gameover()">X</p>
 </div>
 
+<div id="hypermenu2">
 
+	<p id="close_hyper_M" onclick="fecha_hyper_M()">X</p>
+
+	<nav id="Hyper_Menu">
+
+		<ul>
+
+			<li><a href="login.html">Inicio</a></li>
+			<li><a href="#project_0">Projetos</a></li>
+			<li><a href="#galeria_0">Galeria</a></li>
+			<li><a href="#contato_0">Sobre</a></li>
+			<li><a href="#sobre_0">Sobre</a></li>
+
+		</ul>
+
+	</nav>
+
+</div>
 	
 
       <p class="imgcomp">
@@ -252,15 +271,7 @@
 
 	<p id="Text_SobreBox0">Técnologias usadas: HTML5, CSS3 e JAVASCRIPT</p>
 	
-	
-
-	
-
-	
-
-	
-	
-</section>
+	</section>
 	
 			
 
@@ -344,7 +355,30 @@
 	
 
 
-</script>	
+</script>
+
+
+
+<script>
+
+
+	function vem(){
+
+			document.getElementById('hypermenu2')
+
+			hypermenu2.style.display = 'block'
+	}
+
+	function fecha_hyper_M(){
+
+		document.getElementById('hypermenu2')
+
+			hypermenu2.style.display = 'none'
+	}
+
+</script>
+
+
 
 <script>
 
