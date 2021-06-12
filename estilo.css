@@ -430,70 +430,32 @@
 
 	}
 
-	#Text_SobreBox0 {
+	#container_Lista{
 
 		display: flex;
-		flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content:center;
-		letter-spacing: 2px;
-		line-height: 40px;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		padding: 1rem;
 		width: 100%;
-		position: absolute;
-		
+		margin: 1rem;
+		background-color: #7a7878;
 		
 
 	}
 
-	#Text_SobreBox1 {
+	#container_Lista li{
 
-		
 		display: flex;
-		flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content:center;
-		letter-spacing: 2px;
-		line-height: 40px;
-		width: 100%;
-		position: absolute;
-		
-
-
-	}
-
-	#Text_SobreBox2 {
-
-		
-		display: flex;
-		flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content:center;
-		letter-spacing: 2px;
-		line-height: 40px;
-		width: 100%;
-		position: absolute;
-		
+		align-content: center;
+		align-items: center;
+		font-size: .7rem;
+		width: auto;
 		
 
 	}
 
-	#Text_SobreBox3{
-
-		
-		display: flex;
-		flex-direction: row;
-        align-content: center;
-        align-items: center;
-        justify-content:space-between;
-		letter-spacing: 2px;
-		width: 100%;
-		
-		
-
-	}
+	
 
 	
 
