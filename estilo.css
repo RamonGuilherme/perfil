@@ -328,7 +328,7 @@
 
 		0%, 30%{
 			
-			background-image: url(dbz1.jpg);
+			background-image: url(Print1.png);
 			background-size: cover;
 			background-position: center;
 			background-repeat: no-repeat;
@@ -338,7 +338,7 @@
 
 		35%, 60%{
 			
-			background-image: url(dbz2.jpeg);
+			background-image: url(Print2.png);
 			background-size: cover;
 			background-position: center;
 			
@@ -347,7 +347,7 @@
 
 		70%, 100%{
 			
-			background-image: url(dbz3.jpg);
+			background-image: url(Print3.png);
 			background-size: cover;
 			background-position: center;
 			
@@ -436,10 +436,11 @@
 		flex-direction: column;
 		align-content: center;
 		align-items: center;
-		padding: 1rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;;
 		width: 100%;
 		margin: 1rem;
-		background-color: #7a7878;
+		background-color: none;
 		
 
 	}
@@ -451,6 +452,7 @@
 		align-items: center;
 		font-size: .7rem;
 		width: auto;
+		margin: 5px;
 		
 
 	}
@@ -4000,20 +4002,7 @@
 			
 		}	
 		
-.FundoR{
-			
-	background-color: #fff;
-	width: 130px;
-	height: 200px;
-	margin-left: 60%;
-	margin-top: 11%;
-	position: absolute;
-	border: solid 1px #242424;
-	border-radius: 5%;
-	display: none;
-	box-shadow: 0px 0px 4px #7a7878;
-	z-index: 2000;
-}
+
 
 #Topodeprojetos{
 
