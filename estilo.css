@@ -12122,6 +12122,73 @@ margin-left: 38%;
 
 @media screen and (min-width:1280px) {
 
+	#container_Lista{
+
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+		
+		padding-top: 3rem;
+		padding-bottom: 3rem;;
+		width: 100%;
+		
+		
+		
+
+	}
+
+	#container_Lista li{
+
+		display: flex;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		font-size: .9rem;
+		margin-bottom: .8rem;
+		width: 100%;
+		font-family: "Roboto Mono";
+		letter-spacing: 1px;
+		
+
+	}
+
+
+
+	#iconcontact{
+
+		display: flex;
+		flex-direction:column;
+        align-content:center;
+        align-items:center;
+        justify-content:center;
+		position: relative;
+		margin: 15px;
+		width: 90%;
+		height: 60px;
+		margin: 10px;
+		border-radius: 5px;
+		background-color: #fff;
+		border: solid 1px #7a7878;
+		font-family: "Roboto Mono";
+		letter-spacing: 1px;
+		
+		
+	}
+
+	#iconcontact:hover{
+
+		box-shadow: 0px 4px 5px #404040;
+		cursor: pointer;
+		transition: .3s;
+	}
+
+	#imgsrc{
+		
+		width: 30px;
+		height: 30px;
+	}
+
 	
 
 
@@ -12474,35 +12541,38 @@ margin-left: 38%;
 			
 		position: absolute;
 		margin-top: 85%;
-		text-align: center;
-		font-family: sans-serif;
-		font-size: 1.1em;
+		margin-left: 45%;
+		font-family: "Roboto Mono";
+		font-size: 1.3em;
 	}
 	
 	#titulo_galeria{
 		position: absolute;
 		margin-top: 130%;
-		text-align: center;
-		font-family: sans-serif;
-		font-size: 1.1em;
+		margin-left: 45%;
+		font-family: "Roboto Mono";
+		font-size: 1.3em;
 	}
+	
 	
 	#titulo_contatos{
 		position: absolute;
 		margin-top: 180%;
-		text-align: center;
-		font-family: sans-serif;
-		font-size: 1.1em;
+		margin-left: 45%;
+		font-family: "Roboto Mono";
+		font-size: 1.3em;
 	}
+	
 	
 	
 	#titulo_sobre{
 		position: absolute;
 		margin-top: 260%;
-		text-align: center;
-		font-family: sans-serif;
-		font-size: 1.1em;
+		margin-left: 45%;
+		font-family: "Roboto Mono";
+		font-size: 1.3em;
 	}
+	
 	
 	
 	
@@ -12632,18 +12702,48 @@ input{
 
 
 
-.Theme{
+#Theme{
 	position: absolute;
-	width: 250px;
-	height: 400px;
+	width: 280px;
+	height: 300px;
 	background-color: #fff;
-	margin-left: 0%;
-	margin-top: 8%;
+	margin-left: 70%;
+	margin-top: 5%;
 	display: none;
 	border: solid 1px #7a7878;
+	animation: painel_A 1s;
+	z-index: 5000;
 	
 	
 }
+
+@keyframes painel_A {
+	0%{
+		margin-top: -60%;
+	}
+
+	100%{
+		margin-left: 70%;
+	}
+}
+
+#encerra_painel_A{
+	display: flex;
+	flex-direction:row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	background-color: #fff;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	color: #000;
+	border-radius: 50%;
+	margin-left: 85%;
+	margin-top: 3%;
+	cursor: pointer;
+}
+
 
 #Troca_Tema{
 
@@ -12651,9 +12751,9 @@ input{
 	width: 32px;
 	height: 32px;
 	margin-top: .5%;
-	margin-left: 1%;
+	margin-left: 89.3%;
 	cursor: pointer;
-	visibility: hidden;
+	
 	
 
 }
@@ -12667,18 +12767,13 @@ input{
 	position: absolute;
 	width: 100%;
 	background-color: #242424;
-	height: 10%;
-	
-	
-	
-	
-
+	height: 40%;
 }
 
-.TxtNewP{
+#TxtNewP{
 	position: absolute;
-	margin-left: 20%;
-	margin-top: 4%;
+	margin-left: 35%;
+	margin-top: 2%;
 	font-size: 0.8em;
 	color: #fff;
 	width: auto;
@@ -12686,18 +12781,19 @@ input{
 
 #TxtNewP2{
 	position: absolute;
-	margin-left: 18%;
-	margin-top: 150%;
+	text-align: center;
+	margin-top: 99%;
 	font-size: 0.8em;
 	color: #fff;
 	width: auto;
+	
 }
 
 .TxtNew2{
 
 
 	position: absolute;
-	margin-top: 50%;
+	margin-top: 20%;
 	width: auto;
 	text-align: center;
 	font-size: 0.9em;
@@ -12711,7 +12807,7 @@ input{
 
 	position: absolute;
 	width: 100%;
-	margin-top: 144%;
+	margin-top: 96.5%;
 	background-color: #242424;
 	height: 10%;
 	text-align: center;
@@ -12720,6 +12816,18 @@ input{
 	
 
 }
+
+.calcapp2{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	margin-top: 20%;
+	margin-left: 10%;
+	animation: zoom 1s;
+	
+}
+
+
 	
 	
 /*  LOCAL E PROJETOS   */
@@ -12727,16 +12835,16 @@ input{
 p.IconProjetos img{
 
 	position: absolute;
-   width: 30px;
-   height: 30px;
-   margin-left: 60%;
-   margin-top: 42%;
+   width: 33px;
+   height: 33px;
+   margin-left: 62%;
+   margin-top: 42.5%;
 
 }
  #TxtProjetos {
   
 	position: absolute;
-   margin-left: 62%;
+   margin-left: 65%;
    margin-top: 43%;
    font-size: 14px;
 
@@ -12747,15 +12855,15 @@ p.Iconlocal img{
 	position: absolute;
     width: 27px;
     height: 27px;
-    margin-left: 38%;
-    margin-top: 42%;
+    margin-left: 27.5%;
+    margin-top: 42.5%;
 }
 
 #Txtlocal{
 
 	position: absolute;
      font-size: 14px;
-      margin-left: 40%;
+      margin-left: 30%;
       margin-top: 43%;
 }
 
@@ -12824,6 +12932,78 @@ p.TxtVdesktop{
 	padding-top: 1%;
 	border-radius: 15%;
 	position: absolute;
+	font-family: "Roboto Mono";
+	font-size: .8rem;
+	box-shadow: 0px 2px 6px #181818;
+}
+
+#Btnentrar:hover {
+	
+	color: #000;
+	font-size: .9rem;
+	background-color: #ccc;
+	transition: 1s;
+	
+	
+}
+
+#alerta{
+
+			
+	position: absolute;
+	width: 280px;
+	height: 300px;
+	background-color:#242424;
+	margin-top: 15%;
+	margin-left: 35%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 4px 1px #181818;
+	display: none;
+	z-index: 8000;
+	animation: painel_C 1s;
+	
+	
+
+}
+
+#alert_close{
+
+	display: flex;
+	flex-direction:row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: #fff;
+	margin-left: 87%;
+	margin-top: 3%;
+	cursor: pointer;
+
+
+}
+
+@keyframes painel_C{
+
+	0%{
+		margin-top: 15%;
+		opacity: 0%;
+		
+		
+	}
+
+	50%{
+		margin-top: 20%;
+		
+	}
+
+	100%{
+		margin-top: 15%;
+		opacity: 100%;
+	}
+
 }
 	
 
@@ -12941,14 +13121,7 @@ p.rs3 img:hover{
 
 
 
- #Btnentrar:hover {
-	
-	color: #000;
-	background-color: #8ada0b;
-	transition: 1s;
-	
-	
-}
+
 
 /*   VIZUALIZAÇÕES VISÃO DESKTOP    */
 
@@ -12978,8 +13151,8 @@ p.visuali img{
 	position: absolute;
 	margin-top: 0.5%;
 	margin-left: 1%;
-	width: 30px;
-	height: 30px;
+	width: 35px;
+	height: 35px;
 	cursor: pointer;
 
 }
@@ -13065,7 +13238,6 @@ p.visuali img{
 #Hyper_Menu ul li{
 
 	display: flex;
-	
 	align-content: center;
 	align-items: center;
 	justify-content: center;
@@ -13096,10 +13268,7 @@ p.visuali img{
 	justify-content: center;
 	text-decoration: none;
 	color: #fff;
-	
-	
-	
-	
+		
 }
 
 
