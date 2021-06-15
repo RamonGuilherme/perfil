@@ -286,7 +286,7 @@
 		
 		margin-top: -3%;
 		transition: 0.3s;
-		box-shadow: 0px 4px 5px #8ada0b;
+		box-shadow: 0px 4px 5px #242424;
 
 	}
 
@@ -415,7 +415,7 @@
 
 	#iconcontact:hover{
 
-		box-shadow: 0px 4px 5px #8ada0b;
+		box-shadow: 0px 4px 5px #242424;
 		transition: .3s;
 	}
 
