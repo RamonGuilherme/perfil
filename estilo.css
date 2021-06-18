@@ -1355,10 +1355,13 @@
 			height: 80px;
 			margin-top: 26%;
 			margin-left: 39%;
-			box-shadow: 0px 1px  12px #181818;
+			box-shadow: 2px 4px  12px #181818;
 			border-radius: 50%;
+		
 			
 		}
+
+
 		
 		
 		
@@ -5968,10 +5971,11 @@ margin-left: 30%;
 		border: solid 1px #7a7878;
 		font-family: "Roboto Mono";
 		letter-spacing: 1px;
-		
-		
-		
-	}
+		text-decoration: none;
+		color: #000;
+		}
+
+	
 
 	#iconcontact:hover{
 
@@ -6957,15 +6961,21 @@ p.visuali img{
 #hypermenu2{
 
 	position: fixed;
-	background-color:#242424;
+	
 	width: 300px;
-	height: 100vh calc (-50px);
-	z-index: 1;
+	height: 100vh calc(-50px);
+	height: 100%;
 	box-shadow: 0px 4px 6px #181818;
 	display: none;
 	animation: hyper_M 1s;
+	background-color: #707070;
+	z-index: 1;
+	
 	
 }
+
+
+
 
 @keyframes hyper_M{
 
@@ -6976,6 +6986,7 @@ p.visuali img{
 
 	100%{
 		margin-left: 0%;
+		
 		
 	}
 
@@ -7009,6 +7020,7 @@ p.visuali img{
 	position: absolute;
 	width: 240px;
 	height: 300px;
+	
 	margin-top: 40%;
 	margin-left: 10%;
 	font-family: "Roboto Mono";
